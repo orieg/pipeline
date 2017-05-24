@@ -18,51 +18,41 @@
     
 
     
-    <url>
-     <loc>http://pipeline.io/install/</loc>
-     <lastmod>2017-05-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
+        
     <url>
      <loc>http://pipeline.io/cli/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>http://pipeline.io/rest/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     
 
     
+        
     <url>
      <loc>http://pipeline.io/model_train/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>http://pipeline.io/model_optimize/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>http://pipeline.io/model_deploy/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     
 
     
@@ -74,11 +64,13 @@
     
 
     
+        
     <url>
      <loc>http://pipeline.io/model_monitor/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     
 
     
@@ -98,40 +90,40 @@
     
 
     
+        
     <url>
      <loc>http://pipeline.io/open_source/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>http://pipeline.io/contribute/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     
 
     
+        
     <url>
      <loc>http://pipeline.io/community/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>http://pipeline.io/media/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     
 
     
     <url>
-     <loc>http://pipeline.io/pio_training/</loc>
+     <loc>http://pipeline.io/workshops/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
