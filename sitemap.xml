@@ -10,11 +10,13 @@
     
 
     
+        
     <url>
-     <loc>http://pipeline.io/getting_started/</loc>
+     <loc>http://pipeline.io/products/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     
 
     
@@ -97,12 +99,14 @@
      <changefreq>daily</changefreq>
     </url>
         
+    
+
+    
     <url>
      <loc>http://pipeline.io/contribute/</loc>
      <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     
 
     
