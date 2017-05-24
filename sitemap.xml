@@ -17,6 +17,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>http://pipeline.io/products/install/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
