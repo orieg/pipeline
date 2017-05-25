@@ -48,7 +48,7 @@
         {
             "location": "/products/",
             "text": "PipelineIO Product Overview\n\u00b6\n\n\nPipelineIO self-hosted on-premise or in any major cloud provider.\n\n\n\n\n\n\n\n\nPipelineIO Community Edition\n\u00b6\n\n\nFree, Hosted PipelineIO Community Edition\n\u00b6\n\n\n\n\nTrain and Deploy All Major Model Types \n\n\nSupports Spark ML, TensorFlow AI, Scikit-Learn, R, Xgboost, Ensembles, Ad-hoc Python, Ad-hoc Python, PMML\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nSelf-Hosted PipelineIO Community Edition\n\u00b6\n\n\n\n\nInclude everything from the free, \nhosted\n PipelineIO Community Edition\n\n\nHost in your own Cloud-based or On-Premise Environment\n\n\nSupport\n is limited for this offering, but we would love feedback and feature requests.\n\n\n\n\nClick \nhere\n for instructions to install PipelineIO Community Edition in your own environment.\n\n\nPipelineIO Professional Edition\n\u00b6\n\n\n\n\nIncludes everything from PipelineIO Community Edition\n\n\nHosted in Your Own Cloud or On-Premise Environment\n\n\nEasy One-Click Installation through AWS, Azure, and Google Cloud Cloud Marketplaces\n\n\nStandalone License Available for On-Premise Deployment\n\n\n24x7 Global Support, 24 hour Response SLA\n\n\nPre-built Docker-based and Cloud-based Images \n\n\nDeploy in All Major Cloud Providers (AWS, Google, Azure) and On-Premise\n\n\nOnline Training and Hours Included\n\n\nJumpStart Program Available\n\n\nFlexible Auto-Scaling and Spot-Pricing Policies\n\n\nAdvanced Admin UI including Cluster and Model Management\n\n\nContinuous, Online Model Training and Deployment Pipelines with Full Audit Logging\n\n\nA/B and Multi-armed Bandit Model Testing\n\n\nCanary Model Deployments including Traffic Splitting and Shadowing\n\n\nAutomated Model Hyper-Parameter Tuning \n\n\nAutomated Model Optimizations including Native CPU x86 and GPU NVPTX Code Generation\n\n\nEnd-to-End, Real-time Pipeline Monitoring of all System and Prediction Metrics\n\n\nCircuit Breakers Around All Service to Avoid Cascading Failures\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\nPipelineIO Enterprise Edition\n\u00b6\n\n\n\n\nIncludes everything from PipelineIO Professional Edition\n\n\n24x7 Global Support, 8 hour Response SLA \n\n\n32 Training Hours Included (On-site or Online)\n\n\nDeploy in Hybrid Cloud and On-Premise Environment for Maximum High Availability and Scalability\n\n\nAutomatic Traffic Shifting Between Hybrid Cloud and On-Premise Deployments for Maxmium Cost Savings\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Product Overview"
+            "title": "Products"
         },
         {
             "location": "/products/#pipelineio-product-overview",
@@ -519,6 +519,61 @@
             "location": "/open_source/contribute/#license-and-public-datasetse",
             "text": "Your work should be open source under a liberal license (ie. Apache2, MIT)  You should use publicly-available training and validation datasets so that others can easily replicate your work.",
             "title": "License and Public Datasetse"
+        },
+        {
+            "location": "/products/install/",
+            "text": "Installing PipelineIO Community Edition in Your Environment\n\u00b6\n\n\nWhile we recommend the hosted \nPipelineIO Community Edition\n, we offer PipelineIO Community Edition as a self-hosted solution using your own cloud-based or on-premise environment.\n\n\nInstallation instructions are below.  While \nsupport\n is limited for the self-hosted offering, we would love your feedback and feature requests.   \n\n\nStandalone\n\u00b6\n\n\nThe standalone PipelineIO Community Edition uses a single Docker image that can run in any CPU and GPU-based environment that supports \nDocker\n for CPUs or \nNvidia-Docker\n for GPUs.\n\n\n\n\n\n\nStandalone \nAWS GPU\n\u00b6\n\n\nStandalone Docker Image + PipelineIO Community Edition for AWS GPU Instance\n\n\nStandalone \nGoogle GPU\n\u00b6\n\n\nStandalone Docker Image + PipelineIO Community Edition for Google GPU Instance\n\n\nCluster\n\u00b6\n\n\nPipelineIO uses Kubernetes for Docker Container management and orchestration.\n\n\n\n\n\n\n\n\nCluster \nMini\n\u00b6\n\n\nMini Kubernetes Cluster + PipelineIO Community on Local Laptop or Low-Memory Server\n\n\nCluster \nAWS\n\u00b6\n\n\nFull Kubernetes Cluster + PipelineIO Community on AWS.  \n\n\nThis requires large AWS instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.\n\n\n\n\nCluster \nGoogle Cloud\n\u00b6\n\n\nFull Kubernetes Cluster + PipelineIO Community on Google Cloud\n\n\nThis requires large Google Cloud instance types with at least 52 GB RAM, 8 CPUs, 100 GB Disk.\n\n\n\n\nCluster - \nAzure\n\u00b6\n\n\nFull Kubernetes Cluster + PipelineIO Community Edition on Azure\n\n\nThis requires large Google Cloud instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Install PipelineIO"
+        },
+        {
+            "location": "/products/install/#installing-pipelineio-community-edition-in-your-environment",
+            "text": "While we recommend the hosted  PipelineIO Community Edition , we offer PipelineIO Community Edition as a self-hosted solution using your own cloud-based or on-premise environment.  Installation instructions are below.  While  support  is limited for the self-hosted offering, we would love your feedback and feature requests.",
+            "title": "Installing PipelineIO Community Edition in Your Environment"
+        },
+        {
+            "location": "/products/install/#standalone",
+            "text": "The standalone PipelineIO Community Edition uses a single Docker image that can run in any CPU and GPU-based environment that supports  Docker  for CPUs or  Nvidia-Docker  for GPUs.",
+            "title": "Standalone"
+        },
+        {
+            "location": "/products/install/#standalone-aws-gpu",
+            "text": "Standalone Docker Image + PipelineIO Community Edition for AWS GPU Instance",
+            "title": "Standalone AWS GPU"
+        },
+        {
+            "location": "/products/install/#standalone-google-gpu",
+            "text": "Standalone Docker Image + PipelineIO Community Edition for Google GPU Instance",
+            "title": "Standalone Google GPU"
+        },
+        {
+            "location": "/products/install/#cluster",
+            "text": "PipelineIO uses Kubernetes for Docker Container management and orchestration.",
+            "title": "Cluster"
+        },
+        {
+            "location": "/products/install/#cluster-mini",
+            "text": "Mini Kubernetes Cluster + PipelineIO Community on Local Laptop or Low-Memory Server",
+            "title": "Cluster Mini"
+        },
+        {
+            "location": "/products/install/#cluster-aws",
+            "text": "Full Kubernetes Cluster + PipelineIO Community on AWS.    This requires large AWS instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.",
+            "title": "Cluster AWS"
+        },
+        {
+            "location": "/products/install/#cluster-google-cloud",
+            "text": "Full Kubernetes Cluster + PipelineIO Community on Google Cloud  This requires large Google Cloud instance types with at least 52 GB RAM, 8 CPUs, 100 GB Disk.",
+            "title": "Cluster Google Cloud"
+        },
+        {
+            "location": "/products/install/#cluster-azure",
+            "text": "Full Kubernetes Cluster + PipelineIO Community Edition on Azure  This requires large Google Cloud instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.",
+            "title": "Cluster - Azure"
+        },
+        {
+            "location": "/products/install/#suggest-an-edit",
+            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
+            "title": "Suggest an Edit"
         },
         {
             "location": "/community/",
