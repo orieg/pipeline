@@ -307,7 +307,7 @@
         },
         {
             "location": "/streaming/",
-            "text": "PipelineIO Streaming\n\u00b6\n\n\nPipelineIO integrates with popular streaming tools such as Kafka, Kinesis, Spark Streaming, Flink Streaming, Storm, and Huron.\n\n\n \n\n\n \nAWS Kinesis\n\n\nContinuous, Streaming Model Predictions\n\u00b6\n\n\nPipelineIO's modular design lets you re-use your REST-based models inside your streams for continuous model predictions.\n\n\nContinuous, Incremental Model Training\n\u00b6\n\n\nPipelineIO supports continuous, incremental model training.  This is best described by Scikit-learn's \npartial_fit()\n functionality.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "PipelineIO Streaming\n\u00b6\n\n\nPipelineIO integrates with popular streaming tools such as Kafka, Kinesis, Spark Streaming, Flink Streaming, Storm, and Huron.\n\n\n \n\n\n \nAWS Kinesis\n\n\nContinuous, Streaming Model Predictions\n\u00b6\n\n\nPipelineIO's modular design lets you re-use your REST-based models inside your streams for continuous model predictions.\n\n\nContinuous, Incremental Model Training and Deploy\n\u00b6\n\n\nPipelineIO supports continuous, incremental model training.  This is best described by Scikit-learn's \npartial_fit()\n functionality.\n\n\n\n\nVideos\n\u00b6\n\n\nStartupML, Jan 2017\n  \n\n\nBig Data Spain Keynote, Nov 2016\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Streaming Deployments"
         },
         {
@@ -321,9 +321,14 @@
             "title": "Continuous, Streaming Model Predictions"
         },
         {
-            "location": "/streaming/#continuous-incremental-model-training",
+            "location": "/streaming/#continuous-incremental-model-training-and-deploy",
             "text": "PipelineIO supports continuous, incremental model training.  This is best described by Scikit-learn's  partial_fit()  functionality.",
-            "title": "Continuous, Incremental Model Training"
+            "title": "Continuous, Incremental Model Training and Deploy"
+        },
+        {
+            "location": "/streaming/#videos",
+            "text": "StartupML, Jan 2017     Big Data Spain Keynote, Nov 2016",
+            "title": "Videos"
         },
         {
             "location": "/streaming/#suggest-an-edit",
