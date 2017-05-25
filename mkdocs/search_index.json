@@ -86,66 +86,6 @@
             "title": "Suggest an Edit"
         },
         {
-            "location": "/products/install/",
-            "text": "Installing PipelineIO Community Edition in Your Environment\n\u00b6\n\n\nWhile we recommend the hosted \nPipelineIO Community Edition\n, we offer PipelineIO Community Edition as a self-hosted solution using your own cloud-based or on-premise environment.\n\n\nInstallation instructions are below.  While \nsupport\n is limited for the self-hosted offering, we would love your feedback and feature requests.   \n\n\nPipelineIO Community Edition - Standalone\n\u00b6\n\n\nThe standalone PipelineIO Community Edition uses a single Docker image that can run in any CPU and GPU-based environment that supports \nDocker\n for CPUs or \nNvidia-Docker\n for GPUs.\n\n\n\n\n\n\nPipelineIO Community Edition - Standalone \nAWS GPU\n\u00b6\n\n\nStandalone Docker Image + PipelineIO Community Edition for AWS GPU Instance\n\n\nPipelineIO Community Edition - Standalone \nGoogle GPU\n\u00b6\n\n\nStandalone Docker Image + PipelineIO Community Edition for Google GPU Instance\n\n\nPipelineIO Community Edition - Cluster\n\u00b6\n\n\nPipelineIO uses Kubernetes for Docker Container management and orchestration.\n\n\n\n\n\n\n\n\nPipelineIO Community Edition - Cluster \nMini\n\u00b6\n\n\nMini Kubernetes Cluster + PipelineIO Community on Local Laptop or Low-Memory Server\n\n\nPipelineIO Community Edition - Cluster \nAWS\n\u00b6\n\n\nFull Kubernetes Cluster + PipelineIO Community on AWS.  \n\n\nThis requires large AWS instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.\n\n\n\n\nPipelineIO Community Edition - Cluster \nGoogle Cloud\n\u00b6\n\n\nFull Kubernetes Cluster + PipelineIO Community on Google Cloud\n\n\nThis requires large Google Cloud instance types with at least 52 GB RAM, 8 CPUs, 100 GB Disk.\n\n\n\n\nPipelineIO Community Edition - Cluster - \nAzure\n\u00b6\n\n\nFull Kubernetes Cluster + PipelineIO Community Edition on Azure\n\n\nThis requires large Google Cloud instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.\n\n\n\n\nPipelineIO Community Standalone Docker + GPUs\n\u00b6\n\n\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Installing PipelineIO Community Edition"
-        },
-        {
-            "location": "/products/install/#installing-pipelineio-community-edition-in-your-environment",
-            "text": "While we recommend the hosted  PipelineIO Community Edition , we offer PipelineIO Community Edition as a self-hosted solution using your own cloud-based or on-premise environment.  Installation instructions are below.  While  support  is limited for the self-hosted offering, we would love your feedback and feature requests.",
-            "title": "Installing PipelineIO Community Edition in Your Environment"
-        },
-        {
-            "location": "/products/install/#pipelineio-community-edition-standalone",
-            "text": "The standalone PipelineIO Community Edition uses a single Docker image that can run in any CPU and GPU-based environment that supports  Docker  for CPUs or  Nvidia-Docker  for GPUs.",
-            "title": "PipelineIO Community Edition - Standalone"
-        },
-        {
-            "location": "/products/install/#pipelineio-community-edition-standalone-aws-gpu",
-            "text": "Standalone Docker Image + PipelineIO Community Edition for AWS GPU Instance",
-            "title": "PipelineIO Community Edition - Standalone AWS GPU"
-        },
-        {
-            "location": "/products/install/#pipelineio-community-edition-standalone-google-gpu",
-            "text": "Standalone Docker Image + PipelineIO Community Edition for Google GPU Instance",
-            "title": "PipelineIO Community Edition - Standalone Google GPU"
-        },
-        {
-            "location": "/products/install/#pipelineio-community-edition-cluster",
-            "text": "PipelineIO uses Kubernetes for Docker Container management and orchestration.",
-            "title": "PipelineIO Community Edition - Cluster"
-        },
-        {
-            "location": "/products/install/#pipelineio-community-edition-cluster-mini",
-            "text": "Mini Kubernetes Cluster + PipelineIO Community on Local Laptop or Low-Memory Server",
-            "title": "PipelineIO Community Edition - Cluster Mini"
-        },
-        {
-            "location": "/products/install/#pipelineio-community-edition-cluster-aws",
-            "text": "Full Kubernetes Cluster + PipelineIO Community on AWS.    This requires large AWS instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.",
-            "title": "PipelineIO Community Edition - Cluster AWS"
-        },
-        {
-            "location": "/products/install/#pipelineio-community-edition-cluster-google-cloud",
-            "text": "Full Kubernetes Cluster + PipelineIO Community on Google Cloud  This requires large Google Cloud instance types with at least 52 GB RAM, 8 CPUs, 100 GB Disk.",
-            "title": "PipelineIO Community Edition - Cluster Google Cloud"
-        },
-        {
-            "location": "/products/install/#pipelineio-community-edition-cluster-azure",
-            "text": "Full Kubernetes Cluster + PipelineIO Community Edition on Azure  This requires large Google Cloud instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.",
-            "title": "PipelineIO Community Edition - Cluster - Azure"
-        },
-        {
-            "location": "/products/install/#pipelineio-community-standalone-docker-gpus",
-            "text": "",
-            "title": "PipelineIO Community Standalone Docker + GPUs"
-        },
-        {
-            "location": "/products/install/#suggest-an-edit",
-            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
-            "title": "Suggest an Edit"
-        },
-        {
             "location": "/cli/",
             "text": "PipelineIO Commands\n\u00b6\n\n\nInstallation\n\u00b6\n\n\npip install -U pio-cli\n\n\n\n\nYou can view the commands supported by the CLI using just \npio\n.\n\npio\n\n\n\nPipelineIO CLI Configuration\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-pio\n\n\nInitialize PIO CLI\n\n\n\n\n\n\npio config\n\n\nView current configuration\n\n\n\n\n\n\npio config-get\n\n\nGet value for config key\n\n\n\n\n\n\npio config-set\n\n\nSet value for config key\n\n\n\n\n\n\n\n\nAI/ML Model Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-model\n\n\nInitialize model for deployment and prediction\n\n\n\n\n\n\npio deploy\n\n\nDeploy model to model server\n\n\n\n\n\n\npio deploy-from-git\n\n\nDeploy a model from git\n\n\n\n\n\n\npio predict\n\n\nPredict with model\n\n\n\n\n\n\npio predict-many\n\n\nPredict many times (mini load-test)\n\n\n\n\n\n\n\n\nNew Cluster Creation\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-kops\n\n\nInitialize cluster (new)\n\n\n\n\n\n\npio up\n\n\nStart the cluster\n\n\n\n\n\n\n\n\nExisting Cluster Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-cluster\n\n\nInitialize cluster (existing)\n\n\n\n\n\n\npio cluster\n\n\nView the current cluster\n\n\n\n\n\n\npio clusters\n\n\nView all federated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio join\n\n\nJoin a federeated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio nodes\n\n\nView cluster nodes\n\n\n\n\n\n\npio instancegroups\n\n\nView instance groups\n\n\n\n\n\n\npio volumes\n\n\nView volumes and volume claims\n\n\n\n\n\n\npio secrets\n\n\nView secrets\n\n\n\n\n\n\npio maps\n\n\nView config maps\n\n\n\n\n\n\npio system/top\n\n\nView system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nApplication Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio apps\n\n\nRetrieve available and running apps\n\n\n\n\n\n\npio start\n\n\nStart an app\n\n\n\n\n\n\npio stop\n\n\nStop/kill an app\n\n\n\n\n\n\npio scale\n\n\nScale an app (ie. Spark Worker or TensorFlow Model Server)\n\n\n\n\n\n\npio upgrade\n\n\nUpgrade an app\n\n\n\n\n\n\npio rollback\n\n\nRollback an app\n\n\n\n\n\n\npio canary\n\n\nCanary a new version of an app\n\n\n\n\n\n\npio logs\n\n\nView app logs\n\n\n\n\n\n\npio connect/shell\n\n\nConnect to an app to run commands at the terminal\n\n\n\n\n\n\npio proxy/tunnel\n\n\nCreate a proxy/tunnel to a private app in your cluster\n\n\n\n\n\n\npio system/top\n\n\nGet system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nJob and Workflow Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio flow\n\n\nStart an Airflow job\n\n\n\n\n\n\npio submit\n\n\nSubmit a Spark job",
             "title": "Command Line Interface"
