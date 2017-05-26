@@ -151,6 +151,61 @@
             "title": "Suggest an Edit"
         },
         {
+            "location": "/training/",
+            "text": "PipelineIO Training\n\u00b6\n\n\nPipelineIO Community Edition\n\u00b6\n\n\n\n\nPublic \nEvents and Workshops\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nPipelineIO Professional Edition\n\u00b6\n\n\n\n\n4 Hours of Custom Online Training including PipelineIO JumpStart Program\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\nPipelineIO Enterprise Edition\n\u00b6\n\n\n\n\n16 Hours of Custom Online Training including PipelineIO JumpStart Program \n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Training"
+        },
+        {
+            "location": "/training/#pipelineio-training",
+            "text": "",
+            "title": "PipelineIO Training"
+        },
+        {
+            "location": "/training/#pipelineio-community-edition",
+            "text": "Public  Events and Workshops   Click  here  to signup and start deploying models!",
+            "title": "PipelineIO Community Edition"
+        },
+        {
+            "location": "/training/#pipelineio-professional-edition",
+            "text": "4 Hours of Custom Online Training including PipelineIO JumpStart Program   Contact  sales@pipeline.io  for more information.",
+            "title": "PipelineIO Professional Edition"
+        },
+        {
+            "location": "/training/#pipelineio-enterprise-edition",
+            "text": "16 Hours of Custom Online Training including PipelineIO JumpStart Program    Contact  sales@pipeline.io  for more information.",
+            "title": "PipelineIO Enterprise Edition"
+        },
+        {
+            "location": "/training/#suggest-an-edit",
+            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
+            "title": "Suggest an Edit"
+        },
+        {
+            "location": "/events/",
+            "text": "PipelineIO Global Events\n\u00b6\n\n\nMeetups\n\u00b6\n\n\n\n\nPipelineIO is the organizer and sponsor for the series of \nAdvanced Spark and TensorFlow Meetups\n with 20,000+ members throughout the world including the following cites:\n\n\n\n\nSan Francisco\n\n\nChicago\n\n\nNew York\n\n\nWashington DC\n\n\nLondon\n\n\nBerlin\n\n\nToronto\n\n\nWarsaw\n\n\nBeijing\n\n\nChennai\n\n\nBangalore\n\n\nDubai\n\n\n\n\nIn 2016 alone, we hosted 60+ free meetup community events throughout the world.  \n\n\nWhile this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.\n\n\nWorkshops\n\u00b6\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Global Events"
+        },
+        {
+            "location": "/events/#pipelineio-global-events",
+            "text": "",
+            "title": "PipelineIO Global Events"
+        },
+        {
+            "location": "/events/#meetups",
+            "text": "PipelineIO is the organizer and sponsor for the series of  Advanced Spark and TensorFlow Meetups  with 20,000+ members throughout the world including the following cites:   San Francisco  Chicago  New York  Washington DC  London  Berlin  Toronto  Warsaw  Beijing  Chennai  Bangalore  Dubai   In 2016 alone, we hosted 60+ free meetup community events throughout the world.    While this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.",
+            "title": "Meetups"
+        },
+        {
+            "location": "/events/#workshops",
+            "text": "",
+            "title": "Workshops"
+        },
+        {
+            "location": "/events/#suggest-an-edit",
+            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
+            "title": "Suggest an Edit"
+        },
+        {
             "location": "/gpu/",
             "text": "GPUs\n\u00b6\n\n\nPipelineIO supports GPUs natively throughout the entire platform.\n\n\n\n\nHere are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate PipelineIO's support for GPUs.\n\n\nDocker Images\n\u00b6\n\n\nAWS GPU + Tensorflow + Spark + HDFS + Docker\n\n\nGoogle Cloud GPU + Tensorflow + Spark + HDFS + Docker\n\n\nConference and Meetup Talks\n\u00b6\n\n\nGPU Tech Conference - San Jose - May 2017 (Slides)\n\n\nPyData London - May 2017 (Video)\n\n\nEverything GPU-related in our GitHub Repo!\n\u00b6\n\n\ngpu.ml\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "GPUs"
@@ -177,21 +232,6 @@
         },
         {
             "location": "/gpu/#suggest-an-edit",
-            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
-            "title": "Suggest an Edit"
-        },
-        {
-            "location": "/workshops/",
-            "text": "PipelineIO Workshop\n\u00b6\n\n\nPipelineIO Distributed Spark ML + Tensorflow AI + GPU Workshop\n\n\nEverybody gets their own GPU for the duration of the workshop!!\n\n\nWe will each build an end-to-end, continuous, distributed Spark ML and Tensorflow AI model training and deployment pipeline on our own GPU-based cloud instance.\n\n\nThe only prequisites are a modern browser and an internet connection. We provide the rest including a GPU-based cloud instance for each attendee.\n\n\nAt the end of the workshop, each attendee can download the Docker image and run everything in your own cloud account.\n\n\nAgenda\n\n\n\n\nSpark ML\n\n\nTensorFlow AI\n\n\nStoring and Serving Models with HDFS\n\n\nTrade-offs of CPU vs. GPU, Scale Up vs. Scale Out\n\n\nCUDA + cuDNN GPU Development Overview\n\n\nTensorFlow Model Checkpointing, Saving, Exporting, and Importing\n\n\nDistributed TensorFlow AI Model Training (Distributed Tensorflow)\n\n\nTensorFlow's Accelerated Linear Algebra Framework (XLA)\n\n\nTensorFlow's Just-in-Time (JIT) Compiler, Ahead of Time (AOT) Compiler\n\n\nCentralized Logging and Visualizing of Distributed TensorFlow Training (Tensorboard)\n\n\nDistributed Tensorflow AI Model Serving/Predicting (TensorFlow Serving)\n\n\nCentralized Logging and Metrics Collection (Prometheus, Grafana)\n\n\nContinuous TensorFow AI Model Deployment (TensorFlow, Airflow)\n\n\nHybrid Cross-Cloud and On-Premise Deployments (Kubernetes)\n\n\nHigh-Performance and Fault-Tolerant Micro-services (NetflixOSS)\n\n\n\n\nDates\n\n\nApr 22 Spark TensorFlow GPU \n(SOLD OUT)\n\n\nMay 27 Spark TensorFlow GPU\n\n\nJune 10 Spark TensorFlow GPU\n\n\nJuly 8 Spark TensorFlow GPU\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Training"
-        },
-        {
-            "location": "/workshops/#pipelineio-workshop",
-            "text": "PipelineIO Distributed Spark ML + Tensorflow AI + GPU Workshop  Everybody gets their own GPU for the duration of the workshop!!  We will each build an end-to-end, continuous, distributed Spark ML and Tensorflow AI model training and deployment pipeline on our own GPU-based cloud instance.  The only prequisites are a modern browser and an internet connection. We provide the rest including a GPU-based cloud instance for each attendee.  At the end of the workshop, each attendee can download the Docker image and run everything in your own cloud account.  Agenda   Spark ML  TensorFlow AI  Storing and Serving Models with HDFS  Trade-offs of CPU vs. GPU, Scale Up vs. Scale Out  CUDA + cuDNN GPU Development Overview  TensorFlow Model Checkpointing, Saving, Exporting, and Importing  Distributed TensorFlow AI Model Training (Distributed Tensorflow)  TensorFlow's Accelerated Linear Algebra Framework (XLA)  TensorFlow's Just-in-Time (JIT) Compiler, Ahead of Time (AOT) Compiler  Centralized Logging and Visualizing of Distributed TensorFlow Training (Tensorboard)  Distributed Tensorflow AI Model Serving/Predicting (TensorFlow Serving)  Centralized Logging and Metrics Collection (Prometheus, Grafana)  Continuous TensorFow AI Model Deployment (TensorFlow, Airflow)  Hybrid Cross-Cloud and On-Premise Deployments (Kubernetes)  High-Performance and Fault-Tolerant Micro-services (NetflixOSS)   Dates  Apr 22 Spark TensorFlow GPU  (SOLD OUT)  May 27 Spark TensorFlow GPU  June 10 Spark TensorFlow GPU  July 8 Spark TensorFlow GPU",
-            "title": "PipelineIO Workshop"
-        },
-        {
-            "location": "/workshops/#suggest-an-edit",
             "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
             "title": "Suggest an Edit"
         },
@@ -257,13 +297,13 @@
         },
         {
             "location": "/model_train/",
-            "text": "Train Model\n\u00b6\n\n\nApplications and Tools\n\u00b6\n\n\nBelow is the list of applications and tools supported by PipelineIO.  This set of tools derives from the ridiculously popular PANCAKE STACK made famous in 2016.\n\n\n\n\nAll applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.\n\n\n\n\n\n\n\n\nTool\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nairflow\n\n\n\n\n\n\n\n\ncassandra\n\n\n\n\n\n\n\n\nelasticsearch\n\n\n\n\n\n\n\n\nhdfs\n\n\n\n\n\n\n\n\njupyter\n\n\n\n\n\n\n\n\nkafka\n\n\n\n\n\n\n\n\nkibana\n\n\n\n\n\n\n\n\nmetastore\n\n\n\n\n\n\n\n\nmysql\n\n\n\n\n\n\n\n\npresto\n\n\n\n\n\n\n\n\nredis\n\n\n\n\n\n\n\n\nspark\n\n\n\n\n\n\n\n\nzeppelin\n\n\n\n\n\n\n\n\nzookeeper\n\n\n\n\n\n\n\n\n\n\nPipelineIO Cluster\n\u00b6\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Train a Model"
+            "text": "Train Your Model\n\u00b6\n\n\nApplications and Tools\n\u00b6\n\n\nBelow is the list of applications and tools supported by PipelineIO.  This set of tools derives from the ridiculously popular PANCAKE STACK made famous in 2016.\n\n\n\n\nAll applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.\n\n\n\n\n\n\n\n\nTool\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nairflow\n\n\n\n\n\n\n\n\ncassandra\n\n\n\n\n\n\n\n\nelasticsearch\n\n\n\n\n\n\n\n\nhdfs\n\n\n\n\n\n\n\n\njupyter\n\n\n\n\n\n\n\n\nkafka\n\n\n\n\n\n\n\n\nkibana\n\n\n\n\n\n\n\n\nmetastore\n\n\n\n\n\n\n\n\nmysql\n\n\n\n\n\n\n\n\npresto\n\n\n\n\n\n\n\n\nredis\n\n\n\n\n\n\n\n\nspark\n\n\n\n\n\n\n\n\nzeppelin\n\n\n\n\n\n\n\n\nzookeeper\n\n\n\n\n\n\n\n\n\n\nPipelineIO Cluster\n\u00b6\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Train Your Model"
         },
         {
-            "location": "/model_train/#train-model",
+            "location": "/model_train/#train-your-model",
             "text": "",
-            "title": "Train Model"
+            "title": "Train Your Model"
         },
         {
             "location": "/model_train/#applications-and-tools",
@@ -282,13 +322,13 @@
         },
         {
             "location": "/model_optimize/",
-            "text": "Optimize Model\n\u00b6\n\n\nUpon deploying your model, PipelineIO will attempt to optimize your model for high-performance serving and predicting.\n\n\nVarious model optimization and simplification techniques include folding batch normalizations, quantizing weights, and generating native code for both CPU and GPU.\n\n\nExamples\n\u00b6\n\n\nTensorFlow: Quantizing Weights\n\u00b6\n\n\n\n\nUnoptimized Linear Regression \n\n\nOptimized Linear Regression\n\n\nSpark ML: Generating Native Code\n\u00b6\n\n\n \n\n\n \n\n\n\n\nUnoptimized Decision Tree\n\n\nOptimized Decision Tree\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Optimize a Model"
+            "text": "Optimize Your Model\n\u00b6\n\n\nUpon deploying your model, PipelineIO will attempt to optimize your model for high-performance serving and predicting.\n\n\nVarious model optimization and simplification techniques include folding batch normalizations, quantizing weights, and generating native code for both CPU and GPU.\n\n\nExamples\n\u00b6\n\n\nTensorFlow: Quantizing Weights\n\u00b6\n\n\n\n\nUnoptimized Linear Regression \n\n\nOptimized Linear Regression\n\n\nSpark ML: Generating Native Code\n\u00b6\n\n\n \n\n\n \n\n\n\n\nUnoptimized Decision Tree\n\n\nOptimized Decision Tree\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Optimize Your Model"
         },
         {
-            "location": "/model_optimize/#optimize-model",
+            "location": "/model_optimize/#optimize-your-model",
             "text": "Upon deploying your model, PipelineIO will attempt to optimize your model for high-performance serving and predicting.  Various model optimization and simplification techniques include folding batch normalizations, quantizing weights, and generating native code for both CPU and GPU.",
-            "title": "Optimize Model"
+            "title": "Optimize Your Model"
         },
         {
             "location": "/model_optimize/#examples",
@@ -312,13 +352,13 @@
         },
         {
             "location": "/model_deploy/",
-            "text": "Deploy Model\n\u00b6\n\n\n\n\n\n\nSupported Model Types\n\u00b6\n\n\n\n\nScikit-Learn\n\n\nR\n\n\nSpark ML\n\n\nTensorFlow\n\n\nXGBoost\n\n\nPython3\n\n\nJava\n\n\nPMML\n\n\nEnsembles\n\n\n\n\nExamples\n\u00b6\n\n\ngit clone https://github.com/fluxcapacitor/source.ml\n\n\n\n\nTensorFlow\n\u00b6\n\n\nmodel_type: \ntensorflow\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type tensorflow \\\n               --model-namespace default \\\n               --model-name tensorflow_linear \\\n               --model-version 0 \\\n               --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nScikit-Learn\n\u00b6\n\n\nmodel_type: \nscikit\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type scikit \\\n               --model-namespace default \\\n               --model-name scikit_linear \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nSpark ML\n\u00b6\n\n\nmodel_type: \nspark\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type spark \\\n               --model-namespace default \\\n               --model-name spark_airbnb \n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nPython3\n\u00b6\n\n\nmodel_type: \npython3\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type python3 \\\n               --model-namespace default \\\n               --model-name python3_zscore \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nPMML\n\u00b6\n\n\nmodel_type: \npmml\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type pmml \\\n               --model-namespace default \\\n               --model-name pmml_airbnb \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nDeployment Workflow\n\u00b6\n\n\nPipelineIO uses python-based Airflow for pipeline workflow management.\n\npio flow\n\n\n\nUpgrade\n\u00b6\n\n\nPipelineIO supports rolling upgrades.\n\npio upgrade\n\n\n\nCanary Deploy\n\u00b6\n\n\nPipelineIO supports various canary deployment strategies including traffic-splitting and traffic-shadowing.\n\npio canary\n\n\n\nTraffic Splitting\n\u00b6\n\n\nTraffic Shadowing\n\u00b6\n\n\nRollback\n\u00b6\n\n\nPipelineIO supports rolling back to any previous revision.\n\npio rollback --revision=1\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Deploy a Model"
+            "text": "Deploy Your Model\n\u00b6\n\n\n\n\n\n\nSupported Model Types\n\u00b6\n\n\n\n\nScikit-Learn\n\n\nR\n\n\nSpark ML\n\n\nTensorFlow\n\n\nXGBoost\n\n\nPython3\n\n\nJava\n\n\nPMML\n\n\nEnsembles\n\n\n\n\nExamples\n\u00b6\n\n\ngit clone https://github.com/fluxcapacitor/source.ml\n\n\n\n\nTensorFlow\n\u00b6\n\n\nmodel_type: \ntensorflow\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type tensorflow \\\n               --model-namespace default \\\n               --model-name tensorflow_linear \\\n               --model-version 0 \\\n               --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nScikit-Learn\n\u00b6\n\n\nmodel_type: \nscikit\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type scikit \\\n               --model-namespace default \\\n               --model-name scikit_linear \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nSpark ML\n\u00b6\n\n\nmodel_type: \nspark\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type spark \\\n               --model-namespace default \\\n               --model-name spark_airbnb \n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nPython3\n\u00b6\n\n\nmodel_type: \npython3\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type python3 \\\n               --model-namespace default \\\n               --model-name python3_zscore \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nPMML\n\u00b6\n\n\nmodel_type: \npmml\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type pmml \\\n               --model-namespace default \\\n               --model-name pmml_airbnb \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nDeployment Workflow\n\u00b6\n\n\nPipelineIO uses python-based Airflow for pipeline workflow management.\n\npio flow\n\n\n\nUpgrade\n\u00b6\n\n\nPipelineIO supports rolling upgrades.\n\npio upgrade\n\n\n\nCanary Deploy\n\u00b6\n\n\nPipelineIO supports various canary deployment strategies including traffic-splitting and traffic-shadowing.\n\npio canary\n\n\n\nTraffic Splitting\n\u00b6\n\n\nTraffic Shadowing\n\u00b6\n\n\nRollback\n\u00b6\n\n\nPipelineIO supports rolling back to any previous revision.\n\npio rollback --revision=1\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Deploy Your Model"
         },
         {
-            "location": "/model_deploy/#deploy-model",
+            "location": "/model_deploy/#deploy-your-model",
             "text": "",
-            "title": "Deploy Model"
+            "title": "Deploy Your Model"
         },
         {
             "location": "/model_deploy/#supported-model-types",
@@ -392,13 +432,13 @@
         },
         {
             "location": "/model_experiment/",
-            "text": "Experiment\n\u00b6\n\n\nA/B Testing\n\u00b6\n\n\n\n\nMulti-armed Bandit Testing\n\u00b6\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Model Experiments"
+            "text": "Experiment With Your Models\n\u00b6\n\n\nA/B Testing\n\u00b6\n\n\n\n\nMulti-armed Bandit Testing\n\u00b6\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Experiment With Your Models"
         },
         {
-            "location": "/model_experiment/#experiment",
+            "location": "/model_experiment/#experiment-with-your-models",
             "text": "",
-            "title": "Experiment"
+            "title": "Experiment With Your Models"
         },
         {
             "location": "/model_experiment/#ab-testing",
@@ -416,32 +456,32 @@
             "title": "Suggest an Edit"
         },
         {
-            "location": "/streaming/",
-            "text": "PipelineIO Streaming\n\u00b6\n\n\nPipelineIO integrates with popular streaming tools such as Kafka, Kinesis, Spark Streaming, Flink Streaming, Storm, and Huron.\n\n\n \n\n\n \nAWS Kinesis\n\n\nContinuous, Streaming Model Predictions\n\u00b6\n\n\nPipelineIO's modular design lets you re-use your REST-based models inside your streams for continuous model predictions.\n\n\nContinuous, Incremental Model Training and Deploy\n\u00b6\n\n\nPipelineIO supports continuous, incremental model training.  This is best described by Scikit-learn's \npartial_fit()\n functionality.\n\n\n\n\nVideos\n\u00b6\n\n\nStartupML, Jan 2017\n  \n\n\nBig Data Spain Keynote, Nov 2016\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Streaming Deployments"
+            "location": "/model_stream/",
+            "text": "Stream Your Models\n\u00b6\n\n\nPipelineIO integrates with popular streaming tools such as Kafka, Kinesis, Spark Streaming, Flink Streaming, Storm, and Huron.\n\n\n \n\n\n \nAWS Kinesis\n\n\nContinuous, Streaming Model Predictions\n\u00b6\n\n\nPipelineIO's modular design lets you re-use your REST-based models inside your streams for continuous model predictions.\n\n\nContinuous, Incremental Model Training and Deploy\n\u00b6\n\n\nPipelineIO supports continuous, incremental model training.  This is best described by Scikit-learn's \npartial_fit()\n functionality.\n\n\n\n\nVideos\n\u00b6\n\n\nStartupML, Jan 2017\n  \n\n\nBig Data Spain Keynote, Nov 2016\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Stream Your Models"
         },
         {
-            "location": "/streaming/#pipelineio-streaming",
+            "location": "/model_stream/#stream-your-models",
             "text": "PipelineIO integrates with popular streaming tools such as Kafka, Kinesis, Spark Streaming, Flink Streaming, Storm, and Huron.       AWS Kinesis",
-            "title": "PipelineIO Streaming"
+            "title": "Stream Your Models"
         },
         {
-            "location": "/streaming/#continuous-streaming-model-predictions",
+            "location": "/model_stream/#continuous-streaming-model-predictions",
             "text": "PipelineIO's modular design lets you re-use your REST-based models inside your streams for continuous model predictions.",
             "title": "Continuous, Streaming Model Predictions"
         },
         {
-            "location": "/streaming/#continuous-incremental-model-training-and-deploy",
+            "location": "/model_stream/#continuous-incremental-model-training-and-deploy",
             "text": "PipelineIO supports continuous, incremental model training.  This is best described by Scikit-learn's  partial_fit()  functionality.",
             "title": "Continuous, Incremental Model Training and Deploy"
         },
         {
-            "location": "/streaming/#videos",
+            "location": "/model_stream/#videos",
             "text": "StartupML, Jan 2017     Big Data Spain Keynote, Nov 2016",
             "title": "Videos"
         },
         {
-            "location": "/streaming/#suggest-an-edit",
+            "location": "/model_stream/#suggest-an-edit",
             "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
             "title": "Suggest an Edit"
         },
@@ -607,21 +647,6 @@
         },
         {
             "location": "/open_source/install/#suggest-an-edit",
-            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
-            "title": "Suggest an Edit"
-        },
-        {
-            "location": "/community/",
-            "text": "PipelineIO and Community Events\n\u00b6\n\n\nPipelineIO is the organizer and sponsor for the series of \nAdvanced Spark and TensorFlow Meetups\n throughout the world.\n\n\n\n\nWith over 20,000 members globally, we frequently host highly-technical, in-person and online meetups in such high-tech cities as...\n\n\n\n\nSan Francisco\n\n\nChicago\n\n\nNew York\n\n\nWashington DC\n\n\nLondon\n\n\nBerlin\n\n\nToronto\n\n\nWarsaw\n\n\nBeijing\n\n\nChennai\n\n\nBangalore\n\n\nDubai\n\n\n\n\n...and many more.\n\n\nIn 2016 alone, we hosted 60+ free meetup community events throughout the world.  \n\n\nWhile this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Global Meetups"
-        },
-        {
-            "location": "/community/#pipelineio-and-community-events",
-            "text": "PipelineIO is the organizer and sponsor for the series of  Advanced Spark and TensorFlow Meetups  throughout the world.   With over 20,000 members globally, we frequently host highly-technical, in-person and online meetups in such high-tech cities as...   San Francisco  Chicago  New York  Washington DC  London  Berlin  Toronto  Warsaw  Beijing  Chennai  Bangalore  Dubai   ...and many more.  In 2016 alone, we hosted 60+ free meetup community events throughout the world.    While this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.",
-            "title": "PipelineIO and Community Events"
-        },
-        {
-            "location": "/community/#suggest-an-edit",
             "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
             "title": "Suggest an Edit"
         },
