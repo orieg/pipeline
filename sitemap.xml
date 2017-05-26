@@ -2,11 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+        
     <url>
-     <loc>http://pipeline.io/</loc>
+     <loc>http://pipeline.io/model_train/</loc>
      <lastmod>2017-05-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>http://pipeline.io/model_optimize/</loc>
+     <lastmod>2017-05-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://pipeline.io/model_deploy/</loc>
+     <lastmod>2017-05-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://pipeline.io/model_experiment/</loc>
+     <lastmod>2017-05-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://pipeline.io/model_stream/</loc>
+     <lastmod>2017-05-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
@@ -43,7 +69,7 @@
 
     
     <url>
-     <loc>http://pipeline.io/events/</loc>
+     <loc>http://pipeline.io/api/</loc>
      <lastmod>2017-05-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -59,44 +85,10 @@
 
     
     <url>
-     <loc>http://pipeline.io/api/</loc>
+     <loc>http://pipeline.io/events/</loc>
      <lastmod>2017-05-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-        
-    <url>
-     <loc>http://pipeline.io/model_train/</loc>
-     <lastmod>2017-05-26</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://pipeline.io/model_optimize/</loc>
-     <lastmod>2017-05-26</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://pipeline.io/model_deploy/</loc>
-     <lastmod>2017-05-26</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://pipeline.io/model_experiment/</loc>
-     <lastmod>2017-05-26</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://pipeline.io/model_stream/</loc>
-     <lastmod>2017-05-26</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
     
 
     
