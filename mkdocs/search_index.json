@@ -123,7 +123,7 @@
         {
             "location": "/support/",
             "text": "PipelineIO Support\n\u00b6\n\n\nPipelineIO Community Edition\n\u00b6\n\n\n\n\nLimited Support through \nSupport Forums\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nPipelineIO Professional Edition\n\u00b6\n\n\n\n\n24x7 Global Support\n\n\n24 hour Response SLA\n\n\nSupport Forums\n\n\nEmail\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\nPipelineIO Enterprise Edition\n\u00b6\n\n\n\n\n24x7 Global Support\n\n\n2 hour Response SLA\n\n\nSupport Forums\n\n\nEmail\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "24x7 Global Support"
+            "title": "24x7 Support"
         },
         {
             "location": "/support/#pipelineio-support",
@@ -177,18 +177,33 @@
         },
         {
             "location": "/events/",
-            "text": "PipelineIO Global Events\n\u00b6\n\n\nMeetups\n\u00b6\n\n\n\n\nPipelineIO is the organizer and sponsor for the series of \nAdvanced Spark and TensorFlow Meetups\n with 20,000+ members throughout the world including the following cites:\n\n\n\n\nSan Francisco\n\n\nChicago\n\n\nNew York\n\n\nWashington DC\n\n\nLondon\n\n\nBerlin\n\n\nToronto\n\n\nWarsaw\n\n\nBeijing\n\n\nChennai\n\n\nBangalore\n\n\nDubai\n\n\n\n\nIn 2016 alone, we hosted 60+ free meetup community events throughout the world.  \n\n\nWhile this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.\n\n\nWorkshops\n\u00b6\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Global Events"
+            "text": "PipelineIO Upcoming Events\n\u00b6\n\n\nMeetups\n\u00b6\n\n\n\n\nPipelineIO is the organizer and sponsor for the series of \nAdvanced Spark and TensorFlow Meetups\n with 20,000+ members throughout the world including the following cites:\n\n\n\n\nSan Francisco\n\n\nChicago\n\n\nNew York\n\n\nWashington DC\n\n\nLondon\n\n\nBerlin\n\n\nToronto\n\n\nWarsaw\n\n\nBeijing\n\n\nChennai\n\n\nBangalore\n\n\nDubai\n\n\n\n\nIn 2016 alone, we hosted 60+ free meetup community events throughout the world.  \n\n\nWhile this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.\n\n\nVideos and Slides\n\u00b6\n\n\nVideos\n\u00b6\n\n\n\n* \nOptimize and Deploy Distributed TensorFlow, Spark, and Scikit-Learn Models\n\n* \nContinuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017)\n\n* \nRecent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)\n\n\nSlides\n\u00b6\n\n\n\n\nWorkshops\n\u00b6\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Upcoming Events"
         },
         {
-            "location": "/events/#pipelineio-global-events",
+            "location": "/events/#pipelineio-upcoming-events",
             "text": "",
-            "title": "PipelineIO Global Events"
+            "title": "PipelineIO Upcoming Events"
         },
         {
             "location": "/events/#meetups",
             "text": "PipelineIO is the organizer and sponsor for the series of  Advanced Spark and TensorFlow Meetups  with 20,000+ members throughout the world including the following cites:   San Francisco  Chicago  New York  Washington DC  London  Berlin  Toronto  Warsaw  Beijing  Chennai  Bangalore  Dubai   In 2016 alone, we hosted 60+ free meetup community events throughout the world.    While this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.",
             "title": "Meetups"
+        },
+        {
+            "location": "/events/#videos-and-slides",
+            "text": "",
+            "title": "Videos and Slides"
+        },
+        {
+            "location": "/events/#videos",
+            "text": "*  Optimize and Deploy Distributed TensorFlow, Spark, and Scikit-Learn Models \n*  Continuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017) \n*  Recent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)",
+            "title": "Videos"
+        },
+        {
+            "location": "/events/#slides",
+            "text": "",
+            "title": "Slides"
         },
         {
             "location": "/events/#workshops",
@@ -642,31 +657,6 @@
         },
         {
             "location": "/open_source/install/#suggest-an-edit",
-            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
-            "title": "Suggest an Edit"
-        },
-        {
-            "location": "/media/",
-            "text": "Videos and Presentations\n\u00b6\n\n\nVideos\n\u00b6\n\n\n\n\n\n\nContinuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017)\n\n\nRecent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)\n\n\n\n\nPresentations\n\u00b6\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Videos and Slides"
-        },
-        {
-            "location": "/media/#videos-and-presentations",
-            "text": "",
-            "title": "Videos and Presentations"
-        },
-        {
-            "location": "/media/#videos",
-            "text": "Continuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017)  Recent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)",
-            "title": "Videos"
-        },
-        {
-            "location": "/media/#presentations",
-            "text": "",
-            "title": "Presentations"
-        },
-        {
-            "location": "/media/#suggest-an-edit",
             "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
             "title": "Suggest an Edit"
         },
