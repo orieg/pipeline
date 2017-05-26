@@ -9,7 +9,7 @@
         <meta name="description" content="End-to-End ML and AI Model Training and Deployment Platform with GPUs">
       
       
-        <link rel="canonical" href="http://pipeline.io/cli/">
+        <link rel="canonical" href="http://pipeline.io/api/">
       
       
         <meta name="author" content="PipelineIO">
@@ -21,7 +21,7 @@
     
     
       
-        <title>Command Line Interface - PipelineIO</title>
+        <title>APIs - PipelineIO</title>
       
     
     
@@ -86,12 +86,8 @@
           
             
               
-                <span class="md-header-nav__parent">
-                  CLI and REST API
-                </span>
-              
             
-            Command Line Interface
+            APIs
           
         </span>
       </div>
@@ -285,27 +281,6 @@
   
 
 
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8" checked>
-    
-    <label class="md-nav__link" for="nav-8">
-      CLI and REST API
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-8">
-        CLI and REST API
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-  
-
-
   <li class="md-nav__item md-nav__item--active">
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
@@ -314,11 +289,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="toc">
-        Command Line Interface
+        APIs
       </label>
     
-    <a href="./" title="Command Line Interface" class="md-nav__link md-nav__link--active">
-      Command Line Interface
+    <a href="./" title="APIs" class="md-nav__link md-nav__link--active">
+      APIs
     </a>
     
       
@@ -332,50 +307,77 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#command-line-interface-cli" title="Command Line Interface (CLI)" class="md-nav__link">
+    Command Line Interface (CLI)
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#installation" title="Installation" class="md-nav__link">
     Installation
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#pipelineio-cli-configuration" title="PipelineIO CLI Configuration" class="md-nav__link">
     PipelineIO CLI Configuration
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#aiml-model-management" title="AI/ML Model Management" class="md-nav__link">
     AI/ML Model Management
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#new-cluster-creation" title="New Cluster Creation" class="md-nav__link">
     New Cluster Creation
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#existing-cluster-management" title="Existing Cluster Management" class="md-nav__link">
     Existing Cluster Management
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#application-management" title="Application Management" class="md-nav__link">
     Application Management
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#job-and-workflow-management" title="Job and Workflow Management" class="md-nav__link">
     Job and Workflow Management
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rest-api" title="REST API" class="md-nav__link">
+    REST API
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggest-an-edit" title="Suggest an Edit" class="md-nav__link">
+    Suggest an Edit
   </a>
   
 </li>
@@ -386,23 +388,6 @@
   
 </nav>
     
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../rest/" title="REST API" class="md-nav__link">
-      REST API
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
   </li>
 
     
@@ -535,50 +520,77 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#command-line-interface-cli" title="Command Line Interface (CLI)" class="md-nav__link">
+    Command Line Interface (CLI)
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#installation" title="Installation" class="md-nav__link">
     Installation
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#pipelineio-cli-configuration" title="PipelineIO CLI Configuration" class="md-nav__link">
     PipelineIO CLI Configuration
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#aiml-model-management" title="AI/ML Model Management" class="md-nav__link">
     AI/ML Model Management
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#new-cluster-creation" title="New Cluster Creation" class="md-nav__link">
     New Cluster Creation
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#existing-cluster-management" title="Existing Cluster Management" class="md-nav__link">
     Existing Cluster Management
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#application-management" title="Application Management" class="md-nav__link">
     Application Management
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#job-and-workflow-management" title="Job and Workflow Management" class="md-nav__link">
     Job and Workflow Management
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rest-api" title="REST API" class="md-nav__link">
+    REST API
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggest-an-edit" title="Suggest an Edit" class="md-nav__link">
+    Suggest an Edit
   </a>
   
 </li>
@@ -597,18 +609,19 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/cli/index.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
+                  <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/api/index.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
                 
                 
-                <h1 id="pipelineio-commands">PipelineIO Commands<a class="headerlink" href="#pipelineio-commands" title="Permanent link">&para;</a></h1>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
+                <h1 id="pipelineio-apis">PipelineIO APIs<a class="headerlink" href="#pipelineio-apis" title="Permanent link">&para;</a></h1>
+<h2 id="command-line-interface-cli">Command Line Interface (CLI)<a class="headerlink" href="#command-line-interface-cli" title="Permanent link">&para;</a></h2>
+<h3 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h3>
 <div class="codehilite"><pre><span></span>pip install -U pio-cli
 </pre></div>
 
 <p>You can view the commands supported by the CLI using just <code>pio</code>.
 <div class="codehilite"><pre><span></span>pio
 </pre></div></p>
-<h2 id="pipelineio-cli-configuration">PipelineIO CLI Configuration<a class="headerlink" href="#pipelineio-cli-configuration" title="Permanent link">&para;</a></h2>
+<h3 id="pipelineio-cli-configuration">PipelineIO CLI Configuration<a class="headerlink" href="#pipelineio-cli-configuration" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
@@ -635,7 +648,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="aiml-model-management">AI/ML Model Management<a class="headerlink" href="#aiml-model-management" title="Permanent link">&para;</a></h2>
+<h3 id="aiml-model-management">AI/ML Model Management<a class="headerlink" href="#aiml-model-management" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
@@ -666,7 +679,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="new-cluster-creation">New Cluster Creation<a class="headerlink" href="#new-cluster-creation" title="Permanent link">&para;</a></h2>
+<h3 id="new-cluster-creation">New Cluster Creation<a class="headerlink" href="#new-cluster-creation" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
@@ -685,7 +698,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="existing-cluster-management">Existing Cluster Management<a class="headerlink" href="#existing-cluster-management" title="Permanent link">&para;</a></h2>
+<h3 id="existing-cluster-management">Existing Cluster Management<a class="headerlink" href="#existing-cluster-management" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
@@ -736,7 +749,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="application-management">Application Management<a class="headerlink" href="#application-management" title="Permanent link">&para;</a></h2>
+<h3 id="application-management">Application Management<a class="headerlink" href="#application-management" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
@@ -791,7 +804,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="job-and-workflow-management">Job and Workflow Management<a class="headerlink" href="#job-and-workflow-management" title="Permanent link">&para;</a></h2>
+<h3 id="job-and-workflow-management">Job and Workflow Management<a class="headerlink" href="#job-and-workflow-management" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
@@ -810,6 +823,43 @@
 </tr>
 </tbody>
 </table>
+<h2 id="rest-api">REST API<a class="headerlink" href="#rest-api" title="Permanent link">&para;</a></h2>
+<p>Documentation Coming Soon!</p>
+<hr />
+<h2 id="suggest-an-edit">Suggest an Edit<a class="headerlink" href="#suggest-an-edit" title="Permanent link">&para;</a></h2>
+<p>Option 1:  Click the <code>Edit</code> icon at the top right of this page.</p>
+<p>Option 2:  Create a <a href="https://github.com/fluxcapacitor/pipeline/issues/new?body=This%20documentation%20issue%20is%20about%20">GitHub Issue</a>.</p>
+<!--
+<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;}
+</style>
+<div id="mc_embed_signup">
+        <form action="//advancedspark.us8.list-manage.com/subscribe/post?u=36f687b9890483604c5d7d2b5&amp;id=010427f054" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <label for="mce-EMAIL"><br/>
+              <center>
+                <h3><b>Register for Updates</b></h3>
+              <center>
+            </label>
+            </p>
+            <center>
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            </center>
+            <div style="position: absolute; left: -5000px;">
+              <center>
+                <input type="text" name="b_36f687b9890483604c5d7d2b5_010427f054" tabindex="-1" value="">
+              </center>
+            </div>
+            <div class="clear">
+              <center>
+                <input type="submit" value="Update Me!" name="subscribe" id="mc-embedded-subscribe" class="button">
+              </center>
+            </div>
+          </div>
+        </form>
+</div>
+-->
                 
                   
                 
@@ -843,13 +893,13 @@
           </a>
         
         
-          <a href="../rest/" title="REST API" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../model_train/" title="Train Your Model" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                REST API
+                Train Your Model
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

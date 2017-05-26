@@ -58,19 +58,11 @@
     
 
     
-        
     <url>
-     <loc>http://pipeline.io/cli/</loc>
+     <loc>http://pipeline.io/api/</loc>
      <lastmod>2017-05-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    <url>
-     <loc>http://pipeline.io/rest/</loc>
-     <lastmod>2017-05-26</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
     
 
     

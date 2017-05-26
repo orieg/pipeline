@@ -246,62 +246,62 @@
             "title": "Suggest an Edit"
         },
         {
-            "location": "/cli/",
-            "text": "PipelineIO Commands\n\u00b6\n\n\nInstallation\n\u00b6\n\n\npip install -U pio-cli\n\n\n\n\nYou can view the commands supported by the CLI using just \npio\n.\n\npio\n\n\n\nPipelineIO CLI Configuration\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-pio\n\n\nInitialize PIO CLI\n\n\n\n\n\n\npio config\n\n\nView current configuration\n\n\n\n\n\n\npio config-get\n\n\nGet value for config key\n\n\n\n\n\n\npio config-set\n\n\nSet value for config key\n\n\n\n\n\n\n\n\nAI/ML Model Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-model\n\n\nInitialize model for deployment and prediction\n\n\n\n\n\n\npio deploy\n\n\nDeploy model to model server\n\n\n\n\n\n\npio deploy-from-git\n\n\nDeploy a model from git\n\n\n\n\n\n\npio predict\n\n\nPredict with model\n\n\n\n\n\n\npio predict-many\n\n\nPredict many times (mini load-test)\n\n\n\n\n\n\n\n\nNew Cluster Creation\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-kops\n\n\nInitialize cluster (new)\n\n\n\n\n\n\npio up\n\n\nStart the cluster\n\n\n\n\n\n\n\n\nExisting Cluster Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-cluster\n\n\nInitialize cluster (existing)\n\n\n\n\n\n\npio cluster\n\n\nView the current cluster\n\n\n\n\n\n\npio clusters\n\n\nView all federated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio join\n\n\nJoin a federeated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio nodes\n\n\nView cluster nodes\n\n\n\n\n\n\npio instancegroups\n\n\nView instance groups\n\n\n\n\n\n\npio volumes\n\n\nView volumes and volume claims\n\n\n\n\n\n\npio secrets\n\n\nView secrets\n\n\n\n\n\n\npio maps\n\n\nView config maps\n\n\n\n\n\n\npio system/top\n\n\nView system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nApplication Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio apps\n\n\nRetrieve available and running apps\n\n\n\n\n\n\npio start\n\n\nStart an app\n\n\n\n\n\n\npio stop\n\n\nStop/kill an app\n\n\n\n\n\n\npio scale\n\n\nScale an app (ie. Spark Worker or TensorFlow Model Server)\n\n\n\n\n\n\npio upgrade\n\n\nUpgrade an app\n\n\n\n\n\n\npio rollback\n\n\nRollback an app\n\n\n\n\n\n\npio canary\n\n\nCanary a new version of an app\n\n\n\n\n\n\npio logs\n\n\nView app logs\n\n\n\n\n\n\npio connect/shell\n\n\nConnect to an app to run commands at the terminal\n\n\n\n\n\n\npio proxy/tunnel\n\n\nCreate a proxy/tunnel to a private app in your cluster\n\n\n\n\n\n\npio system/top\n\n\nGet system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nJob and Workflow Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio flow\n\n\nStart an Airflow job\n\n\n\n\n\n\npio submit\n\n\nSubmit a Spark job",
-            "title": "Command Line Interface"
+            "location": "/api/",
+            "text": "PipelineIO APIs\n\u00b6\n\n\nCommand Line Interface (CLI)\n\u00b6\n\n\nInstallation\n\u00b6\n\n\npip install -U pio-cli\n\n\n\n\nYou can view the commands supported by the CLI using just \npio\n.\n\npio\n\n\n\nPipelineIO CLI Configuration\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-pio\n\n\nInitialize PIO CLI\n\n\n\n\n\n\npio config\n\n\nView current configuration\n\n\n\n\n\n\npio config-get\n\n\nGet value for config key\n\n\n\n\n\n\npio config-set\n\n\nSet value for config key\n\n\n\n\n\n\n\n\nAI/ML Model Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-model\n\n\nInitialize model for deployment and prediction\n\n\n\n\n\n\npio deploy\n\n\nDeploy model to model server\n\n\n\n\n\n\npio deploy-from-git\n\n\nDeploy a model from git\n\n\n\n\n\n\npio predict\n\n\nPredict with model\n\n\n\n\n\n\npio predict-many\n\n\nPredict many times (mini load-test)\n\n\n\n\n\n\n\n\nNew Cluster Creation\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-kops\n\n\nInitialize cluster (new)\n\n\n\n\n\n\npio up\n\n\nStart the cluster\n\n\n\n\n\n\n\n\nExisting Cluster Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-cluster\n\n\nInitialize cluster (existing)\n\n\n\n\n\n\npio cluster\n\n\nView the current cluster\n\n\n\n\n\n\npio clusters\n\n\nView all federated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio join\n\n\nJoin a federeated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio nodes\n\n\nView cluster nodes\n\n\n\n\n\n\npio instancegroups\n\n\nView instance groups\n\n\n\n\n\n\npio volumes\n\n\nView volumes and volume claims\n\n\n\n\n\n\npio secrets\n\n\nView secrets\n\n\n\n\n\n\npio maps\n\n\nView config maps\n\n\n\n\n\n\npio system/top\n\n\nView system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nApplication Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio apps\n\n\nRetrieve available and running apps\n\n\n\n\n\n\npio start\n\n\nStart an app\n\n\n\n\n\n\npio stop\n\n\nStop/kill an app\n\n\n\n\n\n\npio scale\n\n\nScale an app (ie. Spark Worker or TensorFlow Model Server)\n\n\n\n\n\n\npio upgrade\n\n\nUpgrade an app\n\n\n\n\n\n\npio rollback\n\n\nRollback an app\n\n\n\n\n\n\npio canary\n\n\nCanary a new version of an app\n\n\n\n\n\n\npio logs\n\n\nView app logs\n\n\n\n\n\n\npio connect/shell\n\n\nConnect to an app to run commands at the terminal\n\n\n\n\n\n\npio proxy/tunnel\n\n\nCreate a proxy/tunnel to a private app in your cluster\n\n\n\n\n\n\npio system/top\n\n\nGet system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nJob and Workflow Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio flow\n\n\nStart an Airflow job\n\n\n\n\n\n\npio submit\n\n\nSubmit a Spark job\n\n\n\n\n\n\n\n\nREST API\n\u00b6\n\n\nDocumentation Coming Soon!\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "APIs"
         },
         {
-            "location": "/cli/#pipelineio-commands",
+            "location": "/api/#pipelineio-apis",
             "text": "",
-            "title": "PipelineIO Commands"
+            "title": "PipelineIO APIs"
         },
         {
-            "location": "/cli/#installation",
+            "location": "/api/#command-line-interface-cli",
+            "text": "",
+            "title": "Command Line Interface (CLI)"
+        },
+        {
+            "location": "/api/#installation",
             "text": "pip install -U pio-cli  You can view the commands supported by the CLI using just  pio . pio",
             "title": "Installation"
         },
         {
-            "location": "/cli/#pipelineio-cli-configuration",
+            "location": "/api/#pipelineio-cli-configuration",
             "text": "Command  Description      pio init-pio  Initialize PIO CLI    pio config  View current configuration    pio config-get  Get value for config key    pio config-set  Set value for config key",
             "title": "PipelineIO CLI Configuration"
         },
         {
-            "location": "/cli/#aiml-model-management",
+            "location": "/api/#aiml-model-management",
             "text": "Command  Description      pio init-model  Initialize model for deployment and prediction    pio deploy  Deploy model to model server    pio deploy-from-git  Deploy a model from git    pio predict  Predict with model    pio predict-many  Predict many times (mini load-test)",
             "title": "AI/ML Model Management"
         },
         {
-            "location": "/cli/#new-cluster-creation",
+            "location": "/api/#new-cluster-creation",
             "text": "Command  Description      pio init-kops  Initialize cluster (new)    pio up  Start the cluster",
             "title": "New Cluster Creation"
         },
         {
-            "location": "/cli/#existing-cluster-management",
+            "location": "/api/#existing-cluster-management",
             "text": "Command  Description      pio init-cluster  Initialize cluster (existing)    pio cluster  View the current cluster    pio clusters  View all federated, hybrid, cross-cloud, on-premise cluster    pio join  Join a federeated, hybrid, cross-cloud, on-premise cluster    pio nodes  View cluster nodes    pio instancegroups  View instance groups    pio volumes  View volumes and volume claims    pio secrets  View secrets    pio maps  View config maps    pio system/top  View system resource utilization (RAM, CPU) for an app",
             "title": "Existing Cluster Management"
         },
         {
-            "location": "/cli/#application-management",
+            "location": "/api/#application-management",
             "text": "Command  Description      pio apps  Retrieve available and running apps    pio start  Start an app    pio stop  Stop/kill an app    pio scale  Scale an app (ie. Spark Worker or TensorFlow Model Server)    pio upgrade  Upgrade an app    pio rollback  Rollback an app    pio canary  Canary a new version of an app    pio logs  View app logs    pio connect/shell  Connect to an app to run commands at the terminal    pio proxy/tunnel  Create a proxy/tunnel to a private app in your cluster    pio system/top  Get system resource utilization (RAM, CPU) for an app",
             "title": "Application Management"
         },
         {
-            "location": "/cli/#job-and-workflow-management",
+            "location": "/api/#job-and-workflow-management",
             "text": "Command  Description      pio flow  Start an Airflow job    pio submit  Submit a Spark job",
             "title": "Job and Workflow Management"
         },
         {
-            "location": "/rest/",
-            "text": "Documentation Coming Soon!\n\u00b6\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "location": "/api/#rest-api",
+            "text": "Documentation Coming Soon!",
             "title": "REST API"
         },
         {
-            "location": "/rest/#documentation-coming-soon",
-            "text": "",
-            "title": "Documentation Coming Soon!"
-        },
-        {
-            "location": "/rest/#suggest-an-edit",
+            "location": "/api/#suggest-an-edit",
             "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
             "title": "Suggest an Edit"
         },
