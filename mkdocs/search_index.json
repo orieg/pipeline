@@ -152,7 +152,7 @@
         },
         {
             "location": "/training/",
-            "text": "PipelineIO Training\n\u00b6\n\n\nCommunity Edition\n\u00b6\n\n\n\n\nPublic Workshops\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nProfessional Edition\n\u00b6\n\n\n\n\n4 Hours of Training \n\n\nEligible for JumpStart Program\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\nEnterprise Edition\n\u00b6\n\n\n\n\n16 Hours of Custom Training \n\n\nEligible for JumpStart Program \n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "PipelineIO Training\n\u00b6\n\n\nCommunity Edition\n\u00b6\n\n\n\n\nPublic \nEvents\n and \nWorkshops\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nProfessional Edition\n\u00b6\n\n\n\n\n4 Hours of Custom Online Training\n\n\nEligible for JumpStart Program\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\nPipelineIO Enterprise Edition\n* 16 Hours of Custom Online Training\n* Eligible for JumpStart Program\n\n\nContact \nsales@pipeline.io\n for more information.",
             "title": "Training"
         },
         {
@@ -162,23 +162,13 @@
         },
         {
             "location": "/training/#community-edition",
-            "text": "Public Workshops   Click  here  to signup and start deploying models!",
+            "text": "Public  Events  and  Workshops   Click  here  to signup and start deploying models!",
             "title": "Community Edition"
         },
         {
             "location": "/training/#professional-edition",
-            "text": "4 Hours of Training   Eligible for JumpStart Program   Contact  sales@pipeline.io  for more information.",
+            "text": "4 Hours of Custom Online Training  Eligible for JumpStart Program   Contact  sales@pipeline.io  for more information.  PipelineIO Enterprise Edition\n* 16 Hours of Custom Online Training\n* Eligible for JumpStart Program  Contact  sales@pipeline.io  for more information.",
             "title": "Professional Edition"
-        },
-        {
-            "location": "/training/#enterprise-edition",
-            "text": "16 Hours of Custom Training   Eligible for JumpStart Program    Contact  sales@pipeline.io  for more information.",
-            "title": "Enterprise Edition"
-        },
-        {
-            "location": "/training/#suggest-an-edit",
-            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
-            "title": "Suggest an Edit"
         },
         {
             "location": "/events/",
