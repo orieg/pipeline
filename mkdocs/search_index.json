@@ -76,6 +76,81 @@
             "title": "Suggest an Edit"
         },
         {
+            "location": "/model_monitor/",
+            "text": "Monitor Model\n\u00b6\n\n\nMetrics, dashboards, and visualizations are native to PipelineIO.  \n\n\nWe believe that you should have full insight into everything deployed to production.\n\n\nPipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.\n\n\nIn addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.\n\n\nExample Dashboards\n\u00b6\n\n\nLatency\n\u00b6\n\n\nHigher latency may lead to an unhealthy model server if left unbounded.\n\n\nHealth\n\u00b6\n\n\nUnhealthy or latent services may open a \ncircuit\n.  This causes the circuit to return a degraded, fallback response.\n\n\n\n\nMemory Usage\n\u00b6\n\n\nHigher memory usage beyond physical container or node limits may degrade performance.\n\n\nGPU Utilization\n\u00b6\n\n\nHigher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.\n\n\nRequest Batch Size\n\u00b6\n\n\nLarger batch sizes usually provide higher throughput.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Dashboards and Visualizations"
+        },
+        {
+            "location": "/model_monitor/#monitor-model",
+            "text": "Metrics, dashboards, and visualizations are native to PipelineIO.    We believe that you should have full insight into everything deployed to production.  PipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.  In addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.",
+            "title": "Monitor Model"
+        },
+        {
+            "location": "/model_monitor/#example-dashboards",
+            "text": "",
+            "title": "Example Dashboards"
+        },
+        {
+            "location": "/model_monitor/#latency",
+            "text": "Higher latency may lead to an unhealthy model server if left unbounded.",
+            "title": "Latency"
+        },
+        {
+            "location": "/model_monitor/#health",
+            "text": "Unhealthy or latent services may open a  circuit .  This causes the circuit to return a degraded, fallback response.",
+            "title": "Health"
+        },
+        {
+            "location": "/model_monitor/#memory-usage",
+            "text": "Higher memory usage beyond physical container or node limits may degrade performance.",
+            "title": "Memory Usage"
+        },
+        {
+            "location": "/model_monitor/#gpu-utilization",
+            "text": "Higher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.",
+            "title": "GPU Utilization"
+        },
+        {
+            "location": "/model_monitor/#request-batch-size",
+            "text": "Larger batch sizes usually provide higher throughput.",
+            "title": "Request Batch Size"
+        },
+        {
+            "location": "/model_monitor/#suggest-an-edit",
+            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
+            "title": "Suggest an Edit"
+        },
+        {
+            "location": "/support/",
+            "text": "PipelineIO Support\n\u00b6\n\n\nPipelineIO Community Edition\n\u00b6\n\n\n\n\nLimited Support through \nSupport Forums\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nPipelineIO Professional Edition\n\u00b6\n\n\n\n\n24x7 Global Support\n\n\n24 hour Response SLA\n\n\nSupport Forums\n\n\nEmail\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\nPipelineIO Enterprise Edition\n\u00b6\n\n\n\n\n24x7 Global Support\n\n\n2 hour Response SLA\n\n\nSupport Forums\n\n\nEmail\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "24x7 Global Support"
+        },
+        {
+            "location": "/support/#pipelineio-support",
+            "text": "",
+            "title": "PipelineIO Support"
+        },
+        {
+            "location": "/support/#pipelineio-community-edition",
+            "text": "Limited Support through  Support Forums   Click  here  to signup and start deploying models!",
+            "title": "PipelineIO Community Edition"
+        },
+        {
+            "location": "/support/#pipelineio-professional-edition",
+            "text": "24x7 Global Support  24 hour Response SLA  Support Forums  Email   Contact  sales@pipeline.io  for more information.",
+            "title": "PipelineIO Professional Edition"
+        },
+        {
+            "location": "/support/#pipelineio-enterprise-edition",
+            "text": "24x7 Global Support  2 hour Response SLA  Support Forums  Email   Contact  sales@pipeline.io  for more information.",
+            "title": "PipelineIO Enterprise Edition"
+        },
+        {
+            "location": "/support/#suggest-an-edit",
+            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
+            "title": "Suggest an Edit"
+        },
+        {
             "location": "/cli/",
             "text": "PipelineIO Commands\n\u00b6\n\n\nInstallation\n\u00b6\n\n\npip install -U pio-cli\n\n\n\n\nYou can view the commands supported by the CLI using just \npio\n.\n\npio\n\n\n\nPipelineIO CLI Configuration\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-pio\n\n\nInitialize PIO CLI\n\n\n\n\n\n\npio config\n\n\nView current configuration\n\n\n\n\n\n\npio config-get\n\n\nGet value for config key\n\n\n\n\n\n\npio config-set\n\n\nSet value for config key\n\n\n\n\n\n\n\n\nAI/ML Model Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-model\n\n\nInitialize model for deployment and prediction\n\n\n\n\n\n\npio deploy\n\n\nDeploy model to model server\n\n\n\n\n\n\npio deploy-from-git\n\n\nDeploy a model from git\n\n\n\n\n\n\npio predict\n\n\nPredict with model\n\n\n\n\n\n\npio predict-many\n\n\nPredict many times (mini load-test)\n\n\n\n\n\n\n\n\nNew Cluster Creation\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-kops\n\n\nInitialize cluster (new)\n\n\n\n\n\n\npio up\n\n\nStart the cluster\n\n\n\n\n\n\n\n\nExisting Cluster Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-cluster\n\n\nInitialize cluster (existing)\n\n\n\n\n\n\npio cluster\n\n\nView the current cluster\n\n\n\n\n\n\npio clusters\n\n\nView all federated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio join\n\n\nJoin a federeated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio nodes\n\n\nView cluster nodes\n\n\n\n\n\n\npio instancegroups\n\n\nView instance groups\n\n\n\n\n\n\npio volumes\n\n\nView volumes and volume claims\n\n\n\n\n\n\npio secrets\n\n\nView secrets\n\n\n\n\n\n\npio maps\n\n\nView config maps\n\n\n\n\n\n\npio system/top\n\n\nView system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nApplication Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio apps\n\n\nRetrieve available and running apps\n\n\n\n\n\n\npio start\n\n\nStart an app\n\n\n\n\n\n\npio stop\n\n\nStop/kill an app\n\n\n\n\n\n\npio scale\n\n\nScale an app (ie. Spark Worker or TensorFlow Model Server)\n\n\n\n\n\n\npio upgrade\n\n\nUpgrade an app\n\n\n\n\n\n\npio rollback\n\n\nRollback an app\n\n\n\n\n\n\npio canary\n\n\nCanary a new version of an app\n\n\n\n\n\n\npio logs\n\n\nView app logs\n\n\n\n\n\n\npio connect/shell\n\n\nConnect to an app to run commands at the terminal\n\n\n\n\n\n\npio proxy/tunnel\n\n\nCreate a proxy/tunnel to a private app in your cluster\n\n\n\n\n\n\npio system/top\n\n\nGet system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nJob and Workflow Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio flow\n\n\nStart an Airflow job\n\n\n\n\n\n\npio submit\n\n\nSubmit a Spark job",
             "title": "Command Line Interface"
@@ -326,81 +401,6 @@
             "title": "Suggest an Edit"
         },
         {
-            "location": "/model_monitor/",
-            "text": "Monitor Model\n\u00b6\n\n\nMetrics, dashboards, and visualizations are native to PipelineIO.  \n\n\nWe believe that you should have full insight into everything deployed to production.\n\n\nPipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.\n\n\nIn addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.\n\n\nExample Dashboards\n\u00b6\n\n\nLatency\n\u00b6\n\n\nHigher latency may lead to an unhealthy model server if left unbounded.\n\n\nHealth\n\u00b6\n\n\nUnhealthy or latent services may open a \ncircuit\n.  This causes the circuit to return a degraded, fallback response.\n\n\n\n\nMemory Usage\n\u00b6\n\n\nHigher memory usage beyond physical container or node limits may degrade performance.\n\n\nGPU Utilization\n\u00b6\n\n\nHigher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.\n\n\nRequest Batch Size\n\u00b6\n\n\nLarger batch sizes usually provide higher throughput.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "System and Model Metrics"
-        },
-        {
-            "location": "/model_monitor/#monitor-model",
-            "text": "Metrics, dashboards, and visualizations are native to PipelineIO.    We believe that you should have full insight into everything deployed to production.  PipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.  In addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.",
-            "title": "Monitor Model"
-        },
-        {
-            "location": "/model_monitor/#example-dashboards",
-            "text": "",
-            "title": "Example Dashboards"
-        },
-        {
-            "location": "/model_monitor/#latency",
-            "text": "Higher latency may lead to an unhealthy model server if left unbounded.",
-            "title": "Latency"
-        },
-        {
-            "location": "/model_monitor/#health",
-            "text": "Unhealthy or latent services may open a  circuit .  This causes the circuit to return a degraded, fallback response.",
-            "title": "Health"
-        },
-        {
-            "location": "/model_monitor/#memory-usage",
-            "text": "Higher memory usage beyond physical container or node limits may degrade performance.",
-            "title": "Memory Usage"
-        },
-        {
-            "location": "/model_monitor/#gpu-utilization",
-            "text": "Higher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.",
-            "title": "GPU Utilization"
-        },
-        {
-            "location": "/model_monitor/#request-batch-size",
-            "text": "Larger batch sizes usually provide higher throughput.",
-            "title": "Request Batch Size"
-        },
-        {
-            "location": "/model_monitor/#suggest-an-edit",
-            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
-            "title": "Suggest an Edit"
-        },
-        {
-            "location": "/gpu/",
-            "text": "GPUs\n\u00b6\n\n\nPipelineIO supports GPUs natively throughout the entire platform.\n\n\n\n\nHere are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate PipelineIO's support for GPUs.\n\n\nDocker Images\n\u00b6\n\n\nAWS GPU + Tensorflow + Spark + HDFS + Docker\n\n\nGoogle Cloud GPU + Tensorflow + Spark + HDFS + Docker\n\n\nConference and Meetup Talks\n\u00b6\n\n\nGPU Tech Conference - San Jose - May 2017 (Slides)\n\n\nPyData London - May 2017 (Video)\n\n\nEverything GPU-related in our GitHub Repo!\n\u00b6\n\n\ngpu.ml\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "GPU Support"
-        },
-        {
-            "location": "/gpu/#gpus",
-            "text": "PipelineIO supports GPUs natively throughout the entire platform.   Here are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate PipelineIO's support for GPUs.",
-            "title": "GPUs"
-        },
-        {
-            "location": "/gpu/#docker-images",
-            "text": "AWS GPU + Tensorflow + Spark + HDFS + Docker  Google Cloud GPU + Tensorflow + Spark + HDFS + Docker",
-            "title": "Docker Images"
-        },
-        {
-            "location": "/gpu/#conference-and-meetup-talks",
-            "text": "GPU Tech Conference - San Jose - May 2017 (Slides)  PyData London - May 2017 (Video)",
-            "title": "Conference and Meetup Talks"
-        },
-        {
-            "location": "/gpu/#everything-gpu-related-in-our-github-repo",
-            "text": "gpu.ml",
-            "title": "Everything GPU-related in our GitHub Repo!"
-        },
-        {
-            "location": "/gpu/#suggest-an-edit",
-            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
-            "title": "Suggest an Edit"
-        },
-        {
             "location": "/open_source/",
             "text": "PipelineIO is Open Source\n\u00b6\n\n\nPipelineIO builds upon many great open source projects including Jupyter, Zeppelin, Spark, TensorFlow, ElasticSearch, Kafka, Docker, Kubernetes, Prometheus, etc.\n\n\n \n\n\n \n\n\n \n\n\n\n\n \n\n\n \n\n\n\n\nGitHub and DockerHub\n\u00b6\n\n\nPipelineIO\n and the extended PipelineIO global \ncommunity\n are 100% dedicated to open source development.  \n\n\nWe develop openly in \nGitHub\n and post many of our Docker images in \nDockerHub\n for everyone to embrace and extend.\n\n\n\n\n\n\nCommitters and Contributors\n\u00b6\n\n\nMany of our employees, contributors, and community members are active committers and contributors to such popular open source projects as...\n\n\n\n\nApache Spark\n\n\nKafka\n\n\nNiFi\n\n\nCassandra\n\n\nArrow\n\n\nAirflow\n\n\nPresto\n\n\nTensorFlow\n\n\nKubernetes\n\n\nElasticsearch\n\n\nScikit-Learn\n\n\nR\n\n\nXgboost\n\n\nPMML\n\n\nHadoop\n\n\nMahout\n\n\nStorm\n\n\nCascading\n\n\nHive\n\n\nScala\n\n\nSbt\n\n\nMaven\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Open Source Development"
@@ -606,47 +606,67 @@
             "title": "Suggest an Edit"
         },
         {
-            "location": "/workshops/",
-            "text": "PipelineIO Training\n\u00b6\n\n\nPublic Online Training\n\u00b6\n\n\nTitle\n\u00b6\n\n\nPipelineIO Distributed Spark ML + Tensorflow AI + GPU Workshop\n\n\nDescription\n\u00b6\n\n\nEverybody gets their own GPU for the duration of the workshop!!\n\n\nWe will each build an end-to-end, continuous, distributed Spark ML and Tensorflow AI model training and deployment pipeline on our own GPU-based cloud instance.\n\n\nThe only prequisites are a modern browser and an internet connection. We provide the rest including a GPU-based cloud instance for each attendee.\n\n\nAt the end of the workshop, each attendee can download the Docker image and run everything in your own cloud account.\n\n\nAgenda\n\u00b6\n\n\n\n\nSpark ML\n\n\nTensorFlow AI\n\n\nStoring and Serving Models with HDFS\n\n\nTrade-offs of CPU vs. GPU, Scale Up vs. Scale Out\n\n\nCUDA + cuDNN GPU Development Overview\n\n\nTensorFlow Model Checkpointing, Saving, Exporting, and Importing\n\n\nDistributed TensorFlow AI Model Training (Distributed Tensorflow)\n\n\nTensorFlow's Accelerated Linear Algebra Framework (XLA)\n\n\nTensorFlow's Just-in-Time (JIT) Compiler, Ahead of Time (AOT) Compiler\n\n\nCentralized Logging and Visualizing of Distributed TensorFlow Training (Tensorboard)\n\n\nDistributed Tensorflow AI Model Serving/Predicting (TensorFlow Serving)\n\n\nCentralized Logging and Metrics Collection (Prometheus, Grafana)\n\n\nContinuous TensorFow AI Model Deployment (TensorFlow, Airflow)\n\n\nHybrid Cross-Cloud and On-Premise Deployments (Kubernetes)\n\n\nHigh-Performance and Fault-Tolerant Micro-services (NetflixOSS)\n\n\n\n\nDates\n\u00b6\n\n\nSpark TensorFlow GPU Apr 22 \n(SOLD OUT)\n\n\nSpark TensorFlow GPU May 27\n\n\nSpark TensorFlow GPU June 10\n\n\nO'Reilly TensorFlow Sep 07\n\n\nCorporate and In-Person Training\n\u00b6\n\n\nAvailable upon \nrequest\n.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Upcoming Events"
+            "location": "/gpu/",
+            "text": "GPUs\n\u00b6\n\n\nPipelineIO supports GPUs natively throughout the entire platform.\n\n\n\n\nHere are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate PipelineIO's support for GPUs.\n\n\nDocker Images\n\u00b6\n\n\nAWS GPU + Tensorflow + Spark + HDFS + Docker\n\n\nGoogle Cloud GPU + Tensorflow + Spark + HDFS + Docker\n\n\nConference and Meetup Talks\n\u00b6\n\n\nGPU Tech Conference - San Jose - May 2017 (Slides)\n\n\nPyData London - May 2017 (Video)\n\n\nEverything GPU-related in our GitHub Repo!\n\u00b6\n\n\ngpu.ml\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "GPUs and Performance"
         },
         {
-            "location": "/workshops/#pipelineio-training",
+            "location": "/gpu/#gpus",
+            "text": "PipelineIO supports GPUs natively throughout the entire platform.   Here are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate PipelineIO's support for GPUs.",
+            "title": "GPUs"
+        },
+        {
+            "location": "/gpu/#docker-images",
+            "text": "AWS GPU + Tensorflow + Spark + HDFS + Docker  Google Cloud GPU + Tensorflow + Spark + HDFS + Docker",
+            "title": "Docker Images"
+        },
+        {
+            "location": "/gpu/#conference-and-meetup-talks",
+            "text": "GPU Tech Conference - San Jose - May 2017 (Slides)  PyData London - May 2017 (Video)",
+            "title": "Conference and Meetup Talks"
+        },
+        {
+            "location": "/gpu/#everything-gpu-related-in-our-github-repo",
+            "text": "gpu.ml",
+            "title": "Everything GPU-related in our GitHub Repo!"
+        },
+        {
+            "location": "/gpu/#suggest-an-edit",
+            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
+            "title": "Suggest an Edit"
+        },
+        {
+            "location": "/events/",
+            "text": "PipelineIO Events\n\u00b6\n\n\nMeetups\n\u00b6\n\n\nAdvanced Spark and TensorFlow Meetup\n\u00b6\n\n\nTraining and Workshops\n\u00b6\n\n\nPipelineIO Training\n\u00b6\n\n\nPipelineIO Distributed Spark ML + Tensorflow AI + GPU Workshop\n\n\nEverybody gets their own GPU for the duration of the workshop!!\n\n\nWe will each build an end-to-end, continuous, distributed Spark ML and Tensorflow AI model training and deployment pipeline on our own GPU-based cloud instance.\n\n\nThe only prequisites are a modern browser and an internet connection. We provide the rest including a GPU-based cloud instance for each attendee.\n\n\nAt the end of the workshop, each attendee can download the Docker image and run everything in your own cloud account.\n\n\nAgenda\n\n\n\n\nSpark ML\n\n\nTensorFlow AI\n\n\nStoring and Serving Models with HDFS\n\n\nTrade-offs of CPU vs. GPU, Scale Up vs. Scale Out\n\n\nCUDA + cuDNN GPU Development Overview\n\n\nTensorFlow Model Checkpointing, Saving, Exporting, and Importing\n\n\nDistributed TensorFlow AI Model Training (Distributed Tensorflow)\n\n\nTensorFlow's Accelerated Linear Algebra Framework (XLA)\n\n\nTensorFlow's Just-in-Time (JIT) Compiler, Ahead of Time (AOT) Compiler\n\n\nCentralized Logging and Visualizing of Distributed TensorFlow Training (Tensorboard)\n\n\nDistributed Tensorflow AI Model Serving/Predicting (TensorFlow Serving)\n\n\nCentralized Logging and Metrics Collection (Prometheus, Grafana)\n\n\nContinuous TensorFow AI Model Deployment (TensorFlow, Airflow)\n\n\nHybrid Cross-Cloud and On-Premise Deployments (Kubernetes)\n\n\nHigh-Performance and Fault-Tolerant Micro-services (NetflixOSS)\n\n\n\n\nDates\n\n\nApr 22 Spark TensorFlow GPU \n(SOLD OUT)\n\n\nMay 27 Spark TensorFlow GPU\n\n\nJune 10 Spark TensorFlow GPU\n\n\nJuly 8 Spark TensorFlow GPU\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Events and Workshops"
+        },
+        {
+            "location": "/events/#pipelineio-events",
             "text": "",
+            "title": "PipelineIO Events"
+        },
+        {
+            "location": "/events/#meetups",
+            "text": "",
+            "title": "Meetups"
+        },
+        {
+            "location": "/events/#advanced-spark-and-tensorflow-meetup",
+            "text": "",
+            "title": "Advanced Spark and TensorFlow Meetup"
+        },
+        {
+            "location": "/events/#training-and-workshops",
+            "text": "",
+            "title": "Training and Workshops"
+        },
+        {
+            "location": "/events/#pipelineio-training",
+            "text": "PipelineIO Distributed Spark ML + Tensorflow AI + GPU Workshop  Everybody gets their own GPU for the duration of the workshop!!  We will each build an end-to-end, continuous, distributed Spark ML and Tensorflow AI model training and deployment pipeline on our own GPU-based cloud instance.  The only prequisites are a modern browser and an internet connection. We provide the rest including a GPU-based cloud instance for each attendee.  At the end of the workshop, each attendee can download the Docker image and run everything in your own cloud account.  Agenda   Spark ML  TensorFlow AI  Storing and Serving Models with HDFS  Trade-offs of CPU vs. GPU, Scale Up vs. Scale Out  CUDA + cuDNN GPU Development Overview  TensorFlow Model Checkpointing, Saving, Exporting, and Importing  Distributed TensorFlow AI Model Training (Distributed Tensorflow)  TensorFlow's Accelerated Linear Algebra Framework (XLA)  TensorFlow's Just-in-Time (JIT) Compiler, Ahead of Time (AOT) Compiler  Centralized Logging and Visualizing of Distributed TensorFlow Training (Tensorboard)  Distributed Tensorflow AI Model Serving/Predicting (TensorFlow Serving)  Centralized Logging and Metrics Collection (Prometheus, Grafana)  Continuous TensorFow AI Model Deployment (TensorFlow, Airflow)  Hybrid Cross-Cloud and On-Premise Deployments (Kubernetes)  High-Performance and Fault-Tolerant Micro-services (NetflixOSS)   Dates  Apr 22 Spark TensorFlow GPU  (SOLD OUT)  May 27 Spark TensorFlow GPU  June 10 Spark TensorFlow GPU  July 8 Spark TensorFlow GPU",
             "title": "PipelineIO Training"
         },
         {
-            "location": "/workshops/#public-online-training",
-            "text": "",
-            "title": "Public Online Training"
-        },
-        {
-            "location": "/workshops/#title",
-            "text": "PipelineIO Distributed Spark ML + Tensorflow AI + GPU Workshop",
-            "title": "Title"
-        },
-        {
-            "location": "/workshops/#description",
-            "text": "Everybody gets their own GPU for the duration of the workshop!!  We will each build an end-to-end, continuous, distributed Spark ML and Tensorflow AI model training and deployment pipeline on our own GPU-based cloud instance.  The only prequisites are a modern browser and an internet connection. We provide the rest including a GPU-based cloud instance for each attendee.  At the end of the workshop, each attendee can download the Docker image and run everything in your own cloud account.",
-            "title": "Description"
-        },
-        {
-            "location": "/workshops/#agenda",
-            "text": "Spark ML  TensorFlow AI  Storing and Serving Models with HDFS  Trade-offs of CPU vs. GPU, Scale Up vs. Scale Out  CUDA + cuDNN GPU Development Overview  TensorFlow Model Checkpointing, Saving, Exporting, and Importing  Distributed TensorFlow AI Model Training (Distributed Tensorflow)  TensorFlow's Accelerated Linear Algebra Framework (XLA)  TensorFlow's Just-in-Time (JIT) Compiler, Ahead of Time (AOT) Compiler  Centralized Logging and Visualizing of Distributed TensorFlow Training (Tensorboard)  Distributed Tensorflow AI Model Serving/Predicting (TensorFlow Serving)  Centralized Logging and Metrics Collection (Prometheus, Grafana)  Continuous TensorFow AI Model Deployment (TensorFlow, Airflow)  Hybrid Cross-Cloud and On-Premise Deployments (Kubernetes)  High-Performance and Fault-Tolerant Micro-services (NetflixOSS)",
-            "title": "Agenda"
-        },
-        {
-            "location": "/workshops/#dates",
-            "text": "Spark TensorFlow GPU Apr 22  (SOLD OUT)  Spark TensorFlow GPU May 27  Spark TensorFlow GPU June 10  O'Reilly TensorFlow Sep 07",
-            "title": "Dates"
-        },
-        {
-            "location": "/workshops/#corporate-and-in-person-training",
-            "text": "Available upon  request .",
-            "title": "Corporate and In-Person Training"
-        },
-        {
-            "location": "/workshops/#suggest-an-edit",
+            "location": "/events/#suggest-an-edit",
             "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
             "title": "Suggest an Edit"
         },
