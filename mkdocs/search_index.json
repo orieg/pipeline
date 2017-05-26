@@ -237,13 +237,13 @@
         },
         {
             "location": "/products/",
-            "text": "PipelineIO Product Overview\n\u00b6\n\n\nPipelineIO self-hosted on-premise or in any major cloud provider.\n\n\n\n\n\n\n\n\nPipelineIO Community Edition\n\u00b6\n\n\n\n\nFree, Hosted PipelineIO Open Source \n\n\nTrain and Deploy All Major Model Types \n\n\nSupports Spark ML, TensorFlow AI, Scikit-Learn, R, Xgboost, Ensembles, Ad-hoc Python, Ad-hoc Python, PMML\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nPipelineIO Professional Edition\n\u00b6\n\n\n\n\nIncludes Everything from PipelineIO Community Edition\n\n\nHosted in Your Own Cloud or On-Premise Environment\n\n\nEasy One-Click Installation through AWS, Azure, and Google Cloud Cloud Marketplaces\n\n\nStandalone License Available for On-Premise Deployment\n\n\n24x7 Global Support, 24 hour Response SLA\n\n\nPre-built Docker-based and Cloud-based Images \n\n\nDeploy in All Major Cloud Providers (AWS, Google, Azure) and On-Premise\n\n\n4 Online Training Hours Including JumpStart Program\n\n\nFlexible Auto-Scaling and Spot-Pricing Policies\n\n\nAdvanced Admin UI including Cluster and Model Management\n\n\nContinuous, Online Model Training and Deployment Pipelines with Full Audit Logging\n\n\nA/B and Multi-armed Bandit Model Testing\n\n\nCanary Model Deployments including Traffic Splitting and Shadowing\n\n\nAutomated Model Hyper-Parameter Tuning \n\n\nAutomated Model Optimizations including Native CPU x86 and GPU NVPTX Code Generation\n\n\nEnd-to-End, Real-time Pipeline Monitoring of all System and Prediction Metrics\n\n\nCircuit Breakers Around All Service to Avoid Cascading Failures\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\nPipelineIO Enterprise Edition\n\u00b6\n\n\n\n\nIncludes Everything from PipelineIO Professional Edition\n\n\nHosted in Your Own Cloud or On-Premise Environment\n\n\nEasy One-Click Installation through AWS, Azure, and Google Cloud Cloud Marketplaces\n\n\nStandalone License Available for On-Premise Deployment\n\n\n24x7 Global Support, 8 hour Response SLA \n\n\n16 Online or On-site Training Hours Including JumpStart Program\n\n\nSupports Hybrid Cloud \nand\n On-Premise Deployment Environment for Maximum High Availability and Scalability\n\n\nAutomatic Traffic Shifting Between Hybrid Cloud and On-Premise Deployment Environments for Maxmium Cost Savings\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Products"
+            "text": "Powered by PipelineIO\n\u00b6\n\n\nPipelineIO self-hosted on-premise or in any major cloud provider.\n\n\n\n\n\n\n\n\nPipelineIO Community Edition\n\u00b6\n\n\n\n\nFree, Hosted PipelineIO Open Source \n\n\nTrain and Deploy All Major Model Types \n\n\nSupports Spark ML, TensorFlow AI, Scikit-Learn, R, Xgboost, Ensembles, Ad-hoc Python, Ad-hoc Python, PMML\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nPipelineIO Professional Edition\n\u00b6\n\n\n\n\nIncludes Everything from PipelineIO Community Edition\n\n\nHosted in Your Own Cloud or On-Premise Environment\n\n\nEasy One-Click Installation through AWS, Azure, and Google Cloud Cloud Marketplaces\n\n\nStandalone License Available for On-Premise Deployment\n\n\n24x7 Global Support, 24 hour Response SLA\n\n\nPre-built Docker-based and Cloud-based Images \n\n\nDeploy in All Major Cloud Providers (AWS, Google, Azure) and On-Premise\n\n\n4 Online Training Hours Including JumpStart Program\n\n\nFlexible Auto-Scaling and Spot-Pricing Policies\n\n\nAdvanced Admin UI including Cluster and Model Management\n\n\nContinuous, Online Model Training and Deployment Pipelines with Full Audit Logging\n\n\nA/B and Multi-armed Bandit Model Testing\n\n\nCanary Model Deployments including Traffic Splitting and Shadowing\n\n\nAutomated Model Hyper-Parameter Tuning \n\n\nAutomated Model Optimizations including Native CPU x86 and GPU NVPTX Code Generation\n\n\nEnd-to-End, Real-time Pipeline Monitoring of all System and Prediction Metrics\n\n\nCircuit Breakers Around All Service to Avoid Cascading Failures\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\nPipelineIO Enterprise Edition\n\u00b6\n\n\n\n\nIncludes Everything from PipelineIO Professional Edition\n\n\nHosted in Your Own Cloud or On-Premise Environment\n\n\nEasy One-Click Installation through AWS, Azure, and Google Cloud Cloud Marketplaces\n\n\nStandalone License Available for On-Premise Deployment\n\n\n24x7 Global Support, 8 hour Response SLA \n\n\n16 Online or On-site Training Hours Including JumpStart Program\n\n\nSupports Hybrid Cloud \nand\n On-Premise Deployment Environment for Maximum High Availability and Scalability\n\n\nAutomatic Traffic Shifting Between Hybrid Cloud and On-Premise Deployment Environments for Maxmium Cost Savings\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Powered by PipelineIO"
         },
         {
-            "location": "/products/#pipelineio-product-overview",
+            "location": "/products/#powered-by-pipelineio",
             "text": "PipelineIO self-hosted on-premise or in any major cloud provider.",
-            "title": "PipelineIO Product Overview"
+            "title": "Powered by PipelineIO"
         },
         {
             "location": "/products/#pipelineio-community-edition",
@@ -266,14 +266,109 @@
             "title": "Suggest an Edit"
         },
         {
+            "location": "/support/",
+            "text": "PipelineIO 24x7 Support\n\u00b6\n\n\nPipelineIO Community Edition\n\u00b6\n\n\n\n\nLimited Support through \nSupport Forums\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nPipelineIO Professional Edition\n\u00b6\n\n\n\n\n24x7 Global Support\n\n\n24 hour Response SLA\n\n\nSupport Forums\n\n\nEmail\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\nPipelineIO Enterprise Edition\n\u00b6\n\n\n\n\n24x7 Global Support\n\n\n2 hour Response SLA\n\n\nSupport Forums\n\n\nEmail\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "24x7 Support"
+        },
+        {
+            "location": "/support/#pipelineio-24x7-support",
+            "text": "",
+            "title": "PipelineIO 24x7 Support"
+        },
+        {
+            "location": "/support/#pipelineio-community-edition",
+            "text": "Limited Support through  Support Forums   Click  here  to signup and start deploying models!",
+            "title": "PipelineIO Community Edition"
+        },
+        {
+            "location": "/support/#pipelineio-professional-edition",
+            "text": "24x7 Global Support  24 hour Response SLA  Support Forums  Email   Contact  sales@pipeline.io  for more information.",
+            "title": "PipelineIO Professional Edition"
+        },
+        {
+            "location": "/support/#pipelineio-enterprise-edition",
+            "text": "24x7 Global Support  2 hour Response SLA  Support Forums  Email   Contact  sales@pipeline.io  for more information.",
+            "title": "PipelineIO Enterprise Edition"
+        },
+        {
+            "location": "/support/#suggest-an-edit",
+            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
+            "title": "Suggest an Edit"
+        },
+        {
+            "location": "/events/",
+            "text": "PipelineIO Upcoming Events\n\u00b6\n\n\nMeetups\n\u00b6\n\n\n\n\nPipelineIO is the organizer and sponsor for the series of \nAdvanced Spark and TensorFlow Meetups\n with 20,000+ members throughout the world including the following cites:\n\n\n\n\nSan Francisco\n\n\nChicago\n\n\nNew York\n\n\nWashington DC\n\n\nLondon\n\n\nBerlin\n\n\nToronto\n\n\nWarsaw\n\n\nBeijing\n\n\nChennai\n\n\nBangalore\n\n\nDubai\n\n\n\n\nIn 2016 alone, we hosted 60+ free meetup community events throughout the world.  \n\n\nWhile this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.\n\n\nVideos and Slides\n\u00b6\n\n\nVideos\n\u00b6\n\n\n\n* \nOptimize and Deploy Distributed TensorFlow, Spark, and Scikit-Learn Models\n\n* \nContinuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017)\n\n* \nRecent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)\n\n\nSlides\n\u00b6\n\n\n\n\nWorkshops\n\u00b6\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Upcoming Events"
+        },
+        {
+            "location": "/events/#pipelineio-upcoming-events",
+            "text": "",
+            "title": "PipelineIO Upcoming Events"
+        },
+        {
+            "location": "/events/#meetups",
+            "text": "PipelineIO is the organizer and sponsor for the series of  Advanced Spark and TensorFlow Meetups  with 20,000+ members throughout the world including the following cites:   San Francisco  Chicago  New York  Washington DC  London  Berlin  Toronto  Warsaw  Beijing  Chennai  Bangalore  Dubai   In 2016 alone, we hosted 60+ free meetup community events throughout the world.    While this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.",
+            "title": "Meetups"
+        },
+        {
+            "location": "/events/#videos-and-slides",
+            "text": "",
+            "title": "Videos and Slides"
+        },
+        {
+            "location": "/events/#videos",
+            "text": "*  Optimize and Deploy Distributed TensorFlow, Spark, and Scikit-Learn Models \n*  Continuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017) \n*  Recent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)",
+            "title": "Videos"
+        },
+        {
+            "location": "/events/#slides",
+            "text": "",
+            "title": "Slides"
+        },
+        {
+            "location": "/events/#workshops",
+            "text": "",
+            "title": "Workshops"
+        },
+        {
+            "location": "/events/#suggest-an-edit",
+            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
+            "title": "Suggest an Edit"
+        },
+        {
+            "location": "/training/",
+            "text": "PipelineIO Training\n\u00b6\n\n\nCommunity Edition\n\u00b6\n\n\n\n\nGlobal \nEvents\n and \nWorkshops\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nProfessional Edition\n\u00b6\n\n\n\n\n4 Hours of Custom Online Training\n\n\nEligible for JumpStart Program\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\nEnterprise Edition\n\u00b6\n\n\n\n\n16 Hours of Custom Online Training\n\n\nEligible for JumpStart Program\n\n\n\n\nContact \nsales@pipeline.io\n for more information.",
+            "title": "Training"
+        },
+        {
+            "location": "/training/#pipelineio-training",
+            "text": "",
+            "title": "PipelineIO Training"
+        },
+        {
+            "location": "/training/#community-edition",
+            "text": "Global  Events  and  Workshops   Click  here  to signup and start deploying models!",
+            "title": "Community Edition"
+        },
+        {
+            "location": "/training/#professional-edition",
+            "text": "4 Hours of Custom Online Training  Eligible for JumpStart Program   Contact  sales@pipeline.io  for more information.",
+            "title": "Professional Edition"
+        },
+        {
+            "location": "/training/#enterprise-edition",
+            "text": "16 Hours of Custom Online Training  Eligible for JumpStart Program   Contact  sales@pipeline.io  for more information.",
+            "title": "Enterprise Edition"
+        },
+        {
             "location": "/model_monitor/",
-            "text": "Monitor Model\n\u00b6\n\n\nMetrics, dashboards, and visualizations are native to PipelineIO.  \n\n\nWe believe that you should have full insight into everything deployed to production.\n\n\nPipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.\n\n\nIn addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.\n\n\nExample Dashboards\n\u00b6\n\n\nLatency\n\u00b6\n\n\nHigher latency may lead to an unhealthy model server if left unbounded.\n\n\nHealth\n\u00b6\n\n\nUnhealthy or latent services may open a \ncircuit\n.  This causes the circuit to return a degraded, fallback response.\n\n\n\n\nMemory Usage\n\u00b6\n\n\nHigher memory usage beyond physical container or node limits may degrade performance.\n\n\nGPU Utilization\n\u00b6\n\n\nHigher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.\n\n\nRequest Batch Size\n\u00b6\n\n\nLarger batch sizes usually provide higher throughput.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "Dashboards and Visualizations\n\u00b6\n\n\nMetrics, dashboards, and visualizations are native to PipelineIO.  \n\n\nWe believe that you should have full insight into everything deployed to production.\n\n\nPipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.\n\n\nIn addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.\n\n\nExample Dashboards\n\u00b6\n\n\nLatency\n\u00b6\n\n\nHigher latency may lead to an unhealthy model server if left unbounded.\n\n\nHealth\n\u00b6\n\n\nUnhealthy or latent services may open a \ncircuit\n.  This causes the circuit to return a degraded, fallback response.\n\n\n\n\nMemory Usage\n\u00b6\n\n\nHigher memory usage beyond physical container or node limits may degrade performance.\n\n\nGPU Utilization\n\u00b6\n\n\nHigher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.\n\n\nRequest Batch Size\n\u00b6\n\n\nLarger batch sizes usually provide higher throughput.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Dashboards and Visualizations"
         },
         {
-            "location": "/model_monitor/#monitor-model",
+            "location": "/model_monitor/#dashboards-and-visualizations",
             "text": "Metrics, dashboards, and visualizations are native to PipelineIO.    We believe that you should have full insight into everything deployed to production.  PipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.  In addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.",
-            "title": "Monitor Model"
+            "title": "Dashboards and Visualizations"
         },
         {
             "location": "/model_monitor/#example-dashboards",
@@ -311,59 +406,34 @@
             "title": "Suggest an Edit"
         },
         {
-            "location": "/support/",
-            "text": "PipelineIO Support\n\u00b6\n\n\nPipelineIO Community Edition\n\u00b6\n\n\n\n\nLimited Support through \nSupport Forums\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nPipelineIO Professional Edition\n\u00b6\n\n\n\n\n24x7 Global Support\n\n\n24 hour Response SLA\n\n\nSupport Forums\n\n\nEmail\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\nPipelineIO Enterprise Edition\n\u00b6\n\n\n\n\n24x7 Global Support\n\n\n2 hour Response SLA\n\n\nSupport Forums\n\n\nEmail\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "24x7 Support"
+            "location": "/gpu/",
+            "text": "GPUs\n\u00b6\n\n\nPipelineIO supports GPUs natively throughout the entire platform.\n\n\n\n\nHere are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate PipelineIO's support for GPUs.\n\n\nDocker Images\n\u00b6\n\n\nAWS GPU + Tensorflow + Spark + HDFS + Docker\n\n\nGoogle Cloud GPU + Tensorflow + Spark + HDFS + Docker\n\n\nConference and Meetup Talks\n\u00b6\n\n\nGPU Tech Conference - San Jose - May 2017 (Slides)\n\n\nPyData London - May 2017 (Video)\n\n\nEverything GPU-related in our GitHub Repo!\n\u00b6\n\n\ngpu.ml\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "GPUs and Performance"
         },
         {
-            "location": "/support/#pipelineio-support",
-            "text": "",
-            "title": "PipelineIO Support"
+            "location": "/gpu/#gpus",
+            "text": "PipelineIO supports GPUs natively throughout the entire platform.   Here are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate PipelineIO's support for GPUs.",
+            "title": "GPUs"
         },
         {
-            "location": "/support/#pipelineio-community-edition",
-            "text": "Limited Support through  Support Forums   Click  here  to signup and start deploying models!",
-            "title": "PipelineIO Community Edition"
+            "location": "/gpu/#docker-images",
+            "text": "AWS GPU + Tensorflow + Spark + HDFS + Docker  Google Cloud GPU + Tensorflow + Spark + HDFS + Docker",
+            "title": "Docker Images"
         },
         {
-            "location": "/support/#pipelineio-professional-edition",
-            "text": "24x7 Global Support  24 hour Response SLA  Support Forums  Email   Contact  sales@pipeline.io  for more information.",
-            "title": "PipelineIO Professional Edition"
+            "location": "/gpu/#conference-and-meetup-talks",
+            "text": "GPU Tech Conference - San Jose - May 2017 (Slides)  PyData London - May 2017 (Video)",
+            "title": "Conference and Meetup Talks"
         },
         {
-            "location": "/support/#pipelineio-enterprise-edition",
-            "text": "24x7 Global Support  2 hour Response SLA  Support Forums  Email   Contact  sales@pipeline.io  for more information.",
-            "title": "PipelineIO Enterprise Edition"
+            "location": "/gpu/#everything-gpu-related-in-our-github-repo",
+            "text": "gpu.ml",
+            "title": "Everything GPU-related in our GitHub Repo!"
         },
         {
-            "location": "/support/#suggest-an-edit",
+            "location": "/gpu/#suggest-an-edit",
             "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
             "title": "Suggest an Edit"
-        },
-        {
-            "location": "/training/",
-            "text": "PipelineIO Training\n\u00b6\n\n\nCommunity Edition\n\u00b6\n\n\n\n\nGlobal \nEvents\n and \nWorkshops\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nProfessional Edition\n\u00b6\n\n\n\n\n4 Hours of Custom Online Training\n\n\nEligible for JumpStart Program\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\nEnterprise Edition\n\u00b6\n\n\n\n\n16 Hours of Custom Online Training\n\n\nEligible for JumpStart Program\n\n\n\n\nContact \nsales@pipeline.io\n for more information.",
-            "title": "Training"
-        },
-        {
-            "location": "/training/#pipelineio-training",
-            "text": "",
-            "title": "PipelineIO Training"
-        },
-        {
-            "location": "/training/#community-edition",
-            "text": "Global  Events  and  Workshops   Click  here  to signup and start deploying models!",
-            "title": "Community Edition"
-        },
-        {
-            "location": "/training/#professional-edition",
-            "text": "4 Hours of Custom Online Training  Eligible for JumpStart Program   Contact  sales@pipeline.io  for more information.",
-            "title": "Professional Edition"
-        },
-        {
-            "location": "/training/#enterprise-edition",
-            "text": "16 Hours of Custom Online Training  Eligible for JumpStart Program   Contact  sales@pipeline.io  for more information.",
-            "title": "Enterprise Edition"
         },
         {
             "location": "/api/",
@@ -422,76 +492,6 @@
         },
         {
             "location": "/api/#suggest-an-edit",
-            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
-            "title": "Suggest an Edit"
-        },
-        {
-            "location": "/gpu/",
-            "text": "GPUs\n\u00b6\n\n\nPipelineIO supports GPUs natively throughout the entire platform.\n\n\n\n\nHere are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate PipelineIO's support for GPUs.\n\n\nDocker Images\n\u00b6\n\n\nAWS GPU + Tensorflow + Spark + HDFS + Docker\n\n\nGoogle Cloud GPU + Tensorflow + Spark + HDFS + Docker\n\n\nConference and Meetup Talks\n\u00b6\n\n\nGPU Tech Conference - San Jose - May 2017 (Slides)\n\n\nPyData London - May 2017 (Video)\n\n\nEverything GPU-related in our GitHub Repo!\n\u00b6\n\n\ngpu.ml\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "GPUs"
-        },
-        {
-            "location": "/gpu/#gpus",
-            "text": "PipelineIO supports GPUs natively throughout the entire platform.   Here are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate PipelineIO's support for GPUs.",
-            "title": "GPUs"
-        },
-        {
-            "location": "/gpu/#docker-images",
-            "text": "AWS GPU + Tensorflow + Spark + HDFS + Docker  Google Cloud GPU + Tensorflow + Spark + HDFS + Docker",
-            "title": "Docker Images"
-        },
-        {
-            "location": "/gpu/#conference-and-meetup-talks",
-            "text": "GPU Tech Conference - San Jose - May 2017 (Slides)  PyData London - May 2017 (Video)",
-            "title": "Conference and Meetup Talks"
-        },
-        {
-            "location": "/gpu/#everything-gpu-related-in-our-github-repo",
-            "text": "gpu.ml",
-            "title": "Everything GPU-related in our GitHub Repo!"
-        },
-        {
-            "location": "/gpu/#suggest-an-edit",
-            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
-            "title": "Suggest an Edit"
-        },
-        {
-            "location": "/events/",
-            "text": "PipelineIO Upcoming Events\n\u00b6\n\n\nMeetups\n\u00b6\n\n\n\n\nPipelineIO is the organizer and sponsor for the series of \nAdvanced Spark and TensorFlow Meetups\n with 20,000+ members throughout the world including the following cites:\n\n\n\n\nSan Francisco\n\n\nChicago\n\n\nNew York\n\n\nWashington DC\n\n\nLondon\n\n\nBerlin\n\n\nToronto\n\n\nWarsaw\n\n\nBeijing\n\n\nChennai\n\n\nBangalore\n\n\nDubai\n\n\n\n\nIn 2016 alone, we hosted 60+ free meetup community events throughout the world.  \n\n\nWhile this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.\n\n\nVideos and Slides\n\u00b6\n\n\nVideos\n\u00b6\n\n\n\n* \nOptimize and Deploy Distributed TensorFlow, Spark, and Scikit-Learn Models\n\n* \nContinuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017)\n\n* \nRecent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)\n\n\nSlides\n\u00b6\n\n\n\n\nWorkshops\n\u00b6\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
-            "title": "Global Events"
-        },
-        {
-            "location": "/events/#pipelineio-upcoming-events",
-            "text": "",
-            "title": "PipelineIO Upcoming Events"
-        },
-        {
-            "location": "/events/#meetups",
-            "text": "PipelineIO is the organizer and sponsor for the series of  Advanced Spark and TensorFlow Meetups  with 20,000+ members throughout the world including the following cites:   San Francisco  Chicago  New York  Washington DC  London  Berlin  Toronto  Warsaw  Beijing  Chennai  Bangalore  Dubai   In 2016 alone, we hosted 60+ free meetup community events throughout the world.    While this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.",
-            "title": "Meetups"
-        },
-        {
-            "location": "/events/#videos-and-slides",
-            "text": "",
-            "title": "Videos and Slides"
-        },
-        {
-            "location": "/events/#videos",
-            "text": "*  Optimize and Deploy Distributed TensorFlow, Spark, and Scikit-Learn Models \n*  Continuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017) \n*  Recent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)",
-            "title": "Videos"
-        },
-        {
-            "location": "/events/#slides",
-            "text": "",
-            "title": "Slides"
-        },
-        {
-            "location": "/events/#workshops",
-            "text": "",
-            "title": "Workshops"
-        },
-        {
-            "location": "/events/#suggest-an-edit",
             "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
             "title": "Suggest an Edit"
         },
