@@ -497,13 +497,13 @@
         },
         {
             "location": "/open_source/",
-            "text": "PipelineIO \nCommunity Edition\n is \nOpen Source\n!\n\u00b6\n\n\nPipelineIO builds upon many great open source projects including Jupyter, Zeppelin, Spark, TensorFlow, ElasticSearch, Kafka, Docker, Kubernetes, Prometheus, etc.\n\n\n \n\n\n \n\n\n \n\n\n\n\n \n\n\n \n\n\n\n\nGitHub\n\u00b6\n\n\nPipelineIO\n and the extended PipelineIO global \ncommunity\n are 100% dedicated to open source development.\n\n\n\n\nDockerHub\n\u00b6\n\n\nWe openly develop in \nGitHub\n and use \nDockerHub\n for our Docker images.\n\n\n\n\nBecome a \nCommitter\n to PipelineIO!\n\u00b6\n\n\nMany of our employees, contributors, and community members are active committers and contributors to such popular open source projects as...\n\n\n\n\nApache Spark\n\n\nKafka\n\n\nNiFi\n\n\nCassandra\n\n\nArrow\n\n\nAirflow\n\n\nPresto\n\n\nTensorFlow\n\n\nKubernetes\n\n\nElasticsearch\n\n\nScikit-Learn\n\n\nR\n\n\nXgboost\n\n\nPMML\n\n\nHadoop\n\n\nMahout\n\n\nStorm\n\n\nCascading\n\n\nHive\n\n\nScala\n\n\nSbt\n\n\nMaven\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "PipelineIO is \nOpen Source\n!\n\u00b6\n\n\nPipelineIO builds upon many great open source projects including Jupyter, Zeppelin, Spark, TensorFlow, ElasticSearch, Kafka, Docker, Kubernetes, Prometheus, etc.\n\n\n \n\n\n \n\n\n \n\n\n\n\n \n\n\n \n\n\n\n\nGitHub\n\u00b6\n\n\nPipelineIO\n and the extended PipelineIO global \ncommunity\n are 100% dedicated to open source development.\n\n\n\n\nDockerHub\n\u00b6\n\n\nWe openly develop in \nGitHub\n and use \nDockerHub\n for our Docker images.\n\n\n\n\nBecome a \nCommitter\n to PipelineIO!\n\u00b6\n\n\nMany of our employees, contributors, and community members are active committers and contributors to such popular open source projects as...\n\n\n\n\nApache Spark\n\n\nKafka\n\n\nNiFi\n\n\nCassandra\n\n\nArrow\n\n\nAirflow\n\n\nPresto\n\n\nTensorFlow\n\n\nKubernetes\n\n\nElasticsearch\n\n\nScikit-Learn\n\n\nR\n\n\nXgboost\n\n\nPMML\n\n\nHadoop\n\n\nMahout\n\n\nStorm\n\n\nCascading\n\n\nHive\n\n\nScala\n\n\nSbt\n\n\nMaven\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Open Source Development"
         },
         {
-            "location": "/open_source/#pipelineio-community-edition-is-open-source",
+            "location": "/open_source/#pipelineio-is-open-source",
             "text": "PipelineIO builds upon many great open source projects including Jupyter, Zeppelin, Spark, TensorFlow, ElasticSearch, Kafka, Docker, Kubernetes, Prometheus, etc.",
-            "title": "PipelineIO Community Edition is Open Source!"
+            "title": "PipelineIO is Open Source!"
         },
         {
             "location": "/open_source/#github",
