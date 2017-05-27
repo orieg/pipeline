@@ -347,7 +347,7 @@
         },
         {
             "location": "/training/",
-            "text": "PipelineIO Training\n\u00b6\n\n\nTraining Levels\n\u00b6\n\n\nCommunity Edition\n\u00b6\n\n\nGlobal \nEvents\n and \nWorkshops\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nProfessional Edition\n\u00b6\n\n\n4 Hours of Custom Online Training\n\n\nEligible for JumpStart Program\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\nEnterprise Edition\n\u00b6\n\n\n16 Hours of Custom Online Training\n\n\nEligible for JumpStart Program\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "PipelineIO Training\n\u00b6\n\n\nProduct\n\u00b6\n\n\nCommunity Edition\n\u00b6\n\n\nGlobal \nEvents\n and \nWorkshops\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nProfessional Edition\n\u00b6\n\n\n4 Hours of Custom Online Training\n\n\nEligible for JumpStart Program\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\nEnterprise Edition\n\u00b6\n\n\n16 Hours of Custom Online Training\n\n\nEligible for JumpStart Program\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Training"
         },
         {
@@ -356,9 +356,9 @@
             "title": "PipelineIO Training"
         },
         {
-            "location": "/training/#training-levels",
+            "location": "/training/#product",
             "text": "",
-            "title": "Training Levels"
+            "title": "Product"
         },
         {
             "location": "/training/#community-edition",
