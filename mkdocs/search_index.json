@@ -437,7 +437,7 @@
         },
         {
             "location": "/gpu/",
-            "text": "GPUs\n\u00b6\n\n\nPipelineIO supports GPUs natively throughout the entire platform.\n\n\n\n\nHere are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate PipelineIO's support for GPUs.\n\n\nGitHub Repo\n\u00b6\n\n\nfluxcapacitor/pipeline/gpu.ml\n\n\nDocker Images\n\u00b6\n\n\nAWS GPU + Tensorflow + Spark + HDFS + Docker\n\n\nGoogle Cloud GPU + Tensorflow + Spark + HDFS + Docker\n\n\nRecent Conferences and Meetups (\nVideos and Slides\n\u00b6\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "GPUs\n\u00b6\n\n\nPipelineIO supports GPUs natively throughout the entire platform.\n\n\n\n\nHere are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate PipelineIO's support for GPUs.\n\n\nGitHub\n Repo\n\u00b6\n\n\nfluxcapacitor/pipeline/gpu.ml\n\n\nDocker\n Images\n\u00b6\n\n\nAWS GPU + Tensorflow + Spark + HDFS + Docker\n\n\nGoogle Cloud GPU + Tensorflow + Spark + HDFS + Docker\n\n\nRecent Conferences and Meetups\n\u00b6\n\n\nVideos and Slides\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "GPUs and Performance"
         },
         {
@@ -456,9 +456,9 @@
             "title": "Docker Images"
         },
         {
-            "location": "/gpu/#recent-conferences-and-meetups-videos-and-slides",
-            "text": "",
-            "title": "Recent Conferences and Meetups (Videos and Slides"
+            "location": "/gpu/#recent-conferences-and-meetups",
+            "text": "Videos and Slides",
+            "title": "Recent Conferences and Meetups"
         },
         {
             "location": "/gpu/#suggest-an-edit",
