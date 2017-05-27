@@ -307,13 +307,13 @@
         },
         {
             "location": "/events/",
-            "text": "PipelineIO Upcoming Events\n\u00b6\n\n\nMeetups\n\u00b6\n\n\n\n\nPipelineIO is the organizer and sponsor for the series of \nAdvanced Spark and TensorFlow Meetups\n with 20,000+ members throughout the world including the following cites:\n\n\n\n\nSan Francisco\n\n\nChicago\n\n\nNew York\n\n\nWashington DC\n\n\nLondon\n\n\nBerlin\n\n\nToronto\n\n\nWarsaw\n\n\nBeijing\n\n\nChennai\n\n\nBangalore\n\n\nDubai\n\n\n\n\nIn 2016 alone, we hosted 60+ free meetup community events throughout the world.  \n\n\nWhile this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.\n\n\nVideos and Slides\n\u00b6\n\n\nVideos\n\u00b6\n\n\n\n\nRecent Videos\n\n\nDeploying High Performance TensorFlow in Production with GPUs - PyData London - May 2017 (Video)\n\n\nOptimize and Deploy Distributed TensorFlow, Spark, and Scikit-Learn Models\n\n\nContinuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017)\n\n\nRecent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)\n\n\nSlides\n\u00b6\n\n\n\n\nRecent Slides\n\n\n\n\nDeploying High Performance TensorFlow in Production with GPUs - Strata London - May 24, 2017\n\n\n\n\nHigh Performance TensorFlow + GPUs - GPU Tech Conference - San Jose, May 2017 (Slides)\n\n\nWorkshops\n\u00b6\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "PipelineIO Events\n\u00b6\n\n\nMeetups\n\u00b6\n\n\n\n\nPipelineIO is the organizer and sponsor for the series of \nAdvanced Spark and TensorFlow Meetups\n with 20,000+ members throughout the world including the following cites:\n\n\n\n\nSan Francisco\n\n\nChicago\n\n\nNew York\n\n\nWashington DC\n\n\nLondon\n\n\nBerlin\n\n\nToronto\n\n\nWarsaw\n\n\nBeijing\n\n\nChennai\n\n\nBangalore\n\n\nDubai\n\n\n\n\nIn 2016 alone, we hosted 60+ free meetup community events throughout the world.  \n\n\nWhile this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.\n\n\nVideos\n\u00b6\n\n\n\n\nDeploying High Performance TensorFlow in Production with GPUs - PyData London - May 2017 (Video)\n\n\nOptimize and Deploy Distributed TensorFlow, Spark, and Scikit-Learn Models\n\n\nContinuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017)\n\n\nRecent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)\n\n\nSlides\n\u00b6\n\n\n\n\nDeploying High Performance TensorFlow in Production with GPUs - Strata London - May 24, 2017\n\n\nHigh Performance TensorFlow + GPUs - GPU Tech Conference - San Jose, May 2017 (Slides)\n\n\nWorkshops\n\u00b6\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Upcoming Events"
         },
         {
-            "location": "/events/#pipelineio-upcoming-events",
+            "location": "/events/#pipelineio-events",
             "text": "",
-            "title": "PipelineIO Upcoming Events"
+            "title": "PipelineIO Events"
         },
         {
             "location": "/events/#meetups",
@@ -321,18 +321,13 @@
             "title": "Meetups"
         },
         {
-            "location": "/events/#videos-and-slides",
-            "text": "",
-            "title": "Videos and Slides"
-        },
-        {
             "location": "/events/#videos",
-            "text": "Recent Videos  Deploying High Performance TensorFlow in Production with GPUs - PyData London - May 2017 (Video)  Optimize and Deploy Distributed TensorFlow, Spark, and Scikit-Learn Models  Continuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017)  Recent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)",
+            "text": "Deploying High Performance TensorFlow in Production with GPUs - PyData London - May 2017 (Video)  Optimize and Deploy Distributed TensorFlow, Spark, and Scikit-Learn Models  Continuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017)  Recent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)",
             "title": "Videos"
         },
         {
             "location": "/events/#slides",
-            "text": "Recent Slides   Deploying High Performance TensorFlow in Production with GPUs - Strata London - May 24, 2017   High Performance TensorFlow + GPUs - GPU Tech Conference - San Jose, May 2017 (Slides)",
+            "text": "Deploying High Performance TensorFlow in Production with GPUs - Strata London - May 24, 2017  High Performance TensorFlow + GPUs - GPU Tech Conference - San Jose, May 2017 (Slides)",
             "title": "Slides"
         },
         {
