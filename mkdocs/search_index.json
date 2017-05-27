@@ -637,7 +637,7 @@
         },
         {
             "location": "/install/",
-            "text": "Install PipelineIO in Your Environment\n\u00b6\n\n\nWhile we recommend the hosted \nPipelineIO Community Edition\n when evaluating PipelineIO, we provide installation instructions below to setup PipelineIO in your own cloud-based or on-premise environment.\n\n\nNote:  Support is limited for this offering, but we would love your feedback, bug reports, and feature requests \nhere\n. \n\n\nSetup Standalone PipelineIO\n\u00b6\n\n\nThe standalone PipelineIO Community Edition uses a single Docker image that can run in any CPU and GPU-based environment that supports \nDocker\n for CPUs or \nNvidia-Docker\n for GPUs.\n\n\n\n\n\n\nAWS GPU\n\u00b6\n\n\nStandalone Docker Image + PipelineIO Community Edition for AWS GPU Instance\n\n\nGoogle GPU\n\u00b6\n\n\nStandalone Docker Image + PipelineIO Community Edition for Google GPU Instance\n\n\nSetup Clustered PipelineIO\n\u00b6\n\n\nPipelineIO uses Kubernetes for Docker Container management and orchestration.\n\n\n\n\n\n\n\n\n\n\nLocal\n\u00b6\n\n\nLocal, Mini Kubernetes Cluster + PipelineIO Community on Local Laptop or Low-Memory Server\n\n\nAWS\n\u00b6\n\n\nFull Kubernetes Cluster + PipelineIO Community on AWS.  \n\n\nThis requires large AWS instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.\n\n\n\n\nGoogle Cloud\n\u00b6\n\n\nFull Kubernetes Cluster + PipelineIO Community on Google Cloud\n\n\nThis requires large Google Cloud instance types with at least 52 GB RAM, 8 CPUs, 100 GB Disk.\n\n\n\n\nAzure\n\u00b6\n\n\nFull Kubernetes Cluster + PipelineIO Community Edition on Azure\n\n\nThis requires large Google Cloud instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "Install PipelineIO in Your Environment\n\u00b6\n\n\nWhile we recommend the hosted \nPipelineIO Community Edition\n when evaluating PipelineIO, we provide installation instructions below to setup PipelineIO in your own cloud-based or on-premise environment.\n\n\nNote:  Support is limited for this offering, but we would love your feedback, bug reports, and feature requests \nhere\n. \n\n\nStandalone PipelineIO\n\u00b6\n\n\n\n\n\n\nThe standalone PipelineIO Community Edition uses a single Docker image that can run in any CPU and GPU-based environment that supports \nDocker\n for CPUs or \nNvidia-Docker\n for GPUs.\n\n\nAWS GPU\n\u00b6\n\n\nStandalone Docker Image + PipelineIO Community Edition for AWS GPU Instance\n\n\nGoogle GPU\n\u00b6\n\n\nStandalone Docker Image + PipelineIO Community Edition for Google GPU Instance\n\n\nClustered PipelineIO\n\u00b6\n\n\nPipelineIO uses Kubernetes for Docker Container management and orchestration.\n\n\n\n\n\n\n\n\n\n\nLocal\n\u00b6\n\n\nLocal, Mini Kubernetes Cluster + PipelineIO Community on Local Laptop or Low-Memory Server\n\n\nAWS\n\u00b6\n\n\n\n\nFull Kubernetes Cluster + PipelineIO Community on AWS.  \n\n\nThis requires large AWS instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.\n\n\nGoogle Cloud\n\u00b6\n\n\n\n\nFull Kubernetes Cluster + PipelineIO Community on Google Cloud\n\n\nThis requires large Google Cloud instance types with at least 52 GB RAM, 8 CPUs, 100 GB Disk.\n\n\nAzure\n\u00b6\n\n\n\n\nFull Kubernetes Cluster + PipelineIO Community Edition on Azure\n\n\nThis requires large Google Cloud instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Install PipelineIO"
         },
         {
@@ -646,9 +646,9 @@
             "title": "Install PipelineIO in Your Environment"
         },
         {
-            "location": "/install/#setup-standalone-pipelineio",
+            "location": "/install/#standalone-pipelineio",
             "text": "The standalone PipelineIO Community Edition uses a single Docker image that can run in any CPU and GPU-based environment that supports  Docker  for CPUs or  Nvidia-Docker  for GPUs.",
-            "title": "Setup Standalone PipelineIO"
+            "title": "Standalone PipelineIO"
         },
         {
             "location": "/install/#aws-gpu",
@@ -661,9 +661,9 @@
             "title": "Google GPU"
         },
         {
-            "location": "/install/#setup-clustered-pipelineio",
+            "location": "/install/#clustered-pipelineio",
             "text": "PipelineIO uses Kubernetes for Docker Container management and orchestration.",
-            "title": "Setup Clustered PipelineIO"
+            "title": "Clustered PipelineIO"
         },
         {
             "location": "/install/#local",
