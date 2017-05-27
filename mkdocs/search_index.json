@@ -527,7 +527,7 @@
         },
         {
             "location": "/open_source/",
-            "text": "PipelineIO is \nOpen Source\n!\n\u00b6\n\n\nPipelineIO builds upon many great open source projects including Jupyter, Zeppelin, Spark, TensorFlow, ElasticSearch, Kafka, Docker, Kubernetes, Prometheus, etc.\n\n\n \n\n\n \n\n\n \n\n\n\n\n \n\n\n \n\n\n\n\nGitHub\n\u00b6\n\n\nPipelineIO\n and the extended PipelineIO global \ncommunity\n are 100% dedicated to open source development.\n\n\n\n\nDockerHub\n\u00b6\n\n\nWe openly develop in \nGitHub\n and use \nDockerHub\n for our Docker images.\n\n\n\n\nBecome a \nCommitter\n!\n\u00b6\n\n\nMany of our employees, contributors, and community members are active committers and contributors to such popular open source projects as...\n\n\n\n\nApache Spark\n\n\nKafka\n\n\nNiFi\n\n\nCassandra\n\n\nArrow\n\n\nAirflow\n\n\nPresto\n\n\nTensorFlow\n\n\nKubernetes\n\n\nElasticsearch\n\n\nScikit-Learn\n\n\nR\n\n\nXgboost\n\n\nPMML\n\n\nHadoop\n\n\nMahout\n\n\nStorm\n\n\nCascading\n\n\nHive\n\n\nScala\n\n\nSbt\n\n\nMaven\n\n\n\n\nInstall \nPipelineIO\n\u00b6\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "PipelineIO is \nOpen Source\n!\n\u00b6\n\n\nPipelineIO builds upon many great open source projects including Jupyter, Zeppelin, Spark, TensorFlow, ElasticSearch, Kafka, Docker, Kubernetes, Prometheus, etc.\n\n\n \n\n\n \n\n\n \n\n\n\n\n \n\n\n \n\n\n\n\nGitHub\n\u00b6\n\n\nPipelineIO\n and the extended PipelineIO global \ncommunity\n are 100% dedicated to open source development.\n\n\n\n\nDockerHub\n\u00b6\n\n\nWe openly develop in \nGitHub\n and use \nDockerHub\n for our Docker images.\n\n\n\n\nContribute\n and Become a Committer!\n\u00b6\n\n\nMany of our employees, contributors, and community members are active committers and contributors to such popular open source projects as...\n\n\n\n\nApache Spark\n\n\nKafka\n\n\nNiFi\n\n\nCassandra\n\n\nArrow\n\n\nAirflow\n\n\nPresto\n\n\nTensorFlow\n\n\nKubernetes\n\n\nElasticsearch\n\n\nScikit-Learn\n\n\nR\n\n\nXgboost\n\n\nPMML\n\n\nHadoop\n\n\nMahout\n\n\nStorm\n\n\nCascading\n\n\nHive\n\n\nScala\n\n\nSbt\n\n\nMaven\n\n\n\n\nPipelineIO \nInstallation\n\u00b6\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Open Source"
         },
         {
@@ -546,17 +546,157 @@
             "title": "DockerHub"
         },
         {
-            "location": "/open_source/#become-a-committer",
+            "location": "/open_source/#contribute-and-become-a-committer",
             "text": "Many of our employees, contributors, and community members are active committers and contributors to such popular open source projects as...   Apache Spark  Kafka  NiFi  Cassandra  Arrow  Airflow  Presto  TensorFlow  Kubernetes  Elasticsearch  Scikit-Learn  R  Xgboost  PMML  Hadoop  Mahout  Storm  Cascading  Hive  Scala  Sbt  Maven",
-            "title": "Become a Committer!"
+            "title": "Contribute and Become a Committer!"
         },
         {
-            "location": "/open_source/#install-pipelineio",
+            "location": "/open_source/#pipelineio-installation",
             "text": "",
-            "title": "Install PipelineIO"
+            "title": "PipelineIO Installation"
         },
         {
             "location": "/open_source/#suggest-an-edit",
+            "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
+            "title": "Suggest an Edit"
+        },
+        {
+            "location": "/contribute/",
+            "text": "Contribute to PipelineIO\n\u00b6\n\n\nWant to join the PipelineIO Community?  \n\n\nWe will gladly accept pull requests for implementations of popular ML/AI models, fast prediction runtimes, and flexible experimentation frameworks.\n\n\nThe active list of outstanding PipelineIO issues and feature requests are \nhere\n.\n\n\nCreate a Pull Request\n\u00b6\n\n\nCreate a Branch for Your Changes\n\u00b6\n\n\ngit branch <branch-name>\n\n\n\n\nVerify New Branch is Created\n\u00b6\n\n\ngit branch\n\n### EXPECTED OUTPUT ###\n* master   <-- this is current branch\n  <branch-name>\n\n\n\n\nSwitch to Your New Branch\n\u00b6\n\n\ngit checkout <branch-name>\n\n### EXPECTED OUTPUT ###\nSwitched to branch '<branch-name>'\n\n\n\n\nVerify That You're on the Branch\n\u00b6\n\n\ngit branch\n  master\n* <branch-name> <-- you are now on the new branch\n\n\n\n\nMake Your Branch Changes\n\u00b6\n\n\n...\n\n\n\n\nVerify Branch Changes\n\u00b6\n\n\ngit status\n\n\n\n\nPrepare (Add) Your Branch Changes for Commit\n\u00b6\n\n\ngit add ...\n\n\n\n\nCommit Your Branch Changes Locally\n\u00b6\n\n\ngit commit -m \"<descriptive-message>\"\n\n\n\n\nPush Your Branch Changes Remotely\n\u00b6\n\n\ngit push -u origin <branch-name>\n\n### EXPECTED OUTPUT ###\n# Counting objects: 8, done.\n# Delta compression using up to 8 threads.\n# Compressing objects: 100% (6/6), done.\n# Writing objects: 100% (8/8), 684 bytes | 0 bytes/s, done.\n# Total 8 (delta 2), reused 0 (delta 0)\n# remote: Resolving deltas: 100% (2/2), completed with 1 local objects.\n# To github.com:fluxcapacitor/pipeline.git\n# * [new branch]      <branch-name> -> <branch-name>\n#Branch <branch-name> set up to track remote branch <branch-name> from origin.\n\n\nNote:  If you see an error related to \nPermission denied (publickey)\n or \nPlease make sure you have the correct access rights\n, follow the steps detailed \nhere\n.\n\n\nSubmit a Pull Request with Github Server UI\n\u00b6\n\n\n\n\nCompare your \n<branch-name>\n to the \nmaster\n branch on Github Server\n\n\n\n\nFix the Pull Request if Needed based on Comments\n\u00b6\n\n\nWait for Committer to Merge Pull Request (within Github UI)\n\u00b6\n\n\nDelete the Branch (from both Local and Remote Github)\n\u00b6\n\n\nGo back to \nmaster\n branch\n\ngit checkout master\n\n\n\nDelete Remote Branch\n\ngit push origin --delete <branch-name>\n\n\n\nDelete Local Branch\n\ngit branch -d <branch-name>\n\n\n\nLicense and Public Datasetse\n\u00b6\n\n\n\n\nYour work should be open source under a liberal license (ie. Apache2, MIT)\n\n\nYou should use publicly-available training and validation datasets so that others can easily replicate your work.",
+            "title": "Contribute to PipelineIO"
+        },
+        {
+            "location": "/contribute/#contribute-to-pipelineio",
+            "text": "Want to join the PipelineIO Community?    We will gladly accept pull requests for implementations of popular ML/AI models, fast prediction runtimes, and flexible experimentation frameworks.  The active list of outstanding PipelineIO issues and feature requests are  here .",
+            "title": "Contribute to PipelineIO"
+        },
+        {
+            "location": "/contribute/#create-a-pull-request",
+            "text": "",
+            "title": "Create a Pull Request"
+        },
+        {
+            "location": "/contribute/#create-a-branch-for-your-changes",
+            "text": "git branch <branch-name>",
+            "title": "Create a Branch for Your Changes"
+        },
+        {
+            "location": "/contribute/#verify-new-branch-is-created",
+            "text": "git branch\n\n### EXPECTED OUTPUT ###\n* master   <-- this is current branch\n  <branch-name>",
+            "title": "Verify New Branch is Created"
+        },
+        {
+            "location": "/contribute/#switch-to-your-new-branch",
+            "text": "git checkout <branch-name>\n\n### EXPECTED OUTPUT ###\nSwitched to branch '<branch-name>'",
+            "title": "Switch to Your New Branch"
+        },
+        {
+            "location": "/contribute/#verify-that-youre-on-the-branch",
+            "text": "git branch\n  master\n* <branch-name> <-- you are now on the new branch",
+            "title": "Verify That You're on the Branch"
+        },
+        {
+            "location": "/contribute/#make-your-branch-changes",
+            "text": "...",
+            "title": "Make Your Branch Changes"
+        },
+        {
+            "location": "/contribute/#verify-branch-changes",
+            "text": "git status",
+            "title": "Verify Branch Changes"
+        },
+        {
+            "location": "/contribute/#prepare-add-your-branch-changes-for-commit",
+            "text": "git add ...",
+            "title": "Prepare (Add) Your Branch Changes for Commit"
+        },
+        {
+            "location": "/contribute/#commit-your-branch-changes-locally",
+            "text": "git commit -m \"<descriptive-message>\"",
+            "title": "Commit Your Branch Changes Locally"
+        },
+        {
+            "location": "/contribute/#push-your-branch-changes-remotely",
+            "text": "git push -u origin <branch-name>\n\n### EXPECTED OUTPUT ###\n# Counting objects: 8, done.\n# Delta compression using up to 8 threads.\n# Compressing objects: 100% (6/6), done.\n# Writing objects: 100% (8/8), 684 bytes | 0 bytes/s, done.\n# Total 8 (delta 2), reused 0 (delta 0)\n# remote: Resolving deltas: 100% (2/2), completed with 1 local objects.\n# To github.com:fluxcapacitor/pipeline.git\n# * [new branch]      <branch-name> -> <branch-name>\n#Branch <branch-name> set up to track remote branch <branch-name> from origin. \nNote:  If you see an error related to  Permission denied (publickey)  or  Please make sure you have the correct access rights , follow the steps detailed  here .",
+            "title": "Push Your Branch Changes Remotely"
+        },
+        {
+            "location": "/contribute/#submit-a-pull-request-with-github-server-ui",
+            "text": "Compare your  <branch-name>  to the  master  branch on Github Server",
+            "title": "Submit a Pull Request with Github Server UI"
+        },
+        {
+            "location": "/contribute/#fix-the-pull-request-if-needed-based-on-comments",
+            "text": "",
+            "title": "Fix the Pull Request if Needed based on Comments"
+        },
+        {
+            "location": "/contribute/#wait-for-committer-to-merge-pull-request-within-github-ui",
+            "text": "",
+            "title": "Wait for Committer to Merge Pull Request (within Github UI)"
+        },
+        {
+            "location": "/contribute/#delete-the-branch-from-both-local-and-remote-github",
+            "text": "Go back to  master  branch git checkout master  Delete Remote Branch git push origin --delete <branch-name>  Delete Local Branch git branch -d <branch-name>",
+            "title": "Delete the Branch (from both Local and Remote Github)"
+        },
+        {
+            "location": "/contribute/#license-and-public-datasetse",
+            "text": "Your work should be open source under a liberal license (ie. Apache2, MIT)  You should use publicly-available training and validation datasets so that others can easily replicate your work.",
+            "title": "License and Public Datasetse"
+        },
+        {
+            "location": "/install/",
+            "text": "Installing PipelineIO in Your Environment\n\u00b6\n\n\nWhile we recommend the hosted \nPipelineIO Community Edition\n when evaluating PipelineIO, we provide installation instructions below to setup PipelineIO in your own cloud-based or on-premise environment.\n\n\nNote:  Support is limited for this offering, but we would love your feedback, bug reports, and feature requests \nhere\n. \n\n\nSetup Standalone PipelineIO\n\u00b6\n\n\nThe standalone PipelineIO Community Edition uses a single Docker image that can run in any CPU and GPU-based environment that supports \nDocker\n for CPUs or \nNvidia-Docker\n for GPUs.\n\n\n\n\n\n\nAWS GPU\n\u00b6\n\n\nStandalone Docker Image + PipelineIO Community Edition for AWS GPU Instance\n\n\nGoogle GPU\n\u00b6\n\n\nStandalone Docker Image + PipelineIO Community Edition for Google GPU Instance\n\n\nSetup Clustered PipelineIO\n\u00b6\n\n\nPipelineIO uses Kubernetes for Docker Container management and orchestration.\n\n\n\n\n\n\n\n\n\n\nLocal\n\u00b6\n\n\nLocal, Mini Kubernetes Cluster + PipelineIO Community on Local Laptop or Low-Memory Server\n\n\nAWS\n\u00b6\n\n\nFull Kubernetes Cluster + PipelineIO Community on AWS.  \n\n\nThis requires large AWS instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.\n\n\n\n\nGoogle Cloud\n\u00b6\n\n\nFull Kubernetes Cluster + PipelineIO Community on Google Cloud\n\n\nThis requires large Google Cloud instance types with at least 52 GB RAM, 8 CPUs, 100 GB Disk.\n\n\n\n\nAzure\n\u00b6\n\n\nFull Kubernetes Cluster + PipelineIO Community Edition on Azure\n\n\nThis requires large Google Cloud instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "title": "Install PipelineIO"
+        },
+        {
+            "location": "/install/#installing-pipelineio-in-your-environment",
+            "text": "While we recommend the hosted  PipelineIO Community Edition  when evaluating PipelineIO, we provide installation instructions below to setup PipelineIO in your own cloud-based or on-premise environment.  Note:  Support is limited for this offering, but we would love your feedback, bug reports, and feature requests  here .",
+            "title": "Installing PipelineIO in Your Environment"
+        },
+        {
+            "location": "/install/#setup-standalone-pipelineio",
+            "text": "The standalone PipelineIO Community Edition uses a single Docker image that can run in any CPU and GPU-based environment that supports  Docker  for CPUs or  Nvidia-Docker  for GPUs.",
+            "title": "Setup Standalone PipelineIO"
+        },
+        {
+            "location": "/install/#aws-gpu",
+            "text": "Standalone Docker Image + PipelineIO Community Edition for AWS GPU Instance",
+            "title": "AWS GPU"
+        },
+        {
+            "location": "/install/#google-gpu",
+            "text": "Standalone Docker Image + PipelineIO Community Edition for Google GPU Instance",
+            "title": "Google GPU"
+        },
+        {
+            "location": "/install/#setup-clustered-pipelineio",
+            "text": "PipelineIO uses Kubernetes for Docker Container management and orchestration.",
+            "title": "Setup Clustered PipelineIO"
+        },
+        {
+            "location": "/install/#local",
+            "text": "Local, Mini Kubernetes Cluster + PipelineIO Community on Local Laptop or Low-Memory Server",
+            "title": "Local"
+        },
+        {
+            "location": "/install/#aws",
+            "text": "Full Kubernetes Cluster + PipelineIO Community on AWS.    This requires large AWS instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.",
+            "title": "AWS"
+        },
+        {
+            "location": "/install/#google-cloud",
+            "text": "Full Kubernetes Cluster + PipelineIO Community on Google Cloud  This requires large Google Cloud instance types with at least 52 GB RAM, 8 CPUs, 100 GB Disk.",
+            "title": "Google Cloud"
+        },
+        {
+            "location": "/install/#azure",
+            "text": "Full Kubernetes Cluster + PipelineIO Community Edition on Azure  This requires large Google Cloud instance types with at least 60 GB RAM, 8 CPUs, 100 GB Disk.",
+            "title": "Azure"
+        },
+        {
+            "location": "/install/#suggest-an-edit",
             "text": "Option 1:  Click the  Edit  icon at the top right of this page.  Option 2:  Create a  GitHub Issue .",
             "title": "Suggest an Edit"
         },

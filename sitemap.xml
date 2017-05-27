@@ -109,6 +109,22 @@
 
     
     <url>
+     <loc>http://pipeline.io/contribute/</loc>
+     <lastmod>2017-05-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://pipeline.io/install/</loc>
+     <lastmod>2017-05-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>http://pipeline.io/legal/</loc>
      <lastmod>2017-05-27</lastmod>
      <changefreq>daily</changefreq>
