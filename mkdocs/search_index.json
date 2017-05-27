@@ -272,7 +272,7 @@
         },
         {
             "location": "/support/",
-            "text": "PipelineIO 24x7 Support\n\u00b6\n\n\nProduct\n\u00b6\n\n\nCommunity Edition\n\u00b6\n\n\n\n\nLimited Support through \nSupport Forums\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nProfessional Edition\n\u00b6\n\n\n\n\n24x7 Global Support\n\n\n24 hour Response SLA\n\n\nSupport Forums\n\n\nEmail\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\nEnterprise Edition\n\u00b6\n\n\n\n\n24x7 Global Support\n\n\n2 hour Response SLA\n\n\nSupport Forums\n\n\nEmail\n\n\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "PipelineIO 24x7 Support\n\u00b6\n\n\nProduct\n\u00b6\n\n\nCommunity Edition\n\u00b6\n\n\nLimited Support through \nSupport Forums\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nProfessional Edition\n\u00b6\n\n\n24x7 Global Support\n\n\n24 hour Response SLA\n\n\nSupport Forums\n\n\nEmail\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\nEnterprise Edition\n\u00b6\n\n\n24x7 Global Support\n\n\n2 hour Response SLA\n\n\nSupport Forums\n\n\nEmail\n\n\nContact \nsales@pipeline.io\n for more information.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "24x7 Support"
         },
         {
@@ -287,17 +287,17 @@
         },
         {
             "location": "/support/#community-edition",
-            "text": "Limited Support through  Support Forums   Click  here  to signup and start deploying models!",
+            "text": "Limited Support through  Support Forums  Click  here  to signup and start deploying models!",
             "title": "Community Edition"
         },
         {
             "location": "/support/#professional-edition",
-            "text": "24x7 Global Support  24 hour Response SLA  Support Forums  Email   Contact  sales@pipeline.io  for more information.",
+            "text": "24x7 Global Support  24 hour Response SLA  Support Forums  Email  Contact  sales@pipeline.io  for more information.",
             "title": "Professional Edition"
         },
         {
             "location": "/support/#enterprise-edition",
-            "text": "24x7 Global Support  2 hour Response SLA  Support Forums  Email   Contact  sales@pipeline.io  for more information.",
+            "text": "24x7 Global Support  2 hour Response SLA  Support Forums  Email  Contact  sales@pipeline.io  for more information.",
             "title": "Enterprise Edition"
         },
         {
