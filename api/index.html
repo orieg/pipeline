@@ -415,8 +415,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#aiml-model-management" title="AI/ML Model Management" class="md-nav__link">
-    AI/ML Model Management
+  <a href="#aiml-model-deployment-and-prediction" title="AI/ML Model Deployment and Prediction" class="md-nav__link">
+    AI/ML Model Deployment and Prediction
   </a>
   
 </li>
@@ -429,8 +429,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#existing-cluster-management" title="Existing Cluster Management" class="md-nav__link">
-    Existing Cluster Management
+  <a href="#cluster-management" title="Cluster Management" class="md-nav__link">
+    Cluster Management
   </a>
   
 </li>
@@ -458,6 +458,19 @@
   <a href="#rest-api" title="REST API" class="md-nav__link">
     REST API
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aiml-model-deployment-and-prediction_1" title="AI/ML Model Deployment and Prediction" class="md-nav__link">
+    AI/ML Model Deployment and Prediction
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -575,8 +588,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#aiml-model-management" title="AI/ML Model Management" class="md-nav__link">
-    AI/ML Model Management
+  <a href="#aiml-model-deployment-and-prediction" title="AI/ML Model Deployment and Prediction" class="md-nav__link">
+    AI/ML Model Deployment and Prediction
   </a>
   
 </li>
@@ -589,8 +602,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#existing-cluster-management" title="Existing Cluster Management" class="md-nav__link">
-    Existing Cluster Management
+  <a href="#cluster-management" title="Cluster Management" class="md-nav__link">
+    Cluster Management
   </a>
   
 </li>
@@ -618,6 +631,19 @@
   <a href="#rest-api" title="REST API" class="md-nav__link">
     REST API
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aiml-model-deployment-and-prediction_1" title="AI/ML Model Deployment and Prediction" class="md-nav__link">
+    AI/ML Model Deployment and Prediction
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -688,7 +714,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="aiml-model-management">AI/ML Model Management<a class="headerlink" href="#aiml-model-management" title="Permanent link">&para;</a></h3>
+<h3 id="aiml-model-deployment-and-prediction">AI/ML Model Deployment and Prediction<a class="headerlink" href="#aiml-model-deployment-and-prediction" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
@@ -738,7 +764,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="existing-cluster-management">Existing Cluster Management<a class="headerlink" href="#existing-cluster-management" title="Permanent link">&para;</a></h3>
+<h3 id="cluster-management">Cluster Management<a class="headerlink" href="#cluster-management" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
@@ -864,7 +890,51 @@
 </tbody>
 </table>
 <h2 id="rest-api">REST API<a class="headerlink" href="#rest-api" title="Permanent link">&para;</a></h2>
-<p>Documentation Coming Soon!</p>
+<p>More Documentation Coming Soon!</p>
+<h3 id="aiml-model-deployment-and-prediction_1">AI/ML Model Deployment and Prediction<a class="headerlink" href="#aiml-model-deployment-and-prediction_1" title="Permanent link">&para;</a></h3>
+<p><strong>Deploy Model</strong>
+<div class="codehilite"><pre><span></span>import requests
+
+deploy_url = &#39;http://prediction-spark.community.pipeline.io/api/v1/model/deploy/spark/default/airbnb/v0&#39;
+
+files = {&#39;file&#39;: open(&#39;airbnb.parquet&#39;, &#39;rb&#39;)}
+
+response = requests.post(deploy_url, files=files)
+
+print(&quot;Success!\n\n%s&quot; % response.text)
+</pre></div></p>
+<p><strong>Predict with Model</strong>
+<div class="codehilite"><pre><span></span>import json
+
+data = {&quot;bathrooms&quot;:2.0, 
+        &quot;bedrooms&quot;:2.0, 
+        &quot;security_deposit&quot;:175.00, 
+        &quot;cleaning_fee&quot;:25.0, 
+        &quot;extra_people&quot;:1.0, 
+        &quot;number_of_reviews&quot;: 2.0, 
+        &quot;square_feet&quot;: 250.0, 
+        &quot;review_scores_rating&quot;: 2.0, 
+        &quot;room_type&quot;: &quot;Entire home/apt&quot;, 
+        &quot;host_is_super_host&quot;: &quot;0.0&quot;, 
+        &quot;cancellation_policy&quot;: &quot;flexible&quot;, 
+        &quot;instant_bookable&quot;: &quot;1.0&quot;, 
+        &quot;state&quot;: &quot;CA&quot; }
+
+json_data = json.dumps(data)
+
+with open(&#39;test_inputs.json&#39;, &#39;wt&#39;) as fh:
+    fh.write(json_data)
+</pre></div>
+<div class="codehilite"><pre><span></span>predict_url = &#39;http://prediction-spark.community.pipeline.io/api/v1/model/predict/spark/default/airbnb/v0&#39;
+
+headers = {&#39;content-type&#39;: &#39;application/json&#39;}
+
+response = requests.post(predict_url, 
+                         data=json_data, 
+                         headers=headers)
+
+print(&quot;Response:\n\n%s&quot; % response.text)
+</pre></div></p>
 <hr />
 <h2 id="signup-for-pipelineio-updates">Signup for PipelineIO Updates<a class="headerlink" href="#signup-for-pipelineio-updates" title="Permanent link">&para;</a></h2>
 <p><!-- Begin MailChimp Signup Form -->
