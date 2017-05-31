@@ -1,3 +1,8 @@
+md-icon md-search__icon {
+    visibility: hidden;
+}
+
 input.md-search__input {
+    visibility: hidden;
 	padding-left: 3em !important;
 }
