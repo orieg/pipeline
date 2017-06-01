@@ -757,7 +757,7 @@
         },
         {
             "location": "/contribute/",
-            "text": "Contribute to PipelineIO\n\u00b6\n\n\nWant to join the PipelineIO Community?  \n\n\nWe will gladly accept pull requests for implementations of popular ML/AI models, fast prediction runtimes, and flexible experimentation frameworks.\n\n\nThe active list of outstanding PipelineIO issues and feature requests are \nhere\n.\n\n\nCreate a Pull Request\n\u00b6\n\n\nCreate a Branch for Your Changes\n\u00b6\n\n\ngit branch <branch-name>\n\n\n\n\nVerify New Branch is Created\n\u00b6\n\n\ngit branch\n\n### EXPECTED OUTPUT ###\n* master   <-- this is current branch\n  <branch-name>\n\n\n\n\nSwitch to Your New Branch\n\u00b6\n\n\ngit checkout <branch-name>\n\n### EXPECTED OUTPUT ###\nSwitched to branch '<branch-name>'\n\n\n\n\nVerify That You're on the Branch\n\u00b6\n\n\ngit branch\n  master\n* <branch-name> <-- you are now on the new branch\n\n\n\n\nMake Your Branch Changes\n\u00b6\n\n\n...\n\n\n\n\nVerify Branch Changes\n\u00b6\n\n\ngit status\n\n\n\n\nPrepare (Add) Your Branch Changes for Commit\n\u00b6\n\n\ngit add ...\n\n\n\n\nCommit Your Branch Changes Locally\n\u00b6\n\n\ngit commit -m \"<descriptive-message>\"\n\n\n\n\nPush Your Branch Changes Remotely\n\u00b6\n\n\ngit push -u origin <branch-name>\n\n### EXPECTED OUTPUT ###\n# Counting objects: 8, done.\n# Delta compression using up to 8 threads.\n# Compressing objects: 100% (6/6), done.\n# Writing objects: 100% (8/8), 684 bytes | 0 bytes/s, done.\n# Total 8 (delta 2), reused 0 (delta 0)\n# remote: Resolving deltas: 100% (2/2), completed with 1 local objects.\n# To github.com:fluxcapacitor/pipeline.git\n# * [new branch]      <branch-name> -> <branch-name>\n#Branch <branch-name> set up to track remote branch <branch-name> from origin.\n\n\nNote:  If you see an error related to \nPermission denied (publickey)\n or \nPlease make sure you have the correct access rights\n, follow the steps detailed \nhere\n.\n\n\nSubmit a Pull Request with Github Server UI\n\u00b6\n\n\n\n\nCompare your \n<branch-name>\n to the \nmaster\n branch on Github Server\n\n\n\n\nFix the Pull Request if Needed based on Comments\n\u00b6\n\n\nWait for Committer to Merge Pull Request (within Github UI)\n\u00b6\n\n\nDelete the Branch (from both Local and Remote Github)\n\u00b6\n\n\nGo back to \nmaster\n branch\n\ngit checkout master\n\n\n\nDelete Remote Branch\n\ngit push origin --delete <branch-name>\n\n\n\nDelete Local Branch\n\ngit branch -d <branch-name>\n\n\n\nLicense and Public Datasetse\n\u00b6\n\n\n\n\nYour work should be open source under a liberal license (ie. Apache2, MIT)\n\n\nYou should use publicly-available training and validation datasets so that others can easily replicate your work.",
+            "text": "Contribute to PipelineIO\n\u00b6\n\n\nWant to join the PipelineIO Community?  \n\n\nWe will gladly accept pull requests for implementations of popular ML/AI models, fast prediction runtimes, and flexible experimentation frameworks.\n\n\nThe active list of outstanding PipelineIO issues and feature requests are \nhere\n.\n\n\nCreating a Pull Request\n\u00b6\n\n\nCreate a Branch for Your Changes\n\u00b6\n\n\ngit branch <branch-name>\n\n\n\n\nVerify New Branch is Created\n\u00b6\n\n\ngit branch\n\n### EXPECTED OUTPUT ###\n* master   <-- this is current branch\n  <branch-name>\n\n\n\n\nSwitch to Your New Branch\n\u00b6\n\n\ngit checkout <branch-name>\n\n### EXPECTED OUTPUT ###\nSwitched to branch '<branch-name>'\n\n\n\n\nVerify That You're on the Branch\n\u00b6\n\n\ngit branch\n  master\n* <branch-name> <-- you are now on the new branch\n\n\n\n\nMake Your Branch Changes\n\u00b6\n\n\n...\n\n\n\n\nVerify Branch Changes\n\u00b6\n\n\ngit status\n\n\n\n\nPrepare (Add) Your Branch Changes for Commit\n\u00b6\n\n\ngit add ...\n\n\n\n\nCommit Your Branch Changes Locally\n\u00b6\n\n\ngit commit -m \"<descriptive-message>\"\n\n\n\n\nPush Your Branch Changes Remotely\n\u00b6\n\n\ngit push -u origin <branch-name>\n\n### EXPECTED OUTPUT ###\n# Counting objects: 8, done.\n# Delta compression using up to 8 threads.\n# Compressing objects: 100% (6/6), done.\n# Writing objects: 100% (8/8), 684 bytes | 0 bytes/s, done.\n# Total 8 (delta 2), reused 0 (delta 0)\n# remote: Resolving deltas: 100% (2/2), completed with 1 local objects.\n# To github.com:fluxcapacitor/pipeline.git\n# * [new branch]      <branch-name> -> <branch-name>\n#Branch <branch-name> set up to track remote branch <branch-name> from origin.\n\n\nNote:  If you see an error related to \nPermission denied (publickey)\n or \nPlease make sure you have the correct access rights\n, follow the steps detailed \nhere\n.\n\n\nSubmit a Pull Request with Github Server UI\n\u00b6\n\n\n\n\nCompare your \n<branch-name>\n to the \nmaster\n branch on Github Server\n\n\n\n\nFix the Pull Request if Needed based on Comments\n\u00b6\n\n\nWait for Committer to Merge Pull Request (within Github UI)\n\u00b6\n\n\nDelete the Branch (from both Local and Remote Github)\n\u00b6\n\n\nGo Back to \nmaster\n Branch\n\ngit checkout master\n\n\n\nDelete Remote Branch\n\ngit push origin --delete <branch-name>\n\n\n\nDelete Local Branch\n\ngit branch -d <branch-name>\n\n\n\nLicense and Datasets\n\u00b6\n\n\n\n\nYour work should be open source under a liberal license (ie. Apache2, MIT)\n\n\nPlease use \npublic\n training and validation datasets so that others can easily replicate your work.",
             "title": "Contribute to PipelineIO"
         },
         {
@@ -766,9 +766,9 @@
             "title": "Contribute to PipelineIO"
         },
         {
-            "location": "/contribute/#create-a-pull-request",
+            "location": "/contribute/#creating-a-pull-request",
             "text": "",
-            "title": "Create a Pull Request"
+            "title": "Creating a Pull Request"
         },
         {
             "location": "/contribute/#create-a-branch-for-your-changes",
@@ -832,13 +832,13 @@
         },
         {
             "location": "/contribute/#delete-the-branch-from-both-local-and-remote-github",
-            "text": "Go back to  master  branch git checkout master  Delete Remote Branch git push origin --delete <branch-name>  Delete Local Branch git branch -d <branch-name>",
+            "text": "Go Back to  master  Branch git checkout master  Delete Remote Branch git push origin --delete <branch-name>  Delete Local Branch git branch -d <branch-name>",
             "title": "Delete the Branch (from both Local and Remote Github)"
         },
         {
-            "location": "/contribute/#license-and-public-datasetse",
-            "text": "Your work should be open source under a liberal license (ie. Apache2, MIT)  You should use publicly-available training and validation datasets so that others can easily replicate your work.",
-            "title": "License and Public Datasetse"
+            "location": "/contribute/#license-and-datasets",
+            "text": "Your work should be open source under a liberal license (ie. Apache2, MIT)  Please use  public  training and validation datasets so that others can easily replicate your work.",
+            "title": "License and Datasets"
         },
         {
             "location": "/install/",
