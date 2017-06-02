@@ -704,8 +704,11 @@
 
 <div id="content"></div>
 
+<p><input id="stream" type="textfield" size="120" placeholder="http://turbine.community.pipeline.io/turbine/turbine.stream"></input>
+<br><br>
+<input id="delay" type="textfield" size="10" placeholder="2000"></input>ms
+<input id="title" type="textfield" size="60" placeholder="Live PipelineIO Models"></input><br><br></p>
 <script>
-
     $(window).load(function() { // within load with a setTimeout to prevent the infinite spinner
       setTimeout(function() {
         addStreams();
@@ -854,6 +857,8 @@
           '</div>';
       }, ''));
     }
+
+    addStreams();
 </script>
 
 <hr />
