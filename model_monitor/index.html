@@ -771,7 +771,8 @@
           }
         }
 
-        var proxyStream = "../proxy.stream?origin=" + origin;
+        //var proxyStream = "../proxy.stream?origin=" + origin;
+        var proxyStream = origin
 
         // start the EventSource which will open a streaming connection to the server
         var source = new EventSource(proxyStream);
