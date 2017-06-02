@@ -772,7 +772,8 @@
         }
 
         //var proxyStream = "../proxy.stream?origin=" + origin;
-        var proxyStream = origin
+        //var proxyStream = origin
+        var proxyStream = 'http://turbine.community.pipeline.io/turbine.stream'
 
         // start the EventSource which will open a streaming connection to the server
         var source = new EventSource(proxyStream);
