@@ -935,7 +935,7 @@
 <p><strong>Deploy Model</strong>
 <div class="codehilite"><pre><span></span>import requests
 
-deploy_url = &#39;http://prediction-spark.community.pipeline.io/api/v1/model/deploy/spark/default/airbnb/v0&#39;
+deploy_url = &#39;http://your.model.server.com/api/v1/model/deploy/spark/default/airbnb/v0&#39;
 
 files = {&#39;file&#39;: open(&#39;airbnb.parquet&#39;, &#39;rb&#39;)}
 
@@ -965,7 +965,7 @@ json_data = json.dumps(data)
 with open(&#39;test_inputs.json&#39;, &#39;wt&#39;) as fh:
     fh.write(json_data)
 </pre></div>
-<div class="codehilite"><pre><span></span>predict_url = &#39;http://prediction-spark.community.pipeline.io/api/v1/model/predict/spark/default/airbnb/v0&#39;
+<div class="codehilite"><pre><span></span>predict_url = &#39;http://your.model.server.com/api/v1/model/predict/spark/default/airbnb/v0&#39;
 
 headers = {&#39;content-type&#39;: &#39;application/json&#39;}
 
