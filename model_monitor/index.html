@@ -389,36 +389,29 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#model-server-health" title="Model Server Health" class="md-nav__link">
-    Model Server Health
+  <a href="#dynamic-service-fallbacks" title="Dynamic Service Fallbacks" class="md-nav__link">
+    Dynamic Service Fallbacks
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#latency" title="Latency" class="md-nav__link">
-    Latency
+  <a href="#control-latency-with-timeouts" title="Control Latency with Timeouts" class="md-nav__link">
+    Control Latency with Timeouts
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#memory-usage" title="Memory Usage" class="md-nav__link">
-    Memory Usage
+  <a href="#monitor-system-resources" title="Monitor System Resources" class="md-nav__link">
+    Monitor System Resources
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#gpu-utilization" title="GPU Utilization" class="md-nav__link">
-    GPU Utilization
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#request-batch-size" title="Request Batch Size" class="md-nav__link">
-    Request Batch Size
+  <a href="#balance-throughput-and-latency" title="Balance Throughput and Latency" class="md-nav__link">
+    Balance Throughput and Latency
   </a>
   
 </li>
@@ -566,36 +559,29 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#model-server-health" title="Model Server Health" class="md-nav__link">
-    Model Server Health
+  <a href="#dynamic-service-fallbacks" title="Dynamic Service Fallbacks" class="md-nav__link">
+    Dynamic Service Fallbacks
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#latency" title="Latency" class="md-nav__link">
-    Latency
+  <a href="#control-latency-with-timeouts" title="Control Latency with Timeouts" class="md-nav__link">
+    Control Latency with Timeouts
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#memory-usage" title="Memory Usage" class="md-nav__link">
-    Memory Usage
+  <a href="#monitor-system-resources" title="Monitor System Resources" class="md-nav__link">
+    Monitor System Resources
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#gpu-utilization" title="GPU Utilization" class="md-nav__link">
-    GPU Utilization
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#request-batch-size" title="Request Batch Size" class="md-nav__link">
-    Request Batch Size
+  <a href="#balance-throughput-and-latency" title="Balance Throughput and Latency" class="md-nav__link">
+    Balance Throughput and Latency
   </a>
   
 </li>
@@ -656,17 +642,15 @@
 <p>PipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.</p>
 <p>In addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.</p>
 <h2 id="example-dashboards">Example Dashboards<a class="headerlink" href="#example-dashboards" title="Permanent link">&para;</a></h2>
-<h3 id="model-server-health">Model Server Health<a class="headerlink" href="#model-server-health" title="Permanent link">&para;</a></h3>
-<p>Unhealthy or latent services may open a <a href="https://www.infoq.com/interviews/Building-Resilient-Systems-Michael-Nygard">circuit</a> to help relieve pressure under heavy load - and stabilize the overall cluster.  While the circuit is open, users will receive a suitable fallback response.</p>
+<h3 id="dynamic-service-fallbacks">Dynamic Service Fallbacks<a class="headerlink" href="#dynamic-service-fallbacks" title="Permanent link">&para;</a></h3>
+<p>Unhealthy or latent model servers may open a <a href="https://www.infoq.com/interviews/Building-Resilient-Systems-Michael-Nygard">circuit</a>, respond with a suitable fallback, and allow the cluster to stabilize.</p>
 <p><img alt="Model Health" src="../img/hystrix-example-600x306.png" /></p>
-<h3 id="latency">Latency<a class="headerlink" href="#latency" title="Permanent link">&para;</a></h3>
-<p>Higher latency may lead to an unhealthy model server if left unbounded.</p>
-<h3 id="memory-usage">Memory Usage<a class="headerlink" href="#memory-usage" title="Permanent link">&para;</a></h3>
-<p>Higher memory usage beyond physical container or node limits may degrade performance.</p>
-<h3 id="gpu-utilization">GPU Utilization<a class="headerlink" href="#gpu-utilization" title="Permanent link">&para;</a></h3>
-<p>Higher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.</p>
-<h3 id="request-batch-size">Request Batch Size<a class="headerlink" href="#request-batch-size" title="Permanent link">&para;</a></h3>
-<p>Larger batch sizes usually provide higher throughput.</p>
+<h3 id="control-latency-with-timeouts">Control Latency with Timeouts<a class="headerlink" href="#control-latency-with-timeouts" title="Permanent link">&para;</a></h3>
+<p>High latency may lead to unhealthy model servers if left unbounded.  All PipelineIO service calls are bound with timeouts.</p>
+<h3 id="monitor-system-resources">Monitor System Resources<a class="headerlink" href="#monitor-system-resources" title="Permanent link">&para;</a></h3>
+<p>High resource utilization - beyond container and physical node limits - will certainly degrade performance.  PipelineIO monitors all system resources.</p>
+<h3 id="balance-throughput-and-latency">Balance Throughput and Latency<a class="headerlink" href="#balance-throughput-and-latency" title="Permanent link">&para;</a></h3>
+<p>Large batch sizes provide higher throughput - at the expense of latency.  PipelineIO statically - and dynamically - configures the system to find the proper balance.</p>
 <hr />
 <h2 id="24x7-global-support">24x7 Global Support<a class="headerlink" href="#24x7-global-support" title="Permanent link">&para;</a></h2>
 <p>Check out the <a href="https://pipelineio.zendesk.com">PipelineIO Support Forum</a> for discussions, feature requests, and 24x7 support from San Francisco-based PipelineIO and 1000's of global PipelineIO users and customers.</p>
