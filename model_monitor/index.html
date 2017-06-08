@@ -389,8 +389,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#maintain-stability-with-fallbacks" title="Maintain Stability with Fallbacks" class="md-nav__link">
-    Maintain Stability with Fallbacks
+  <a href="#stabilize-the-cluster" title="Stabilize the Cluster" class="md-nav__link">
+    Stabilize the Cluster
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimize-performance" title="Optimize Performance" class="md-nav__link">
+    Optimize Performance
   </a>
   
 </li>
@@ -410,15 +417,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#optimize-performance" title="Optimize Performance" class="md-nav__link">
-    Optimize Performance
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scale-dynamically-as-needed" title="Scale Dynamically as Needed" class="md-nav__link">
-    Scale Dynamically as Needed
+  <a href="#scale-dynamically" title="Scale Dynamically" class="md-nav__link">
+    Scale Dynamically
   </a>
   
 </li>
@@ -566,8 +566,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#maintain-stability-with-fallbacks" title="Maintain Stability with Fallbacks" class="md-nav__link">
-    Maintain Stability with Fallbacks
+  <a href="#stabilize-the-cluster" title="Stabilize the Cluster" class="md-nav__link">
+    Stabilize the Cluster
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimize-performance" title="Optimize Performance" class="md-nav__link">
+    Optimize Performance
   </a>
   
 </li>
@@ -587,15 +594,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#optimize-performance" title="Optimize Performance" class="md-nav__link">
-    Optimize Performance
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scale-dynamically-as-needed" title="Scale Dynamically as Needed" class="md-nav__link">
-    Scale Dynamically as Needed
+  <a href="#scale-dynamically" title="Scale Dynamically" class="md-nav__link">
+    Scale Dynamically
   </a>
   
 </li>
@@ -656,16 +656,17 @@
 <p>PipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.</p>
 <p>In addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.</p>
 <h2 id="example-dashboards">Example Dashboards<a class="headerlink" href="#example-dashboards" title="Permanent link">&para;</a></h2>
-<h3 id="maintain-stability-with-fallbacks">Maintain Stability with Fallbacks<a class="headerlink" href="#maintain-stability-with-fallbacks" title="Permanent link">&para;</a></h3>
+<h3 id="stabilize-the-cluster">Stabilize the Cluster<a class="headerlink" href="#stabilize-the-cluster" title="Permanent link">&para;</a></h3>
 <p>Unhealthy or latent model servers may open a <a href="https://www.infoq.com/interviews/Building-Resilient-Systems-Michael-Nygard">circuit</a>, respond with a suitable fallback, and allow the cluster to stabilize.</p>
-<p><img alt="Model Health" src="../img/hystrix-example-600x306.png" /></p>
+<p><img alt="Stabilize the Cluster" src="../img/hystrix-example-600x306.png" /></p>
+<h3 id="optimize-performance">Optimize Performance<a class="headerlink" href="#optimize-performance" title="Permanent link">&para;</a></h3>
+<p>Large batch sizes provide higher throughput at the expense of latency.  PipelineIO dynamically configures the system to find the proper balance.</p>
+<p><img alt="Optimize Performance" src="../img/istio-dashboard-600x284.png" /></p>
 <h3 id="control-latency-with-timeouts">Control Latency with Timeouts<a class="headerlink" href="#control-latency-with-timeouts" title="Permanent link">&para;</a></h3>
 <p>High latency may lead to unhealthy model servers if left unbounded.  All PipelineIO service calls are bound with timeouts.</p>
 <h3 id="monitor-and-alert">Monitor and Alert<a class="headerlink" href="#monitor-and-alert" title="Permanent link">&para;</a></h3>
 <p>High resource utilization - beyond container and physical node limits - will certainly degrade performance.  PipelineIO monitors all system resources.</p>
-<h3 id="optimize-performance">Optimize Performance<a class="headerlink" href="#optimize-performance" title="Permanent link">&para;</a></h3>
-<p>Large batch sizes provide higher throughput at the expense of latency.  PipelineIO dynamically configures the system to find the proper balance.</p>
-<h3 id="scale-dynamically-as-needed">Scale Dynamically as Needed<a class="headerlink" href="#scale-dynamically-as-needed" title="Permanent link">&para;</a></h3>
+<h3 id="scale-dynamically">Scale Dynamically<a class="headerlink" href="#scale-dynamically" title="Permanent link">&para;</a></h3>
 <p>All PipelineIO services support auto-scaling across federated cloud and on-premise environments.</p>
 <hr />
 <h2 id="24x7-global-support">24x7 Global Support<a class="headerlink" href="#24x7-global-support" title="Permanent link">&para;</a></h2>
