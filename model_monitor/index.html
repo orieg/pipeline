@@ -389,6 +389,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#model-server-health" title="Model Server Health" class="md-nav__link">
+    Model Server Health
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#latency" title="Latency" class="md-nav__link">
     Latency
   </a>
@@ -412,13 +419,6 @@
           <li class="md-nav__item">
   <a href="#request-batch-size" title="Request Batch Size" class="md-nav__link">
     Request Batch Size
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#health" title="Health" class="md-nav__link">
-    Health
   </a>
   
 </li>
@@ -566,6 +566,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#model-server-health" title="Model Server Health" class="md-nav__link">
+    Model Server Health
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#latency" title="Latency" class="md-nav__link">
     Latency
   </a>
@@ -589,13 +596,6 @@
           <li class="md-nav__item">
   <a href="#request-batch-size" title="Request Batch Size" class="md-nav__link">
     Request Batch Size
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#health" title="Health" class="md-nav__link">
-    Health
   </a>
   
 </li>
@@ -656,6 +656,9 @@
 <p>PipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.</p>
 <p>In addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.</p>
 <h2 id="example-dashboards">Example Dashboards<a class="headerlink" href="#example-dashboards" title="Permanent link">&para;</a></h2>
+<h3 id="model-server-health">Model Server Health<a class="headerlink" href="#model-server-health" title="Permanent link">&para;</a></h3>
+<p>Unhealthy or latent services may open a <a href="https://www.infoq.com/interviews/Building-Resilient-Systems-Michael-Nygard">circuit</a> to help relieve pressure under heavy load - and stabilize the overall cluster.  While the circuit is open, users will receive a suitable fallback response.</p>
+<p><img alt="Model Health" src="../img/hystrix-example-600x306.png" /></p>
 <h3 id="latency">Latency<a class="headerlink" href="#latency" title="Permanent link">&para;</a></h3>
 <p>Higher latency may lead to an unhealthy model server if left unbounded.</p>
 <h3 id="memory-usage">Memory Usage<a class="headerlink" href="#memory-usage" title="Permanent link">&para;</a></h3>
@@ -664,9 +667,6 @@
 <p>Higher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.</p>
 <h3 id="request-batch-size">Request Batch Size<a class="headerlink" href="#request-batch-size" title="Permanent link">&para;</a></h3>
 <p>Larger batch sizes usually provide higher throughput.</p>
-<h3 id="health">Health<a class="headerlink" href="#health" title="Permanent link">&para;</a></h3>
-<p>Unhealthy or latent services may open a <a href="https://www.infoq.com/interviews/Building-Resilient-Systems-Michael-Nygard">circuit</a>.  This causes the circuit to return a degraded, fallback response.</p>
-<p><img alt="Model Health" src="../img/hystrix-example-600x306.png" /></p>
 <hr />
 <h2 id="24x7-global-support">24x7 Global Support<a class="headerlink" href="#24x7-global-support" title="Permanent link">&para;</a></h2>
 <p>Check out the <a href="https://pipelineio.zendesk.com">PipelineIO Support Forum</a> for discussions, feature requests, and 24x7 support from San Francisco-based PipelineIO and 1000's of global PipelineIO users and customers.</p>
