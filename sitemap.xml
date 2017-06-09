@@ -51,6 +51,14 @@
 
     
     <url>
+     <loc>http://pipeline.io/model_monitor/</loc>
+     <lastmod>2017-06-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>http://pipeline.io/products/</loc>
      <lastmod>2017-06-08</lastmod>
      <changefreq>daily</changefreq>
@@ -66,27 +74,19 @@
     
 
     
+        
     <url>
      <loc>http://pipeline.io/events/</loc>
      <lastmod>2017-06-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>http://pipeline.io/training/</loc>
      <lastmod>2017-06-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-    <url>
-     <loc>http://pipeline.io/model_monitor/</loc>
-     <lastmod>2017-06-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
+        
     
 
     
@@ -106,27 +106,25 @@
     
 
     
+        
     <url>
      <loc>http://pipeline.io/open_source/</loc>
      <lastmod>2017-06-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>http://pipeline.io/contribute/</loc>
      <lastmod>2017-06-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>http://pipeline.io/install/</loc>
      <lastmod>2017-06-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     
 
     
