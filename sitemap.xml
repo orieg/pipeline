@@ -59,6 +59,14 @@
 
     
     <url>
+     <loc>http://pipeline.io/environments/</loc>
+     <lastmod>2017-06-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>http://pipeline.io/model_monitor/</loc>
      <lastmod>2017-06-09</lastmod>
      <changefreq>daily</changefreq>
