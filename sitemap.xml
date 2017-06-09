@@ -75,14 +75,6 @@
 
     
     <url>
-     <loc>http://pipeline.io/support/</loc>
-     <lastmod>2017-06-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>http://pipeline.io/gpu/</loc>
      <lastmod>2017-06-08</lastmod>
      <changefreq>daily</changefreq>
@@ -133,6 +125,14 @@
      <changefreq>daily</changefreq>
     </url>
         
+    
+
+    
+    <url>
+     <loc>http://pipeline.io/support/</loc>
+     <lastmod>2017-06-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     
 
     
