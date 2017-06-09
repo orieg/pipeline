@@ -51,14 +51,6 @@
 
     
     <url>
-     <loc>http://pipeline.io/model_monitor/</loc>
-     <lastmod>2017-06-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>http://pipeline.io/products/</loc>
      <lastmod>2017-06-08</lastmod>
      <changefreq>daily</changefreq>
@@ -67,7 +59,39 @@
 
     
     <url>
+     <loc>http://pipeline.io/model_monitor/</loc>
+     <lastmod>2017-06-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>http://pipeline.io/support/</loc>
+     <lastmod>2017-06-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://pipeline.io/gpu/</loc>
+     <lastmod>2017-06-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://pipeline.io/api/</loc>
+     <lastmod>2017-06-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://pipeline.io/survey/</loc>
      <lastmod>2017-06-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -87,22 +111,6 @@
      <changefreq>daily</changefreq>
     </url>
         
-    
-
-    
-    <url>
-     <loc>http://pipeline.io/gpu/</loc>
-     <lastmod>2017-06-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>http://pipeline.io/api/</loc>
-     <lastmod>2017-06-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
     
 
     
