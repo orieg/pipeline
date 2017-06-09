@@ -475,8 +475,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#aiml-model-deployment-and-prediction_1" title="AI/ML Model Deployment and Prediction" class="md-nav__link">
-    AI/ML Model Deployment and Prediction
+  <a href="#aiml-model-deploy-and-predict" title="AI/ML Model Deploy and Predict" class="md-nav__link">
+    AI/ML Model Deploy and Predict
   </a>
   
 </li>
@@ -662,8 +662,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#aiml-model-deployment-and-prediction_1" title="AI/ML Model Deployment and Prediction" class="md-nav__link">
-    AI/ML Model Deployment and Prediction
+  <a href="#aiml-model-deploy-and-predict" title="AI/ML Model Deploy and Predict" class="md-nav__link">
+    AI/ML Model Deploy and Predict
   </a>
   
 </li>
@@ -931,13 +931,13 @@
 </table>
 <h2 id="rest-api">REST API<a class="headerlink" href="#rest-api" title="Permanent link">&para;</a></h2>
 <p>More Documentation Coming Soon!</p>
-<h3 id="aiml-model-deployment-and-prediction_1">AI/ML Model Deployment and Prediction<a class="headerlink" href="#aiml-model-deployment-and-prediction_1" title="Permanent link">&para;</a></h3>
+<h3 id="aiml-model-deploy-and-predict">AI/ML Model Deploy and Predict<a class="headerlink" href="#aiml-model-deploy-and-predict" title="Permanent link">&para;</a></h3>
 <p><strong>Deploy Model</strong>
 <div class="codehilite"><pre><span></span>import requests
 
-deploy_url = &#39;http://your.model.server.com/api/v1/model/deploy/spark/default/airbnb/v0&#39;
+deploy_url = &#39;http://&lt;pipelineio-model-server&gt;/api/v1/model/deploy/spark/default/airbnb/v0&#39;
 
-files = {&#39;file&#39;: open(&#39;airbnb.parquet&#39;, &#39;rb&#39;)}
+files = {&#39;file&#39;: open(&#39;airbnb.model&#39;, &#39;rb&#39;)}
 
 response = requests.post(deploy_url, files=files)
 
@@ -965,7 +965,7 @@ json_data = json.dumps(data)
 with open(&#39;test_inputs.json&#39;, &#39;wt&#39;) as fh:
     fh.write(json_data)
 </pre></div>
-<div class="codehilite"><pre><span></span>predict_url = &#39;http://your.model.server.com/api/v1/model/predict/spark/default/airbnb/v0&#39;
+<div class="codehilite"><pre><span></span>predict_url = &#39;http://&lt;pipelineio-model-server&gt;/api/v1/model/predict/spark/default/airbnb/v0&#39;
 
 headers = {&#39;content-type&#39;: &#39;application/json&#39;}
 
