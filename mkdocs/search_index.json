@@ -787,13 +787,13 @@
         },
         {
             "location": "/survey/",
-            "text": "Quick, Fun Survey!\n\u00b6\n\n\n \n\n\n\n (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)) { js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })()",
-            "title": "Getting to Know You"
+            "text": "Take a Quick, Fun Survey!\n\u00b6\n\n\n \n\n\n\n (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)) { js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })()",
+            "title": "Take a Quick, Fun Survey!"
         },
         {
-            "location": "/survey/#quick-fun-survey",
+            "location": "/survey/#take-a-quick-fun-survey",
             "text": "(function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)) { js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })()",
-            "title": "Quick, Fun Survey!"
+            "title": "Take a Quick, Fun Survey!"
         },
         {
             "location": "/events/",
