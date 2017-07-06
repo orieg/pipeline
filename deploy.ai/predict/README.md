@@ -14,7 +14,7 @@ git clone https://github.com/fluxcapacitor/pipeline
 `model_type`: [scikit](https://github.com/fluxcapacitor/pipeline/tree/master/deploy.ai/predict/samples/scikit/), [tensorflow](https://github.com/fluxcapacitor/pipeline/tree/master/deploy.ai/predict/samples/tensorflow/), [python3](https://github.com/fluxcapacitor/pipeline/tree/master/deploy.ai/predict/samples/python3/), spark, xgboost, r, [pmml](https://github.com/fluxcapacitor/pipeline/tree/master/deploy.ai/predict/samples/pmml/)
 ```
 export PIO_MODEL_STORE=[/absolute/path/to/this/repo/pipeline]/deploy.ai/predict/samples
-export PIO_MODEL_TYPE=tensorflow
+export PIO_MODEL_TYPE=scikit
 export PIO_MODEL_NAME=linear
 export PIO_MODEL_SERVER_HOST=localhost
 ```
@@ -23,14 +23,14 @@ docker run --name=deploy-predict-cpu -itd -m 4G \
   -p 6969:6969 -p 7070:7070 -p 10254:10254 -p 9876:9876 -p 9040:9040 -p 9090:9090 -p 3000:3000 \
   -v $PIO_MODEL_STORE:/root/model_store \
   -e "PIO_MODEL_TYPE=$PIO_MODEL_TYPE" -e "PIO_MODEL_NAME=$PIO_MODEL_NAME" \
-  fluxcapacitor/deploy-predict-cpu:master
+  fluxcapacitor/deploy-predict-cpu:r1.3.0-alpha.0
 ```
 
 ## REST API
 ### Deploy Model
 ```
 export PIO_MODEL_STORE=[/absolute/path/to/this/repo/pipeline]/deploy.ai/predict/samples
-export PIO_MODEL_TYPE=tensorflow
+export PIO_MODEL_TYPE=scikit
 export PIO_MODEL_NAME=linear
 export PIO_MODEL_SERVER_HOST=localhost
 ```
@@ -49,13 +49,13 @@ curl -i -X POST -H "Transfer-Encoding: chunked" \
 
 ### Predict Model
 ```
-export PIO_MODEL_TYPE=tensorflow
+export PIO_MODEL_TYPE=scikit
 export PIO_MODEL_NAME=linear
 export PIO_MODEL_SERVER_HOST=localhost
 ```
 ```
 curl -X POST -H "Content-Type: application/json" \
-  -d '{"x_observed":1.5}' \
+  -d '{"feature0": 0.03807590643342410180}' \
   http://$PIO_MODEL_SERVER_HOST:6969/api/v1/model/predict/$PIO_MODEL_TYPE/$PIO_MODEL_NAME \
   -w "\n\n"
 ```
@@ -85,7 +85,7 @@ sudo pip install --upgrade --ignore-installed pio-cli
 ### Deploy Model
 ```
 export PIO_MODEL_STORE=[/absolute/path/to/this/repo/pipeline]/deploy.ai/predict/samples
-export PIO_MODEL_TYPE=tensorflow
+export PIO_MODEL_TYPE=scikit
 export PIO_MODEL_NAME=linear
 export PIO_MODEL_SERVER_HOST=localhost
 ```
@@ -99,7 +99,7 @@ pio deploy --model_server_url http://$PIO_MODEL_SERVER_HOST:6969 \
 
 ### Predict with Model
 ```
-export PIO_MODEL_TYPE=tensorflow
+export PIO_MODEL_TYPE=scikit
 export PIO_MODEL_NAME=linear
 export PIO_MODEL_SERVER_HOST=localhost
 ```
