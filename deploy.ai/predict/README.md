@@ -27,7 +27,9 @@ docker run --name=deploy-predict-cpu -itd -m 4G \
 ```
 
 ## REST API
+
 ### Deploy Model
+_Note:  There is a bug in this r1.3.0-alpha.0 branch that requires this Deploy Model step.  This is fixed in master.  You shouldn't have to deploy as you have already mapped the Docker container above to the correct model path._
 ```
 export PIO_MODEL_STORE=[/absolute/path/to/this/repo/pipeline]/deploy.ai/predict/samples
 export PIO_MODEL_TYPE=scikit
