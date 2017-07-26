@@ -898,12 +898,12 @@
 </ul>
 <h2 id="setup-pipeline-ai-cli">Setup <code class="codehilite">pipeline-ai-cli</code><a class="headerlink" href="#setup-pipeline-ai-cli" title="Permanent link">&para;</a></h2>
 <p>Note: This command line interface requires Python3 and Docker.  See Pre-Requisites above.
-<div class="codehilite"><pre><span></span>pip3 install --ignore-installed --no-cache -U pipeline-ai-cli&gt;<span class="o">=</span><span class="m">0</span>.4
+<div class="codehilite"><pre><span></span>pip3 install --ignore-installed --no-cache -U pipeline-ai-cli&gt;<span class="o">=</span><span class="m">0</span>.8
 </pre></div>
 <div class="codehilite"><pre><span></span>pipeline init
 </pre></div></p>
 <h2 id="supported-model-types">Supported Model Types<a class="headerlink" href="#supported-model-types" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/scikit/">scikit</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/tensorflow/">tensorflow</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/python3/">python3</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/keras/">keras</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/pmml/">pmml</a>, spark, xgboost, r</p>
+<p><a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/scikit/">scikit</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/tensorflow/">tensorflow</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/python/">python</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/keras/">keras</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/pmml/">pmml</a>, spark, xgboost, r</p>
 <p>More <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/">samples</a> coming soon for spark, xgboost, and r.</p>
 <h2 id="clone-this-repo-and">Clone this Repo and<a class="headerlink" href="#clone-this-repo-and" title="Permanent link">&para;</a></h2>
 <p><div class="codehilite"><pre><span></span>git clone https://github.com/fluxcapacitor/pipeline
@@ -949,7 +949,7 @@ Note:  If you see <code class="codehilite"><span class="n">docker</span><span cl
 </pre></div></p>
 <p><strong>Perform 100 Predictions in Parallel</strong>
 <div class="codehilite"><pre><span></span>pipeline model-predict --model-server-url=http://localhost:6969 \
-                       --model-test-request-path=./samples/tensorflow/mnist/data/test_request.json \
+                       --model-test-request-path=./models/tensorflow/mnist/data/test_request.json \
                        --concurrency=100 \
                        --model-type=tensorflow \
                        --model-name=mnist \
