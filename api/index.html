@@ -903,8 +903,8 @@
 <div class="codehilite"><pre><span></span>pipeline init
 </pre></div></p>
 <h2 id="supported-model-types">Supported Model Types<a class="headerlink" href="#supported-model-types" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/samples/scikit/">scikit</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/samples/tensorflow/">tensorflow</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/samples/python3/">python3</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/samples/keras/">keras</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/samples/pmml/">pmml</a>, spark, xgboost, r</p>
-<p>More samples coming soon!</p>
+<p><a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/scikit/">scikit</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/tensorflow/">tensorflow</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/python3/">python3</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/keras/">keras</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/pmml/">pmml</a>, spark, xgboost, r</p>
+<p>More <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/">samples</a> coming soon for spark, xgboost, and r.</p>
 <h2 id="clone-this-repo-and">Clone this Repo and<a class="headerlink" href="#clone-this-repo-and" title="Permanent link">&para;</a></h2>
 <p><div class="codehilite"><pre><span></span>git clone https://github.com/fluxcapacitor/pipeline
 </pre></div>
@@ -919,7 +919,7 @@
 </pre></div>
 
 <h2 id="start-docker-based-model-package">Start Docker-based Model Package<a class="headerlink" href="#start-docker-based-model-package" title="Permanent link">&para;</a></h2>
-<p><div class="codehilite"><pre><span></span>pipeline model-start --memory_limit=2G \
+<p><div class="codehilite"><pre><span></span>pipeline model-start --memory-limit=2G \
                      --model-type=tensorflow \
                      --model-name=mnist \
                      --model-tag=master
