@@ -927,28 +927,28 @@ Switched to branch &#39;&lt;branch-name&gt;&#39;
 </pre></div>
 
 <h3 id="push-your-branch-changes-remotely">Push Your Branch Changes Remotely<a class="headerlink" href="#push-your-branch-changes-remotely" title="Permanent link">&para;</a></h3>
-<p><div class="codehilite"><pre><span></span>git push -u origin &lt;branch-name&gt;
+<p><div class="codehilite"><pre><span></span><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="o">&lt;</span><span class="n">branch</span><span class="o">-</span><span class="n">name</span><span class="o">&gt;</span>
 
-### EXPECTED OUTPUT ###
-# Counting objects: 8, done.
-# Delta compression using up to 8 threads.
-# Compressing objects: 100% (6/6), done.
-# Writing objects: 100% (8/8), 684 bytes | 0 bytes/s, done.
-# Total 8 (delta 2), reused 0 (delta 0)
-# remote: Resolving deltas: 100% (2/2), completed with 1 local objects.
-# To github.com:fluxcapacitor/pipeline.git
-# * [new branch]      &lt;branch-name&gt; -&gt; &lt;branch-name&gt;
-#Branch &lt;branch-name&gt; set up to track remote branch &lt;branch-name&gt; from origin.
+<span class="cp">### EXPECTED OUTPUT ###</span>
+<span class="cp"># Counting objects: 8, done.</span>
+<span class="cp"># Delta compression using up to 8 threads.</span>
+<span class="cp"># Compressing objects: 100% (6/6), done.</span>
+<span class="cp"># Writing objects: 100% (8/8), 684 bytes | 0 bytes/s, done.</span>
+<span class="cp"># Total 8 (delta 2), reused 0 (delta 0)</span>
+<span class="cp"># remote: Resolving deltas: 100% (2/2), completed with 1 local objects.</span>
+<span class="cp"># To github.com:fluxcapacitor/pipeline.git</span>
+<span class="cp"># * [new branch]      &lt;branch-name&gt; -&gt; &lt;branch-name&gt;</span>
+<span class="cp">#Branch &lt;branch-name&gt; set up to track remote branch &lt;branch-name&gt; from origin.</span>
 </pre></div>
-Note:  If you see an error related to <code>Permission denied (publickey)</code> or <code>Please make sure you have the correct access rights</code>, follow the steps detailed <a href="./Github-Notes#start-your-ssh-authentication-agent">here</a>.</p>
+Note:  If you see an error related to <code class="codehilite">Permission denied (publickey)</code> or <code class="codehilite">Please make sure you have the correct access rights</code>, follow the steps detailed <a href="./Github-Notes#start-your-ssh-authentication-agent">here</a>.</p>
 <h3 id="submit-a-pull-request-with-github-server-ui">Submit a Pull Request with Github Server UI<a class="headerlink" href="#submit-a-pull-request-with-github-server-ui" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Compare your <code>&lt;branch-name&gt;</code> to the <code>master</code> branch on Github Server</li>
+<li>Compare your <code class="codehilite">&lt;branch-name&gt;</code> to the <code class="codehilite">master</code> branch on Github Server</li>
 </ul>
 <h3 id="fix-the-pull-request-if-needed-based-on-comments">Fix the Pull Request if Needed based on Comments<a class="headerlink" href="#fix-the-pull-request-if-needed-based-on-comments" title="Permanent link">&para;</a></h3>
 <h3 id="wait-for-committer-to-merge-pull-request-within-github-ui">Wait for Committer to Merge Pull Request (within Github UI)<a class="headerlink" href="#wait-for-committer-to-merge-pull-request-within-github-ui" title="Permanent link">&para;</a></h3>
 <h3 id="delete-the-branch-from-both-local-and-remote-github">Delete the Branch (from both Local and Remote Github)<a class="headerlink" href="#delete-the-branch-from-both-local-and-remote-github" title="Permanent link">&para;</a></h3>
-<p>Go Back to <code>master</code> Branch
+<p>Go Back to <code class="codehilite">master</code> Branch
 <div class="codehilite"><pre><span></span>git checkout master
 </pre></div></p>
 <p>Delete Remote Branch

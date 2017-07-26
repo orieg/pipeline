@@ -422,15 +422,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#clone-this-repo" title="Clone this Repo" class="md-nav__link">
-    Clone this Repo
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#initialize-model" title="Initialize Model" class="md-nav__link">
-    Initialize Model
+  <a href="#clone-this-repo-and" title="Clone this Repo and" class="md-nav__link">
+    Clone this Repo and
   </a>
   
 </li>
@@ -493,6 +486,13 @@
         <li class="md-nav__item">
   <a href="#monitor-model-predictions" title="Monitor Model Predictions" class="md-nav__link">
     Monitor Model Predictions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stop-docker-based-model-package" title="Stop Docker-based Model Package" class="md-nav__link">
+    Stop Docker-based Model Package
   </a>
   
 </li>
@@ -759,15 +759,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#clone-this-repo" title="Clone this Repo" class="md-nav__link">
-    Clone this Repo
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#initialize-model" title="Initialize Model" class="md-nav__link">
-    Initialize Model
+  <a href="#clone-this-repo-and" title="Clone this Repo and" class="md-nav__link">
+    Clone this Repo and
   </a>
   
 </li>
@@ -835,6 +828,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#stop-docker-based-model-package" title="Stop Docker-based Model Package" class="md-nav__link">
+    Stop Docker-based Model Package
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#try-our-free-community-edition" title="Try our Free Community Edition!" class="md-nav__link">
     Try our Free Community Edition!
   </a>
@@ -896,47 +896,41 @@
 <ul>
 <li>Install <a href="https://conda.io/docs/install/quick.html">Miniconda</a> with Python3 Support</li>
 </ul>
-<h2 id="setup-pipeline-ai-cli">Setup <code>pipeline-ai-cli</code><a class="headerlink" href="#setup-pipeline-ai-cli" title="Permanent link">&para;</a></h2>
+<h2 id="setup-pipeline-ai-cli">Setup <code class="codehilite">pipeline-ai-cli</code><a class="headerlink" href="#setup-pipeline-ai-cli" title="Permanent link">&para;</a></h2>
 <p>Note: This command line interface requires Python3 and Docker.  See Pre-Requisites above.
-<div class="codehilite"><pre><span></span>pip3 install --ignore-installed --no-cache -U pipeline-ai-cli&gt;=0.3
+<div class="codehilite"><pre><span></span>pip3 install --ignore-installed --no-cache -U pipeline-ai-cli&gt;=0.4
 </pre></div>
 <div class="codehilite"><pre><span></span>pipeline init
 </pre></div></p>
 <h2 id="supported-model-types">Supported Model Types<a class="headerlink" href="#supported-model-types" title="Permanent link">&para;</a></h2>
 <p><a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/samples/scikit/">scikit</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/samples/tensorflow/">tensorflow</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/samples/python3/">python3</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/samples/keras/">keras</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/samples/pmml/">pmml</a>, spark, xgboost, r</p>
 <p>More samples coming soon!</p>
-<h2 id="clone-this-repo">Clone this Repo<a class="headerlink" href="#clone-this-repo" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git clone https://github.com/fluxcapacitor/pipeline
+<h2 id="clone-this-repo-and">Clone this Repo and<a class="headerlink" href="#clone-this-repo-and" title="Permanent link">&para;</a></h2>
+<p><div class="codehilite"><pre><span></span>git clone https://github.com/fluxcapacitor/pipeline
 </pre></div>
-
-<h2 id="initialize-model">Initialize Model<a class="headerlink" href="#initialize-model" title="Permanent link">&para;</a></h2>
-<p><div class="codehilite"><pre><span></span>cd pipeline/predict
-</pre></div>
-<div class="codehilite"><pre><span></span>pipeline model-init --model-type=tensorflow \
-                    --model-name=mnist \
-                    --model-path=./samples/tensorflow/mnist
+<div class="codehilite"><pre><span></span>cd pipeline/predict
 </pre></div></p>
 <h2 id="package-model">Package Model<a class="headerlink" href="#package-model" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>pipeline model-package --package-type=docker \
-                       --package-path=. \
-                       --model-path=./samples/tensorflow/mnist \
+                       --model-path=./models/tensorflow/mnist \
                        --model-type=tensorflow \
-                       --model-name=mnist
+                       --model-name=mnist \
+                       --model-tag=master
 </pre></div>
 
 <h2 id="start-docker-based-model-package">Start Docker-based Model Package<a class="headerlink" href="#start-docker-based-model-package" title="Permanent link">&para;</a></h2>
-<p><div class="codehilite"><pre><span></span>pipeline model-start --package-type=docker \
-                     --memory=2G \
+<p><div class="codehilite"><pre><span></span>pipeline model-start --memory_limit=2G \
                      --model-type=tensorflow \
-                     --model-name=mnist
+                     --model-name=mnist \
+                     --model-tag=master
 </pre></div>
-Note:  If you see <code>docker: Error response from daemon: ... failed: port is already allocated.</code>, you likely have another Docker container running.  Use <code>docker ps</code> to find the container-id, then <code>docker rm -f &lt;container-id&gt;</code> to remove the other Docker container.</p>
+Note:  If you see <code class="codehilite"><span class="n">docker</span><span class="o">:</span> <span class="n">Error</span> <span class="n">response</span> <span class="n">from</span> <span class="n">daemon</span><span class="o">:</span> <span class="o">...</span> <span class="n">failed</span><span class="o">:</span> <span class="n">port</span> <span class="k">is</span> <span class="n">already</span> <span class="n">allocated</span><span class="o">.</span></code>, you likely have another Docker container running.  Use <code class="codehilite">docker ps</code> to find the container-id, then <code class="codehilite">docker rm -f &lt;container-id&gt;</code> to remove the other Docker container.</p>
 <h2 id="monitor-model-training-and-hyper-parameter-tuning">Monitor Model Training and Hyper-Parameter Tuning<a class="headerlink" href="#monitor-model-training-and-hyper-parameter-tuning" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>pipeline model-logs --package-type=docker \
-                    --model-type=tensorflow \
-                    --model-name=mnist
-</pre></div>
-
+<p>Wait for the following logs to settle down...
+<div class="codehilite"><pre><span></span>pipeline model-logs --model-type=tensorflow \
+                    --model-name=mnist \
+                    --model-tag=master
+</pre></div></p>
 <h2 id="view-pipelineai-model-ui">View PipelineAI Model UI<a class="headerlink" href="#view-pipelineai-model-ui" title="Permanent link">&para;</a></h2>
 <p>This UI sometimes requires a couple refreshes.  We are working to stabilize the UI.
 <div class="codehilite"><pre><span></span>http://localhost:6333/
@@ -948,12 +942,18 @@ Note:  If you see <code>docker: Error response from daemon: ... failed: port is 
 <p><strong>Perform Single Image Prediction</strong></p>
 <p>Note:  This first call will take 10-20x longer than subsequent calls.  Lazy init, warm-up, etc.
 <div class="codehilite"><pre><span></span>pipeline model-predict --model-server-url=http://localhost:6969 \
-                       --model-test-request-path=./samples/tensorflow/mnist/data/test_request.json
+                       --model-test-request-path=./models/tensorflow/mnist/data/test_request.json \
+                       --model-type=tensorflow \
+                       --model-name=mnist \
+                       --model-tag=master
 </pre></div></p>
 <p><strong>Perform 100 Predictions in Parallel</strong>
 <div class="codehilite"><pre><span></span>pipeline model-predict --model-server-url=http://localhost:6969 \
                        --model-test-request-path=./samples/tensorflow/mnist/data/test_request.json \
-                       --concurrency=100
+                       --concurrency=100 \
+                       --model-type=tensorflow \
+                       --model-name=mnist \
+                       --model-tag=master
 </pre></div></p>
 <h3 id="rest-api">REST API<a class="headerlink" href="#rest-api" title="Permanent link">&para;</a></h3>
 <p><strong>Prediction Inputs</strong></p>
@@ -985,9 +985,15 @@ Note:  If you see <code>docker: Error response from daemon: ... failed: port is 
 <h2 id="monitor-model-predictions">Monitor Model Predictions<a class="headerlink" href="#monitor-model-predictions" title="Permanent link">&para;</a></h2>
 <p>Note:  These dashboards will be rolled into the PipelineAI Model UI soon!
 Username/Password: <strong>admin</strong>/<strong>admin</strong></p>
-<p>Use <code>http://localhost:9090</code> for the Prometheus data source within your Grafana Dashboard.<br />
+<p>Use <code class="codehilite">http://localhost:9090</code> for the Prometheus data source within your Grafana Dashboard.<br />
 <div class="codehilite"><pre><span></span>http://localhost:3000/
 </pre></div></p>
+<h2 id="stop-docker-based-model-package">Stop Docker-based Model Package<a class="headerlink" href="#stop-docker-based-model-package" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span>pipeline model-stop --model-type=tensorflow \
+                    --model-name=mnist \
+                    --model-tag=master
+</pre></div>
+
 <hr />
 <h2 id="try-our-free-community-edition">Try our Free <a href="../products/">Community Edition</a>!<a class="headerlink" href="#try-our-free-community-edition" title="Permanent link">&para;</a></h2>
 <p>Click <a href="../products/">HERE</a> to get started with our basic <a href="../products/">Community Edition</a> </p>

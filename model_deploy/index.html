@@ -1076,10 +1076,10 @@
 <div class="codehilite"><pre><span></span>git clone https://github.com/fluxcapacitor/source.ml
 </pre></div>
 
-<p>Note: You can use the same <code>model-server-url</code> from the the PipelineAI <a href="http://community.pipeline.io">Community Edition</a>.  See the Community Edition example <a href="http://community.pipeline.io">notebooks</a> for complete, end-to-end examples.</p>
+<p>Note: You can use the same <code class="codehilite">model-server-url</code> from the the PipelineAI <a href="http://community.pipeline.io">Community Edition</a>.  See the Community Edition example <a href="http://community.pipeline.io">notebooks</a> for complete, end-to-end examples.</p>
 <h3 id="tensorflow_1">TensorFlow<a class="headerlink" href="#tensorflow_1" title="Permanent link">&para;</a></h3>
 <p><img alt="TensorFlow" src="../img/tensorflow-logo-202x168.png" /></p>
-<p>model_type: <code>tensorflow</code></p>
+<p>model_type: <code class="codehilite">tensorflow</code></p>
 <p>Initialize Model
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type tensorflow \
@@ -1097,7 +1097,7 @@
 </pre></div></p>
 <h3 id="scikit-learn_1">Scikit-Learn<a class="headerlink" href="#scikit-learn_1" title="Permanent link">&para;</a></h3>
 <p><img alt="Scikit-Learn" src="../img/scikit-logo-277x150.png" /></p>
-<p>model_type: <code>scikit</code></p>
+<p>model_type: <code class="codehilite">scikit</code></p>
 <p>Initialize Model
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type scikit \
@@ -1115,7 +1115,7 @@
 </pre></div></p>
 <h3 id="spark-ml_1">Spark ML<a class="headerlink" href="#spark-ml_1" title="Permanent link">&para;</a></h3>
 <p><img alt="Spark ML" src="../img/spark-logo-254x163.png" /></p>
-<p>model_type: <code>spark</code></p>
+<p>model_type: <code class="codehilite">spark</code></p>
 <p>Initialize Model
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type spark \
@@ -1129,40 +1129,40 @@
 <div class="codehilite"><pre><span></span>pio deploy
 </pre></div></p>
 <p>Deploy Model (REST)
-<div class="codehilite"><pre><span></span>import requests
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
 
-deploy_url = &#39;http://your.model.server.com/api/v1/model/deploy/spark/default/spark_airbnb/v0&#39;
+<span class="n">deploy_url</span> <span class="o">=</span> <span class="s1">&#39;http://your.model.server.com/api/v1/model/deploy/spark/default/spark_airbnb/v0&#39;</span>
 
-files = {&#39;file&#39;: open(&#39;model.spark&#39;, &#39;rb&#39;)}
+<span class="n">files</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;file&#39;</span><span class="p">:</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;model.spark&#39;</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)}</span>
 
-response = requests.post(deploy_url, files=files)
+<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">deploy_url</span><span class="p">,</span> <span class="n">files</span><span class="o">=</span><span class="n">files</span><span class="p">)</span>
 
-print(&quot;Success!\n\n%s&quot; % response.text)
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Success!</span><span class="se">\n\n</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
 </pre></div></p>
 <p>Predict Model (CLI)
 <div class="codehilite"><pre><span></span>pio predict
 </pre></div></p>
 <p>Predict Model (REST)
-<div class="codehilite"><pre><span></span>import json
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
 
-data = {&quot;bathrooms&quot;:2.0,
-        &quot;bedrooms&quot;:2.0,
-        &quot;security_deposit&quot;:175.00,
-        &quot;cleaning_fee&quot;:25.0,
-        &quot;extra_people&quot;:1.0,
-        &quot;number_of_reviews&quot;: 2.0,
-        &quot;square_feet&quot;: 250.0,
-        &quot;review_scores_rating&quot;: 2.0,
-        &quot;room_type&quot;: &quot;Entire home/apt&quot;,
-        &quot;host_is_super_host&quot;: &quot;0.0&quot;,
-        &quot;cancellation_policy&quot;: &quot;flexible&quot;,
-        &quot;instant_bookable&quot;: &quot;1.0&quot;,
-        &quot;state&quot;: &quot;CA&quot; }
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;bathrooms&quot;</span><span class="p">:</span><span class="mf">2.0</span><span class="p">,</span>
+        <span class="s2">&quot;bedrooms&quot;</span><span class="p">:</span><span class="mf">2.0</span><span class="p">,</span>
+        <span class="s2">&quot;security_deposit&quot;</span><span class="p">:</span><span class="mf">175.00</span><span class="p">,</span>
+        <span class="s2">&quot;cleaning_fee&quot;</span><span class="p">:</span><span class="mf">25.0</span><span class="p">,</span>
+        <span class="s2">&quot;extra_people&quot;</span><span class="p">:</span><span class="mf">1.0</span><span class="p">,</span>
+        <span class="s2">&quot;number_of_reviews&quot;</span><span class="p">:</span> <span class="mf">2.0</span><span class="p">,</span>
+        <span class="s2">&quot;square_feet&quot;</span><span class="p">:</span> <span class="mf">250.0</span><span class="p">,</span>
+        <span class="s2">&quot;review_scores_rating&quot;</span><span class="p">:</span> <span class="mf">2.0</span><span class="p">,</span>
+        <span class="s2">&quot;room_type&quot;</span><span class="p">:</span> <span class="s2">&quot;Entire home/apt&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;host_is_super_host&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;cancellation_policy&quot;</span><span class="p">:</span> <span class="s2">&quot;flexible&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;instant_bookable&quot;</span><span class="p">:</span> <span class="s2">&quot;1.0&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;state&quot;</span><span class="p">:</span> <span class="s2">&quot;CA&quot;</span> <span class="p">}</span>
 
-json_data = json.dumps(data)
+<span class="n">json_data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
 
-with open(&#39;test_inputs.json&#39;, &#39;wt&#39;) as fh:
-    fh.write(json_data)
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;test_inputs.json&#39;</span><span class="p">,</span> <span class="s1">&#39;wt&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fh</span><span class="p">:</span>
+    <span class="n">fh</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">json_data</span><span class="p">)</span>
 </pre></div>
 <div class="codehilite"><pre><span></span>predict_url = &#39;http://your.model.server.com/api/v1/model/predict/spark/default/spark_airbnb/v0&#39;
 
@@ -1176,7 +1176,7 @@ print(&quot;Response:\n\n%s&quot; % response.text)
 </pre></div></p>
 <h3 id="python3">Python3<a class="headerlink" href="#python3" title="Permanent link">&para;</a></h3>
 <p><img alt="Python" src="../img/python-logo-184x180.png" /></p>
-<p>model_type: <code>python3</code></p>
+<p>model_type: <code class="codehilite">python3</code></p>
 <p>Initialize Model
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type python3 \
@@ -1194,7 +1194,7 @@ print(&quot;Response:\n\n%s&quot; % response.text)
 </pre></div></p>
 <h3 id="pmml_1">PMML<a class="headerlink" href="#pmml_1" title="Permanent link">&para;</a></h3>
 <p><img alt="PMML" src="../img/pmml-logo-210x96.png" /></p>
-<p>model_type: <code>pmml</code></p>
+<p>model_type: <code class="codehilite">pmml</code></p>
 <p>Initialize Model
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type pmml \
