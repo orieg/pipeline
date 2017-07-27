@@ -422,15 +422,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#clone-this-repo-and" title="Clone this Repo and" class="md-nav__link">
-    Clone this Repo and
+  <a href="#clone-this-repo" title="Clone this Repo" class="md-nav__link">
+    Clone this Repo
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#package-model" title="Package Model" class="md-nav__link">
-    Package Model
+  <a href="#change-to-pipelinepredict-directory-within-cloned-repo" title="Change to pipeline/predict Directory within Cloned Repo" class="md-nav__link">
+    Change to pipeline/predict Directory within Cloned Repo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#package-model-into-docker-image" title="Package Model into Docker Image" class="md-nav__link">
+    Package Model into Docker Image
   </a>
   
 </li>
@@ -450,8 +457,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#view-pipelineai-model-ui" title="View PipelineAI Model UI" class="md-nav__link">
-    View PipelineAI Model UI
+  <a href="#view-pipelineai-model-ui-tensorflow-models-only" title="View PipelineAI Model UI (TensorFlow Models Only)" class="md-nav__link">
+    View PipelineAI Model UI (TensorFlow Models Only)
   </a>
   
 </li>
@@ -759,15 +766,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#clone-this-repo-and" title="Clone this Repo and" class="md-nav__link">
-    Clone this Repo and
+  <a href="#clone-this-repo" title="Clone this Repo" class="md-nav__link">
+    Clone this Repo
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#package-model" title="Package Model" class="md-nav__link">
-    Package Model
+  <a href="#change-to-pipelinepredict-directory-within-cloned-repo" title="Change to pipeline/predict Directory within Cloned Repo" class="md-nav__link">
+    Change to pipeline/predict Directory within Cloned Repo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#package-model-into-docker-image" title="Package Model into Docker Image" class="md-nav__link">
+    Package Model into Docker Image
   </a>
   
 </li>
@@ -787,8 +801,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#view-pipelineai-model-ui" title="View PipelineAI Model UI" class="md-nav__link">
-    View PipelineAI Model UI
+  <a href="#view-pipelineai-model-ui-tensorflow-models-only" title="View PipelineAI Model UI (TensorFlow Models Only)" class="md-nav__link">
+    View PipelineAI Model UI (TensorFlow Models Only)
   </a>
   
 </li>
@@ -903,36 +917,39 @@
 <div class="codehilite"><pre><span></span>pipeline init
 </pre></div></p>
 <h2 id="supported-model-types">Supported Model Types<a class="headerlink" href="#supported-model-types" title="Permanent link">&para;</a></h2>
-<p><a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/scikit/">scikit</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/tensorflow/">tensorflow</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/python/">python</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/keras/">keras</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/pmml/">pmml</a>, spark, xgboost, r</p>
-<p>More <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/">samples</a> coming soon for spark, xgboost, and r.</p>
-<h2 id="clone-this-repo-and">Clone this Repo and<a class="headerlink" href="#clone-this-repo-and" title="Permanent link">&para;</a></h2>
-<p><div class="codehilite"><pre><span></span>git clone https://github.com/fluxcapacitor/pipeline
-</pre></div>
-<div class="codehilite"><pre><span></span>cd pipeline/predict
+<p><a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/scikit/">scikit</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/tensorflow/">tensorflow</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/python/">python</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/keras/">keras</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/pmml/">pmml</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/spark/">spark</a>, xgboost, r</p>
+<p>More <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/">samples</a> coming soon for xgboost, and r.</p>
+<h2 id="clone-this-repo">Clone this Repo<a class="headerlink" href="#clone-this-repo" title="Permanent link">&para;</a></h2>
+<p>This may take a few minutes...
+<div class="codehilite"><pre><span></span>git clone https://github.com/fluxcapacitor/pipeline
 </pre></div></p>
-<h2 id="package-model">Package Model<a class="headerlink" href="#package-model" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>pipeline model-package --package-type=docker \
-                       --model-path=./models/tensorflow/mnist \
-                       --model-type=tensorflow \
-                       --model-name=mnist \
-                       --model-tag=master
+<h2 id="change-to-pipelinepredict-directory-within-cloned-repo">Change to <code class="codehilite">pipeline/predict</code> Directory within Cloned Repo<a class="headerlink" href="#change-to-pipelinepredict-directory-within-cloned-repo" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span>cd pipeline/predict
 </pre></div>
 
+<h2 id="package-model-into-docker-image">Package Model into Docker Image<a class="headerlink" href="#package-model-into-docker-image" title="Permanent link">&para;</a></h2>
+<p>Note:  The <code class="codehilite">--model-path</code> currently must be <strong>relative</strong> to the <code class="codehilite">pipeline/predict</code> directory.
+<div class="codehilite"><pre><span></span>pipeline model-package --model-type=tensorflow \
+                       --model-name=mnist \
+                       --model-tag=master \
+                       --model-path=./models/tensorflow/mnist
+</pre></div></p>
 <h2 id="start-docker-based-model-package">Start Docker-based Model Package<a class="headerlink" href="#start-docker-based-model-package" title="Permanent link">&para;</a></h2>
-<p><div class="codehilite"><pre><span></span>pipeline model-start --memory-limit=2G \
-                     --model-type=tensorflow \
+<p><div class="codehilite"><pre><span></span>pipeline model-start --model-type=tensorflow \
                      --model-name=mnist \
-                     --model-tag=master
+                     --model-tag=master \
+                     --memory-limit=2G
 </pre></div>
 Note:  If you see <code class="codehilite"><span class="n">docker</span><span class="o">:</span> <span class="n">Error</span> <span class="n">response</span> <span class="n">from</span> <span class="n">daemon</span><span class="o">:</span> <span class="o">...</span> <span class="n">failed</span><span class="o">:</span> <span class="n">port</span> <span class="k">is</span> <span class="n">already</span> <span class="n">allocated</span><span class="o">.</span></code>, you likely have another Docker container running.  Use <code class="codehilite">docker ps</code> to find the container-id, then <code class="codehilite">docker rm -f &lt;container-id&gt;</code> to remove the other Docker container.</p>
 <h2 id="monitor-model-training-and-hyper-parameter-tuning">Monitor Model Training and Hyper-Parameter Tuning<a class="headerlink" href="#monitor-model-training-and-hyper-parameter-tuning" title="Permanent link">&para;</a></h2>
-<p>Wait for the following logs to settle down...
+<p>View the logs and wait for them to settle down.
 <div class="codehilite"><pre><span></span>pipeline model-logs --model-type=tensorflow \
                     --model-name=mnist \
                     --model-tag=master
 </pre></div></p>
-<h2 id="view-pipelineai-model-ui">View PipelineAI Model UI<a class="headerlink" href="#view-pipelineai-model-ui" title="Permanent link">&para;</a></h2>
-<p>This UI sometimes requires a couple refreshes.  We are working to stabilize the UI.
+<h2 id="view-pipelineai-model-ui-tensorflow-models-only">View PipelineAI Model UI (TensorFlow Models Only)<a class="headerlink" href="#view-pipelineai-model-ui-tensorflow-models-only" title="Permanent link">&para;</a></h2>
+<p>This UI sometimes requires a couple refreshes.  We are working to stabilize the UI.</p>
+<p>Note:  This UI currently works only with TensorFlow Models
 <div class="codehilite"><pre><span></span>http://localhost:6333/
 </pre></div></p>
 <p><img alt="PipelineAI Model UI" src="http://pipeline.io/img/pipelineai-train-compare-ui.png" /></p>
@@ -941,23 +958,23 @@ Note:  If you see <code class="codehilite"><span class="n">docker</span><span cl
 <h3 id="cli">CLI<a class="headerlink" href="#cli" title="Permanent link">&para;</a></h3>
 <p><strong>Perform Single Image Prediction</strong></p>
 <p>Note:  This first call will take 10-20x longer than subsequent calls.  Lazy init, warm-up, etc.
-<div class="codehilite"><pre><span></span>pipeline model-predict --model-server-url=http://localhost:6969 \
-                       --model-test-request-path=./models/tensorflow/mnist/data/test_request.json \
-                       --model-type=tensorflow \
+<div class="codehilite"><pre><span></span>pipeline model-predict --model-type=tensorflow \
                        --model-name=mnist \
-                       --model-tag=master
+                       --model-tag=master \
+                       --model-server-url=http://localhost:6969 \
+                       --model-test-request-path=./models/tensorflow/mnist/data/test_request.json
 </pre></div></p>
 <p><strong>Perform 100 Predictions in Parallel</strong>
-<div class="codehilite"><pre><span></span>pipeline model-predict --model-server-url=http://localhost:6969 \
-                       --model-test-request-path=./models/tensorflow/mnist/data/test_request.json \
-                       --concurrency=100 \
-                       --model-type=tensorflow \
+<div class="codehilite"><pre><span></span>pipeline model-predict --model-type=tensorflow \
                        --model-name=mnist \
-                       --model-tag=master
+                       --model-tag=master \
+                       --model-server-url=http://localhost:6969 \
+                       --model-test-request-path=./models/tensorflow/mnist/data/test_request.json \
+                       --model-test-request-concurrency=100
 </pre></div></p>
 <h3 id="rest-api">REST API<a class="headerlink" href="#rest-api" title="Permanent link">&para;</a></h3>
 <p><strong>Prediction Inputs</strong></p>
-<p>JSON representation of gray-scale values for <strong>Digit 6</strong>.  <img alt="Digit 6" src="http://pipeline.io/img/6.jpg" /></p>
+<p>JSON representation of gray-scale values for Digit <img alt="Digit 6" src="http://pipeline.io/img/6.jpg" />.</p>
 <div class="codehilite"><pre><span></span>curl -X POST -H &quot;Content-Type: application/json&quot; \
   -d &#39;{&quot;image&quot;: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.05098039656877518, 0.529411792755127, 0.3960784673690796, 0.572549045085907, 0.572549045085907, 0.847058892250061, 0.8156863451004028, 0.9960784912109375, 1.0, 1.0, 0.9960784912109375, 0.5960784554481506, 0.027450982481241226, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.32156863808631897, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.7882353663444519, 0.11764706671237946, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.32156863808631897, 0.9921569228172302, 0.988235354423523, 0.7921569347381592, 0.9450981020927429, 0.545098066329956, 0.21568629145622253, 0.3450980484485626, 0.45098042488098145, 0.125490203499794, 0.125490203499794, 0.03921568766236305, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.32156863808631897, 0.9921569228172302, 0.803921639919281, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6352941393852234, 0.9921569228172302, 0.803921639919281, 0.24705883860588074, 0.3490196168422699, 0.6509804129600525, 0.32156863808631897, 0.32156863808631897, 0.1098039299249649, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.007843137718737125, 0.7529412508010864, 0.9921569228172302, 0.9725490808486938, 0.9686275124549866, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.8274510502815247, 0.29019609093666077, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2549019753932953, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.847058892250061, 0.027450982481241226, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5921568870544434, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.7333333492279053, 0.44705885648727417, 0.23137256503105164, 0.23137256503105164, 0.4784314036369324, 0.9921569228172302, 0.9921569228172302, 0.03921568766236305, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5568627715110779, 0.9568628072738647, 0.7098039388656616, 0.08235294371843338, 0.019607843831181526, 0.0, 0.0, 0.0, 0.08627451211214066, 0.9921569228172302, 0.9921569228172302, 0.43137258291244507, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.15294118225574493, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.08627451211214066, 0.9921569228172302, 0.9921569228172302, 0.46666669845581055, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.08627451211214066, 0.9921569228172302, 0.9921569228172302, 0.46666669845581055, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.08627451211214066, 0.9921569228172302, 0.9921569228172302, 0.46666669845581055, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1882353127002716, 0.9921569228172302, 0.9921569228172302, 0.46666669845581055, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6705882549285889, 0.9921569228172302, 0.9921569228172302, 0.12156863510608673, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2392157018184662, 0.9647059440612793, 0.9921569228172302, 0.6274510025978088, 0.003921568859368563, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.08235294371843338, 0.44705885648727417, 0.16470588743686676, 0.0, 0.0, 0.2549019753932953, 0.9294118285179138, 0.9921569228172302, 0.9333333969116211, 0.27450981736183167, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4941176772117615, 0.9529412388801575, 0.0, 0.0, 0.5803921818733215, 0.9333333969116211, 0.9921569228172302, 0.9921569228172302, 0.4078431725502014, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7411764860153198, 0.9764706492424011, 0.5529412031173706, 0.8784314393997192, 0.9921569228172302, 0.9921569228172302, 0.9490196704864502, 0.43529415130615234, 0.007843137718737125, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6235294342041016, 0.9921569228172302, 0.9921569228172302, 0.9921569228172302, 0.9764706492424011, 0.6274510025978088, 0.1882353127002716, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.18431372940540314, 0.5882353186607361, 0.729411780834198, 0.5686274766921997, 0.3529411852359772, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], &quot;label&quot;: 5}&#39; \
   http://localhost:6969/api/v1/model/predict/tensorflow/mnist \
