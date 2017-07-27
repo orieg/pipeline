@@ -436,15 +436,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#package-model-into-docker-image" title="Package Model into Docker Image" class="md-nav__link">
-    Package Model into Docker Image
+  <a href="#build-model-into-docker-image" title="Build Model into Docker Image" class="md-nav__link">
+    Build Model into Docker Image
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#start-docker-based-model-package" title="Start Docker-based Model Package" class="md-nav__link">
-    Start Docker-based Model Package
+  <a href="#start-docker-based-model" title="Start Docker-based Model" class="md-nav__link">
+    Start Docker-based Model
   </a>
   
 </li>
@@ -498,8 +498,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#stop-docker-based-model-package" title="Stop Docker-based Model Package" class="md-nav__link">
-    Stop Docker-based Model Package
+  <a href="#stop-docker-based-model" title="Stop Docker-based Model" class="md-nav__link">
+    Stop Docker-based Model
   </a>
   
 </li>
@@ -780,15 +780,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#package-model-into-docker-image" title="Package Model into Docker Image" class="md-nav__link">
-    Package Model into Docker Image
+  <a href="#build-model-into-docker-image" title="Build Model into Docker Image" class="md-nav__link">
+    Build Model into Docker Image
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#start-docker-based-model-package" title="Start Docker-based Model Package" class="md-nav__link">
-    Start Docker-based Model Package
+  <a href="#start-docker-based-model" title="Start Docker-based Model" class="md-nav__link">
+    Start Docker-based Model
   </a>
   
 </li>
@@ -842,8 +842,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#stop-docker-based-model-package" title="Stop Docker-based Model Package" class="md-nav__link">
-    Stop Docker-based Model Package
+  <a href="#stop-docker-based-model" title="Stop Docker-based Model" class="md-nav__link">
+    Stop Docker-based Model
   </a>
   
 </li>
@@ -927,14 +927,14 @@
 <div class="codehilite"><pre><span></span>cd pipeline/predict
 </pre></div>
 
-<h2 id="package-model-into-docker-image">Package Model into Docker Image<a class="headerlink" href="#package-model-into-docker-image" title="Permanent link">&para;</a></h2>
+<h2 id="build-model-into-docker-image">Build Model into Docker Image<a class="headerlink" href="#build-model-into-docker-image" title="Permanent link">&para;</a></h2>
 <p>Note:  The <code class="codehilite">--model-path</code> currently must be <strong>relative</strong> to the <code class="codehilite">pipeline/predict</code> directory.
-<div class="codehilite"><pre><span></span>pipeline model-package --model-type=tensorflow \
-                       --model-name=mnist \
-                       --model-tag=master \
-                       --model-path=./models/tensorflow/mnist
+<div class="codehilite"><pre><span></span>pipeline model-build --model-type=tensorflow \
+                     --model-name=mnist \
+                     --model-tag=master \
+                     --model-path=./models/tensorflow/mnist
 </pre></div></p>
-<h2 id="start-docker-based-model-package">Start Docker-based Model Package<a class="headerlink" href="#start-docker-based-model-package" title="Permanent link">&para;</a></h2>
+<h2 id="start-docker-based-model">Start Docker-based Model<a class="headerlink" href="#start-docker-based-model" title="Permanent link">&para;</a></h2>
 <p><div class="codehilite"><pre><span></span>pipeline model-start --model-type=tensorflow \
                      --model-name=mnist \
                      --model-tag=master \
@@ -1005,7 +1005,7 @@ Username/Password: <strong>admin</strong>/<strong>admin</strong></p>
 <p>Use <code class="codehilite">http://localhost:9090</code> for the Prometheus data source within your Grafana Dashboard.<br />
 <div class="codehilite"><pre><span></span>http://localhost:3000/
 </pre></div></p>
-<h2 id="stop-docker-based-model-package">Stop Docker-based Model Package<a class="headerlink" href="#stop-docker-based-model-package" title="Permanent link">&para;</a></h2>
+<h2 id="stop-docker-based-model">Stop Docker-based Model<a class="headerlink" href="#stop-docker-based-model" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>pipeline model-stop --model-type=tensorflow \
                     --model-name=mnist \
                     --model-tag=master
