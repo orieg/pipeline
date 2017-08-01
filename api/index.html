@@ -1095,9 +1095,9 @@ Username/Password: <strong>admin</strong>/<strong>admin</strong></p>
 </pre></div>
 
 <h2 id="create-kubernetes-yaml-for-the-model">Create Kubernetes YAML for the Model<a class="headerlink" href="#create-kubernetes-yaml-for-the-model" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>pipeline kube-model --model-type=tensorflow \
-                    --model-name=mnist \
-                    --model-tag=master
+<div class="codehilite"><pre><span></span>pipeline model-service --model-type=tensorflow \
+                       --model-name=mnist \
+                       --model-tag=master
 </pre></div>
 
 <h2 id="deploy-model-to-kubernetes-as-a-service">Deploy Model to Kubernetes as a Service<a class="headerlink" href="#deploy-model-to-kubernetes-as-a-service" title="Permanent link">&para;</a></h2>
