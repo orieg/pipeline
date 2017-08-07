@@ -1108,10 +1108,12 @@ Using templates in &#39;/Users/cfregly/workspace-fluxcapacitor/pipeline/predict/
 </pre></div>
 
 <h2 id="deploy-model-to-kubernetes-using-generated-yaml-above">Deploy Model to Kubernetes Using Generated YAML Above<a class="headerlink" href="#deploy-model-to-kubernetes-using-generated-yaml-above" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>pipeline service-create --deploy-yaml-path=./tensorflow-mnist-cpu-master-deploy.yaml \
-                        --svc-yaml-path=./tensorflow-mnist-cpu-master-svc.yaml
-</pre></div>
-
+<p>Create the Kubernetes Deployment
+<div class="codehilite"><pre><span></span>pipeline kube-create ./tensorflow-mnist-cpu-master-deploy.yaml
+</pre></div></p>
+<p>Create the Kubernetes Service (Load Balancer)
+<div class="codehilite"><pre><span></span>pipeline kube-create ./tensorflow-mnist-cpu-master-svc.yaml
+</pre></div></p>
 <hr />
 <h2 id="try-our-free-community-edition">Try our Free <a href="../products/">Community Edition</a>!<a class="headerlink" href="#try-our-free-community-edition" title="Permanent link">&para;</a></h2>
 <p>Click <a href="../products/">HERE</a> to get started with our basic <a href="../products/">Community Edition</a> </p>
