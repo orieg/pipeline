@@ -533,8 +533,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#deploy-model-to-kubernetes-as-a-service" title="Deploy Model to Kubernetes as a Service" class="md-nav__link">
-    Deploy Model to Kubernetes as a Service
+  <a href="#deploy-model-to-kubernetes-using-generated-yaml-above" title="Deploy Model to Kubernetes Using Generated YAML Above" class="md-nav__link">
+    Deploy Model to Kubernetes Using Generated YAML Above
   </a>
   
 </li>
@@ -912,8 +912,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#deploy-model-to-kubernetes-as-a-service" title="Deploy Model to Kubernetes as a Service" class="md-nav__link">
-    Deploy Model to Kubernetes as a Service
+  <a href="#deploy-model-to-kubernetes-using-generated-yaml-above" title="Deploy Model to Kubernetes Using Generated YAML Above" class="md-nav__link">
+    Deploy Model to Kubernetes Using Generated YAML Above
   </a>
   
 </li>
@@ -982,7 +982,7 @@
 </ul>
 <h2 id="setup-pipeline-ai-cli">Setup <code class="codehilite">pipeline-ai-cli</code><a class="headerlink" href="#setup-pipeline-ai-cli" title="Permanent link">&para;</a></h2>
 <p>Note: This command line interface requires <strong>Python3</strong> and <strong>Docker</strong>. (See Pre-Requisites above.)</p>
-<div class="codehilite"><pre><span></span>pip3 install --ignore-installed --no-cache -U pipeline-ai-cli
+<div class="codehilite"><pre><span></span>pip install --ignore-installed --no-cache -U pipeline-ai-cli
 </pre></div>
 
 <h2 id="supported-model-types">Supported Model Types<a class="headerlink" href="#supported-model-types" title="Permanent link">&para;</a></h2>
@@ -1094,12 +1094,20 @@ Username/Password: <strong>admin</strong>/<strong>admin</strong></p>
 </pre></div>
 
 <h2 id="create-kubernetes-yaml-for-the-model">Create Kubernetes YAML for the Model<a class="headerlink" href="#create-kubernetes-yaml-for-the-model" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>pipeline model-service --model-type=tensorflow \
-                       --model-name=mnist \
-                       --model-tag=master
+<div class="codehilite"><pre><span></span>pipeline model-yaml --model-type=tensorflow \
+                    --model-name=mnist \
+                    --model-tag=master
+
+### EXPECTED OUTPUT ###
+Using templates in &#39;/Users/cfregly/workspace-fluxcapacitor/pipeline/predict/templates&#39;.
+(Specify --template-path if the templates live elsewhere.)
+
+&#39;predict-deploy.yaml.template&#39; -&gt; &#39;./tensorflow-mnist-cpu-master-deploy.yaml&#39;.
+&#39;predict-svc.yaml.template&#39; -&gt; &#39;./tensorflow-mnist-cpu-master-svc.yaml&#39;.
+...
 </pre></div>
 
-<h2 id="deploy-model-to-kubernetes-as-a-service">Deploy Model to Kubernetes as a Service<a class="headerlink" href="#deploy-model-to-kubernetes-as-a-service" title="Permanent link">&para;</a></h2>
+<h2 id="deploy-model-to-kubernetes-using-generated-yaml-above">Deploy Model to Kubernetes Using Generated YAML Above<a class="headerlink" href="#deploy-model-to-kubernetes-using-generated-yaml-above" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>pipeline service-create --deploy-yaml-path=./tensorflow-mnist-cpu-master-deploy.yaml \
                         --svc-yaml-path=./tensorflow-mnist-cpu-master-svc.yaml
 </pre></div>
