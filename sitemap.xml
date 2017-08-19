@@ -4,71 +4,55 @@
     
     <url>
      <loc>http://pipeline.io/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
-        
+    <url>
+     <loc>http://pipeline.io/tour/</loc>
+     <lastmod>2017-08-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
     <url>
      <loc>http://pipeline.io/model_train/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
      <loc>http://pipeline.io/model_optimize/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
      <loc>http://pipeline.io/model_deploy/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
      <loc>http://pipeline.io/model_monitor/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    <url>
-     <loc>http://pipeline.io/model_experiment/</loc>
-     <lastmod>2017-08-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://pipeline.io/model_stream/</loc>
-     <lastmod>2017-08-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
     
 
     
     <url>
      <loc>http://pipeline.io/products/</loc>
-     <lastmod>2017-08-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>http://pipeline.io/environments/</loc>
-     <lastmod>2017-08-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>http://pipeline.io/model_monitor/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -76,7 +60,7 @@
     
     <url>
      <loc>http://pipeline.io/gpu/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -84,7 +68,7 @@
     
     <url>
      <loc>http://pipeline.io/api/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -92,7 +76,7 @@
     
     <url>
      <loc>http://pipeline.io/releases/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -100,7 +84,7 @@
     
     <url>
      <loc>http://pipeline.io/support/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -108,7 +92,7 @@
     
     <url>
      <loc>http://pipeline.io/contact/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -116,15 +100,7 @@
     
     <url>
      <loc>http://pipeline.io/legal/</loc>
-     <lastmod>2017-08-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>http://pipeline.io/survey/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -133,13 +109,13 @@
         
     <url>
      <loc>http://pipeline.io/events/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>http://pipeline.io/training/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -149,19 +125,19 @@
         
     <url>
      <loc>http://pipeline.io/open_source/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>http://pipeline.io/contribute/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>http://pipeline.io/install/</loc>
-     <lastmod>2017-08-15</lastmod>
+     <lastmod>2017-08-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
