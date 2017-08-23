@@ -1010,11 +1010,12 @@
 <div class="codehilite"><pre><span></span>git clone https://github.com/fluxcapacitor/source.ml
 </pre></div>
 
-<p>Note: You can use the same <code class="codehilite">model-server-url</code> from the the PipelineAI <a href="http://community.pipeline.io">Community Edition</a>.  See the Community Edition example <a href="http://community.pipeline.io">notebooks</a> for complete, end-to-end examples.</p>
+
+<p>Note: You can use the same <code>model-server-url</code> from the the PipelineAI <a href="http://community.pipeline.io">Community Edition</a>.  See the Community Edition example <a href="http://community.pipeline.io">notebooks</a> for complete, end-to-end examples.</p>
 <h3 id="tensorflow_1">TensorFlow<a class="headerlink" href="#tensorflow_1" title="Permanent link">&para;</a></h3>
 <p><img alt="TensorFlow" src="../img/tensorflow-logo-202x168.png" /></p>
-<p>model_type: <code class="codehilite">tensorflow</code></p>
-<p>Initialize Model
+<p>model_type: <code>tensorflow</code></p>
+<p>Initialize Model</p>
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type tensorflow \
                --model-namespace default \
@@ -1022,17 +1023,23 @@
                --model-version 0 \
                --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \
                --model-test-request-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt
-</pre></div></p>
-<p>Deploy Model
+</pre></div>
+
+
+<p>Deploy Model</p>
 <div class="codehilite"><pre><span></span>pio deploy
-</pre></div></p>
-<p>Predict Model
+</pre></div>
+
+
+<p>Predict Model</p>
 <div class="codehilite"><pre><span></span>pio predict
-</pre></div></p>
+</pre></div>
+
+
 <h3 id="scikit-learn_1">Scikit-Learn<a class="headerlink" href="#scikit-learn_1" title="Permanent link">&para;</a></h3>
 <p><img alt="Scikit-Learn" src="../img/scikit-logo-277x150.png" /></p>
-<p>model_type: <code class="codehilite">scikit</code></p>
-<p>Initialize Model
+<p>model_type: <code>scikit</code></p>
+<p>Initialize Model</p>
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type scikit \
                --model-namespace default \
@@ -1040,17 +1047,23 @@
                --model-version v0 \
                --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \
                --model-test-request-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt
-</pre></div></p>
-<p>Deploy Model
+</pre></div>
+
+
+<p>Deploy Model</p>
 <div class="codehilite"><pre><span></span>pio deploy
-</pre></div></p>
-<p>Predict Model
+</pre></div>
+
+
+<p>Predict Model</p>
 <div class="codehilite"><pre><span></span>pio predict
-</pre></div></p>
+</pre></div>
+
+
 <h3 id="spark-ml_1">Spark ML<a class="headerlink" href="#spark-ml_1" title="Permanent link">&para;</a></h3>
 <p><img alt="Spark ML" src="../img/spark-logo-254x163.png" /></p>
-<p>model_type: <code class="codehilite">spark</code></p>
-<p>Initialize Model
+<p>model_type: <code>spark</code></p>
+<p>Initialize Model</p>
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type spark \
                --model-namespace default \
@@ -1058,11 +1071,15 @@
                --model-version v0 \
                --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \
                --model-test-request-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt
-</pre></div></p>
-<p>Deploy Model (CLI)
+</pre></div>
+
+
+<p>Deploy Model (CLI)</p>
 <div class="codehilite"><pre><span></span>pio deploy
-</pre></div></p>
-<p>Deploy Model (REST)
+</pre></div>
+
+
+<p>Deploy Model (REST)</p>
 <div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
 
 <span class="n">deploy_url</span> <span class="o">=</span> <span class="s1">&#39;http://your.model.server.com/api/v1/model/deploy/spark/default/spark_airbnb/v0&#39;</span>
@@ -1072,11 +1089,15 @@
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">deploy_url</span><span class="p">,</span> <span class="n">files</span><span class="o">=</span><span class="n">files</span><span class="p">)</span>
 
 <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Success!</span><span class="se">\n\n</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
-</pre></div></p>
-<p>Predict Model (CLI)
+</pre></div>
+
+
+<p>Predict Model (CLI)</p>
 <div class="codehilite"><pre><span></span>pio predict
-</pre></div></p>
-<p>Predict Model (REST)
+</pre></div>
+
+
+<p>Predict Model (REST)</p>
 <div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
 
 <span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;bathrooms&quot;</span><span class="p">:</span><span class="mf">2.0</span><span class="p">,</span>
@@ -1098,6 +1119,8 @@
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;test_inputs.json&#39;</span><span class="p">,</span> <span class="s1">&#39;wt&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fh</span><span class="p">:</span>
     <span class="n">fh</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">json_data</span><span class="p">)</span>
 </pre></div>
+
+
 <div class="codehilite"><pre><span></span>predict_url = &#39;http://your.model.server.com/api/v1/model/predict/spark/default/spark_airbnb/v0&#39;
 
 headers = {&#39;content-type&#39;: &#39;application/json&#39;}
@@ -1107,11 +1130,13 @@ response = requests.post(predict_url,
                          headers=headers)
 
 print(&quot;Response:\n\n%s&quot; % response.text)
-</pre></div></p>
+</pre></div>
+
+
 <h3 id="python3">Python3<a class="headerlink" href="#python3" title="Permanent link">&para;</a></h3>
 <p><img alt="Python" src="../img/python-logo-184x180.png" /></p>
-<p>model_type: <code class="codehilite">python3</code></p>
-<p>Initialize Model
+<p>model_type: <code>python3</code></p>
+<p>Initialize Model</p>
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type python3 \
                --model-namespace default \
@@ -1119,17 +1144,23 @@ print(&quot;Response:\n\n%s&quot; % response.text)
                --model-version v0 \
                --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \
                --model-test-request-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt
-</pre></div></p>
-<p>Deploy Model
+</pre></div>
+
+
+<p>Deploy Model</p>
 <div class="codehilite"><pre><span></span>pio deploy
-</pre></div></p>
-<p>Predict Model
+</pre></div>
+
+
+<p>Predict Model</p>
 <div class="codehilite"><pre><span></span>pio predict
-</pre></div></p>
+</pre></div>
+
+
 <h3 id="pmml_1">PMML<a class="headerlink" href="#pmml_1" title="Permanent link">&para;</a></h3>
 <p><img alt="PMML" src="../img/pmml-logo-210x96.png" /></p>
-<p>model_type: <code class="codehilite">pmml</code></p>
-<p>Initialize Model
+<p>model_type: <code>pmml</code></p>
+<p>Initialize Model</p>
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type pmml \
                --model-namespace default \
@@ -1137,31 +1168,45 @@ print(&quot;Response:\n\n%s&quot; % response.text)
                --model-version v0 \
                --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \
                --model-test-request-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt
-</pre></div></p>
-<p>Deploy Model
+</pre></div>
+
+
+<p>Deploy Model</p>
 <div class="codehilite"><pre><span></span>pio deploy
-</pre></div></p>
-<p>Predict Model
+</pre></div>
+
+
+<p>Predict Model</p>
 <div class="codehilite"><pre><span></span>pio predict
-</pre></div></p>
+</pre></div>
+
+
 <h2 id="deployment-workflow">Deployment Workflow<a class="headerlink" href="#deployment-workflow" title="Permanent link">&para;</a></h2>
-<p>PipelineAI uses python-based Airflow for pipeline workflow management.
+<p>PipelineAI uses python-based Airflow for pipeline workflow management.</p>
 <div class="codehilite"><pre><span></span>pio flow
-</pre></div></p>
+</pre></div>
+
+
 <h2 id="upgrade">Upgrade<a class="headerlink" href="#upgrade" title="Permanent link">&para;</a></h2>
-<p>PipelineAI supports rolling upgrades.
+<p>PipelineAI supports rolling upgrades.</p>
 <div class="codehilite"><pre><span></span>pio upgrade
-</pre></div></p>
+</pre></div>
+
+
 <h2 id="canary-deploy">Canary Deploy<a class="headerlink" href="#canary-deploy" title="Permanent link">&para;</a></h2>
-<p>PipelineAI supports various canary deployment strategies including traffic-splitting and traffic-shadowing.
+<p>PipelineAI supports various canary deployment strategies including traffic-splitting and traffic-shadowing.</p>
 <div class="codehilite"><pre><span></span>pio canary
-</pre></div></p>
+</pre></div>
+
+
 <h3 id="traffic-splitting">Traffic Splitting<a class="headerlink" href="#traffic-splitting" title="Permanent link">&para;</a></h3>
 <h3 id="traffic-shadowing">Traffic Shadowing<a class="headerlink" href="#traffic-shadowing" title="Permanent link">&para;</a></h3>
 <h2 id="rollback">Rollback<a class="headerlink" href="#rollback" title="Permanent link">&para;</a></h2>
-<p>PipelineAI supports rolling back to any previous revision.
+<p>PipelineAI supports rolling back to any previous revision.</p>
 <div class="codehilite"><pre><span></span>pio rollback --revision=1
-</pre></div></p>
+</pre></div>
+
+
 <hr />
 <h2 id="try-our-free-community-edition">Try our Free <a href="../products/">Community Edition</a>!<a class="headerlink" href="#try-our-free-community-edition" title="Permanent link">&para;</a></h2>
 <p>Click <a href="../products/">HERE</a> to get started with our basic <a href="../products/">Community Edition</a> </p>
