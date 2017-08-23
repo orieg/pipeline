@@ -35,7 +35,31 @@
 
     
     <url>
+     <loc>http://pipeline.io/model_monitor/</loc>
+     <lastmod>2017-08-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://pipeline.io/gpu/</loc>
+     <lastmod>2017-08-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>http://pipeline.io/events/</loc>
+     <lastmod>2017-08-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://pipeline.io/environments/</loc>
      <lastmod>2017-08-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -75,24 +99,6 @@
         
     <url>
      <loc>http://pipeline.io/model_stream/</loc>
-     <lastmod>2017-08-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://pipeline.io/environments/</loc>
-     <lastmod>2017-08-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://pipeline.io/model_monitor/</loc>
-     <lastmod>2017-08-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://pipeline.io/gpu/</loc>
      <lastmod>2017-08-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
