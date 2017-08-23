@@ -926,27 +926,19 @@
 
 <h2 id="build-model-into-docker-image">Build Model into Docker Image<a class="headerlink" href="#build-model-into-docker-image" title="Permanent link">&para;</a></h2>
 <p>Note:  The <code>--model-path</code> currently must be <strong>relative</strong> to the <code>pipeline/predict</code> directory.</p>
-<div class="codehilite"><pre><span></span>pipeline model-build --model-type=tensorflow \
-                     --model-name=mnist \
-                     --model-tag=master \
-                     --model-path=./models/tensorflow/mnist
+<div class="codehilite"><pre><span></span>pipeline model-build --model-type=tensorflow --model-name=mnist --model-tag=master --model-path=./models/tensorflow/mnist
 </pre></div>
 
 
 <h2 id="start-docker-based-model">Start Docker-based Model<a class="headerlink" href="#start-docker-based-model" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>pipeline model-start --model-type=tensorflow \
-                     --model-name=mnist \
-                     --model-tag=master \
-                     --memory-limit=2G
+<div class="codehilite"><pre><span></span>pipeline model-start --model-type=tensorflow --model-name=mnist --model-tag=master --memory-limit=2G
 </pre></div>
 
 
 <p>Note:  If you see <code>docker: Error response from daemon: ... failed: port is already allocated.</code>, you likely have another Docker container running.  Use <code>docker ps</code> to find the container-id, then <code>docker rm -f &lt;container-id&gt;</code> to remove the other Docker container.</p>
 <h2 id="monitor-model-training-and-hyper-parameter-tuning">Monitor Model Training and Hyper-Parameter Tuning<a class="headerlink" href="#monitor-model-training-and-hyper-parameter-tuning" title="Permanent link">&para;</a></h2>
 <p>View the logs and wait for them to settle down.</p>
-<div class="codehilite"><pre><span></span>pipeline model-logs --model-type=tensorflow \
-                    --model-name=mnist \
-                    --model-tag=master
+<div class="codehilite"><pre><span></span>pipeline model-logs --model-type=tensorflow --model-name=mnist --model-tag=master
 </pre></div>
 
 
@@ -963,21 +955,12 @@
 <h3 id="cli">CLI<a class="headerlink" href="#cli" title="Permanent link">&para;</a></h3>
 <p><strong>Perform Single Image Prediction</strong></p>
 <p>Note:  This first call will take 10-20x longer than subsequent calls.  Lazy init, warm-up, etc.</p>
-<div class="codehilite"><pre><span></span>pipeline model-predict --model-type=tensorflow \
-                       --model-name=mnist \
-                       --model-tag=master \
-                       --model-server-url=http://localhost:6969 \
-                       --model-test-request-path=./models/tensorflow/mnist/data/test_request.json
+<div class="codehilite"><pre><span></span>pipeline model-predict --model-type=tensorflow --model-name=mnist --model-tag=master --model-server-url=http://localhost:6969 --model-test-request-path=./models/tensorflow/mnist/data/test_request.json
 </pre></div>
 
 
 <p><strong>Perform 100 Predictions in Parallel</strong></p>
-<div class="codehilite"><pre><span></span>pipeline model-predict --model-type=tensorflow \
-                       --model-name=mnist \
-                       --model-tag=master \
-                       --model-server-url=http://localhost:6969 \
-                       --model-test-request-path=./models/tensorflow/mnist/data/test_request.json \
-                       --model-test-request-concurrency=100
+<div class="codehilite"><pre><span></span>pipeline model-predict --model-type=tensorflow --model-name=mnist --model-tag=master --model-server-url=http://localhost:6969 --model-test-request-path=./models/tensorflow/mnist/data/test_request.json --model-test-request-concurrency=100
 </pre></div>
 
 
@@ -1020,31 +1003,23 @@ Username/Password: <strong>admin</strong>/<strong>admin</strong></p>
 
 
 <h2 id="stop-docker-based-model">Stop Docker-based Model<a class="headerlink" href="#stop-docker-based-model" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>pipeline model-stop --model-type=tensorflow \
-                    --model-name=mnist \
-                    --model-tag=master
+<div class="codehilite"><pre><span></span>pipeline model-stop --model-type=tensorflow --model-name=mnist --model-tag=master
 </pre></div>
 
 
 <h2 id="extras">Extras<a class="headerlink" href="#extras" title="Permanent link">&para;</a></h2>
 <h2 id="shell-into-docker-based-model">Shell into Docker-based Model<a class="headerlink" href="#shell-into-docker-based-model" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>pipeline model-shell --model-type=tensorflow \
-                     --model-name=mnist \
-                     --model-tag=master
+<div class="codehilite"><pre><span></span>pipeline model-shell --model-type=tensorflow --model-name=mnist --model-tag=master
 </pre></div>
 
 
 <h2 id="push-image-to-docker">Push Image to Docker<a class="headerlink" href="#push-image-to-docker" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>pipeline model-push --model-type=tensorflow \
-                    --model-name=mnist \
-                    --model-tag=master
+<div class="codehilite"><pre><span></span>pipeline model-push --model-type=tensorflow --model-name=mnist --model-tag=master
 </pre></div>
 
 
 <h2 id="create-kubernetes-yaml-for-the-model">Create Kubernetes YAML for the Model<a class="headerlink" href="#create-kubernetes-yaml-for-the-model" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>pipeline model-yaml --model-type=tensorflow \
-                    --model-name=mnist \
-                    --model-tag=master
+<div class="codehilite"><pre><span></span>pipeline model-yaml --model-type=tensorflow --model-name=mnist --model-tag=master
 
 ### EXPECTED OUTPUT ###
 Using templates in &#39;/Users/cfregly/workspace-fluxcapacitor/pipeline/predict/templates&#39;.
