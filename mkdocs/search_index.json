@@ -232,7 +232,7 @@
         },
         {
             "location": "/runbooks/",
-            "text": "AWS ECS Runbook\n\u00b6\n\n\nBuild, Test, and Push your Model as a Docker Image\n\u00b6\n\n\nhttp://pipeline.io/api/\n\n\n\n\n\nPush the Model to Registry\n\u00b6\n\n\nhttp://pipeline.io/api/\n\n\n\n\n\nCreate\n\u00b6\n\n\nConfigure Docker Image\n\n\n \n\n\nConfigure Ports and Environment Variables",
+            "text": "AWS ECS Runbook\n\u00b6\n\n\nBuild, Test, and Push your Model as a Docker Image\n\u00b6\n\n\nhttp://pipeline.io/api/\n\n\n\n\n\nPush the Model to Registry\n\u00b6\n\n\nhttp://pipeline.io/api/\n\n\n\n\n\nCreate\n\u00b6\n\n\nConfigure Docker Image, RAM, and CPU\n\n\n \n\n\nConfigure Ports and Environment Variables",
             "title": "Deployment Runbooks"
         },
         {
@@ -252,7 +252,7 @@
         },
         {
             "location": "/runbooks/#create",
-            "text": "Configure Docker Image     Configure Ports and Environment Variables",
+            "text": "Configure Docker Image, RAM, and CPU     Configure Ports and Environment Variables",
             "title": "Create"
         },
         {
