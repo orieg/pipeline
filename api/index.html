@@ -982,55 +982,55 @@
                   <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/src/api/index.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
                 
                 
-                <h1 id="pipelineai-cli-and-rest-apis">PipelineAI CLI and REST APIs<a class="headerlink" href="#pipelineai-cli-and-rest-apis" title="Permanent link">&para;</a></h1>
-<h2 id="install-pre-requisites">Install Pre-Requisites<a class="headerlink" href="#install-pre-requisites" title="Permanent link">&para;</a></h2>
-<h3 id="docker">Docker<a class="headerlink" href="#docker" title="Permanent link">&para;</a></h3>
+                <h1 id="pipelineai-cli-and-rest-apis">PipelineAI CLI and REST APIs</h1>
+<h2 id="install-pre-requisites">Install Pre-Requisites</h2>
+<h3 id="docker">Docker</h3>
 <ul>
 <li>Install <a href="https://www.docker.com/community-edition#/download">Docker</a></li>
 </ul>
-<h3 id="python3">Python3<a class="headerlink" href="#python3" title="Permanent link">&para;</a></h3>
+<h3 id="python3">Python3</h3>
 <ul>
 <li>Install <a href="https://conda.io/docs/install/quick.html">Miniconda</a> with Python3 Support</li>
 </ul>
-<h2 id="setup-pipeline-ai-cli">Setup <code>pipeline-ai-cli</code><a class="headerlink" href="#setup-pipeline-ai-cli" title="Permanent link">&para;</a></h2>
+<h2 id="setup-pipeline-ai-cli">Setup <code>pipeline-ai-cli</code></h2>
 <p>Note: This command line interface requires <strong>Python3</strong> and <strong>Docker</strong>. (See Pre-Requisites above.)</p>
 <div class="codehilite"><pre><span></span>pip install --ignore-installed --no-cache -U pipeline-ai-cli
 </pre></div>
 
 
-<h2 id="supported-model-types">Supported Model Types<a class="headerlink" href="#supported-model-types" title="Permanent link">&para;</a></h2>
+<h2 id="supported-model-types">Supported Model Types</h2>
 <p><a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/scikit/">scikit</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/tensorflow/">tensorflow</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/python/">python</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/keras/">keras</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/pmml/">pmml</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/spark/">spark</a>, <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/xgboost/">xgboost</a>, r</p>
 <p>More <a href="https://github.com/fluxcapacitor/pipeline/tree/master/predict/models/">samples</a> coming soon for r.</p>
-<h2 id="clone-this-repo">Clone this Repo<a class="headerlink" href="#clone-this-repo" title="Permanent link">&para;</a></h2>
+<h2 id="clone-this-repo">Clone this Repo</h2>
 <p>This may take a few minutes...</p>
 <div class="codehilite"><pre><span></span>git clone https://github.com/fluxcapacitor/pipeline
 </pre></div>
 
 
-<h2 id="change-to-pipelinepredict-directory-within-cloned-repo">Change to <code>pipeline/predict</code> Directory within Cloned Repo<a class="headerlink" href="#change-to-pipelinepredict-directory-within-cloned-repo" title="Permanent link">&para;</a></h2>
+<h2 id="change-to-pipelinepredict-directory-within-cloned-repo">Change to <code>pipeline/predict</code> Directory within Cloned Repo</h2>
 <div class="codehilite"><pre><span></span>cd pipeline/predict
 </pre></div>
 
 
-<h2 id="build-model-into-docker-image">Build Model into Docker Image<a class="headerlink" href="#build-model-into-docker-image" title="Permanent link">&para;</a></h2>
+<h2 id="build-model-into-docker-image">Build Model into Docker Image</h2>
 <p>Note:  The <code>--model-path</code> currently must be <strong>relative</strong> to the <code>pipeline/predict</code> directory.</p>
 <div class="codehilite"><pre><span></span>pipeline model-build --model-type=tensorflow --model-name=mnist --model-tag=master --model-path=./models/tensorflow/mnist
 </pre></div>
 
 
-<h2 id="start-docker-based-model">Start Docker-based Model<a class="headerlink" href="#start-docker-based-model" title="Permanent link">&para;</a></h2>
+<h2 id="start-docker-based-model">Start Docker-based Model</h2>
 <div class="codehilite"><pre><span></span>pipeline model-start --model-type=tensorflow --model-name=mnist --model-tag=master --memory-limit=2G
 </pre></div>
 
 
 <p>Note:  If you see <code>docker: Error response from daemon: ... failed: port is already allocated.</code>, you likely have another Docker container running.  Use <code>docker ps</code> to find the container-id, then <code>docker rm -f &lt;container-id&gt;</code> to remove the other Docker container.</p>
-<h2 id="monitor-model-training-and-hyper-parameter-tuning">Monitor Model Training and Hyper-Parameter Tuning<a class="headerlink" href="#monitor-model-training-and-hyper-parameter-tuning" title="Permanent link">&para;</a></h2>
+<h2 id="monitor-model-training-and-hyper-parameter-tuning">Monitor Model Training and Hyper-Parameter Tuning</h2>
 <p>View the logs and wait for them to settle down.</p>
 <div class="codehilite"><pre><span></span>pipeline model-logs --model-type=tensorflow --model-name=mnist --model-tag=master
 </pre></div>
 
 
-<h2 id="view-pipelineai-model-ui-tensorflow-models-only">View PipelineAI Model UI (TensorFlow Models Only)<a class="headerlink" href="#view-pipelineai-model-ui-tensorflow-models-only" title="Permanent link">&para;</a></h2>
+<h2 id="view-pipelineai-model-ui-tensorflow-models-only">View PipelineAI Model UI (TensorFlow Models Only)</h2>
 <p>This UI sometimes requires a couple refreshes.  We are working to stabilize the UI.</p>
 <p>Note:  This UI currently works only with TensorFlow Models</p>
 <div class="codehilite"><pre><span></span>http://localhost:6333/
@@ -1039,8 +1039,8 @@
 
 <p><img alt="PipelineAI Model UI" src="http://pipeline.io/img/pipelineai-train-compare-ui.png" /></p>
 <p><img alt="PipelineAI Model UI" src="http://pipeline.io/img/pipelineai-train-compare-ui-2.png" /></p>
-<h2 id="predict-model">Predict Model<a class="headerlink" href="#predict-model" title="Permanent link">&para;</a></h2>
-<h3 id="cli">CLI<a class="headerlink" href="#cli" title="Permanent link">&para;</a></h3>
+<h2 id="predict-model">Predict Model</h2>
+<h3 id="cli">CLI</h3>
 <p><strong>Perform Single Image Prediction</strong></p>
 <p>Note:  This first call will take 10-20x longer than subsequent calls.  Lazy init, warm-up, etc.</p>
 <div class="codehilite"><pre><span></span>pipeline model-predict --model-type=tensorflow --model-name=mnist --model-tag=master --model-server-url=http://localhost:6969 --model-test-request-path=./models/tensorflow/mnist/data/test_request.json
@@ -1052,7 +1052,7 @@
 </pre></div>
 
 
-<h3 id="rest-api">REST API<a class="headerlink" href="#rest-api" title="Permanent link">&para;</a></h3>
+<h3 id="rest-api">REST API</h3>
 <p><strong>Prediction Inputs</strong></p>
 <p>JSON representation of gray-scale values for a given digit (5).</p>
 <div class="codehilite"><pre><span></span>curl -X POST -H &quot;Content-Type: application/json&quot; \
@@ -1082,7 +1082,7 @@
 </pre></div>
 
 
-<h2 id="monitor-model-predictions">Monitor Model Predictions<a class="headerlink" href="#monitor-model-predictions" title="Permanent link">&para;</a></h2>
+<h2 id="monitor-model-predictions">Monitor Model Predictions</h2>
 <p>Note:  These dashboards will be rolled into the PipelineAI Model UI soon!
 Username/Password: <strong>admin</strong>/<strong>admin</strong></p>
 <p>Use <code>http://localhost:9090</code> for the Prometheus data source within your Grafana Dashboard.  </p>
@@ -1090,29 +1090,29 @@ Username/Password: <strong>admin</strong>/<strong>admin</strong></p>
 </pre></div>
 
 
-<h2 id="stop-docker-based-model">Stop Docker-based Model<a class="headerlink" href="#stop-docker-based-model" title="Permanent link">&para;</a></h2>
+<h2 id="stop-docker-based-model">Stop Docker-based Model</h2>
 <div class="codehilite"><pre><span></span>pipeline model-stop --model-type=tensorflow --model-name=mnist --model-tag=master
 </pre></div>
 
 
-<h2 id="extras">Extras<a class="headerlink" href="#extras" title="Permanent link">&para;</a></h2>
-<h2 id="shell-into-docker-based-model">Shell into Docker-based Model<a class="headerlink" href="#shell-into-docker-based-model" title="Permanent link">&para;</a></h2>
+<h2 id="extras">Extras</h2>
+<h2 id="shell-into-docker-based-model">Shell into Docker-based Model</h2>
 <div class="codehilite"><pre><span></span>pipeline model-shell --model-type=tensorflow --model-name=mnist --model-tag=master
 </pre></div>
 
 
-<h2 id="push-image-to-docker">Push Image to Docker<a class="headerlink" href="#push-image-to-docker" title="Permanent link">&para;</a></h2>
-<h3 id="login-to-your-docker-image-repository">Login to your Docker Image Repository.<a class="headerlink" href="#login-to-your-docker-image-repository" title="Permanent link">&para;</a></h3>
+<h2 id="push-image-to-docker">Push Image to Docker</h2>
+<h3 id="login-to-your-docker-image-repository">Login to your Docker Image Repository.</h3>
 <div class="codehilite"><pre><span></span>docker login
 </pre></div>
 
 
-<h3 id="push-docker-image">Push Docker Image<a class="headerlink" href="#push-docker-image" title="Permanent link">&para;</a></h3>
+<h3 id="push-docker-image">Push Docker Image</h3>
 <div class="codehilite"><pre><span></span>pipeline model-push --model-type=tensorflow --model-name=mnist --model-tag=master
 </pre></div>
 
 
-<h2 id="optional-create-kubernetes-yaml-for-the-model">(Optional) Create Kubernetes YAML for the Model<a class="headerlink" href="#optional-create-kubernetes-yaml-for-the-model" title="Permanent link">&para;</a></h2>
+<h2 id="optional-create-kubernetes-yaml-for-the-model">(Optional) Create Kubernetes YAML for the Model</h2>
 <div class="codehilite"><pre><span></span>pipeline model-yaml --model-type=tensorflow --model-name=mnist --model-tag=master
 
 ### EXPECTED OUTPUT ###
@@ -1125,7 +1125,7 @@ Using templates in &#39;/Users/cfregly/workspace-fluxcapacitor/pipeline/predict/
 </pre></div>
 
 
-<h2 id="optional-deploy-model-to-kubernetes-using-generated-yaml-above">(Optional) Deploy Model to Kubernetes Using Generated YAML Above<a class="headerlink" href="#optional-deploy-model-to-kubernetes-using-generated-yaml-above" title="Permanent link">&para;</a></h2>
+<h2 id="optional-deploy-model-to-kubernetes-using-generated-yaml-above">(Optional) Deploy Model to Kubernetes Using Generated YAML Above</h2>
 <p>Create the Kubernetes Deployment</p>
 <div class="codehilite"><pre><span></span>pipeline kube-create ./tensorflow-mnist-cpu-master-deploy.yaml
 </pre></div>
@@ -1137,9 +1137,9 @@ Using templates in &#39;/Users/cfregly/workspace-fluxcapacitor/pipeline/predict/
 
 
 <hr />
-<h2 id="try-our-free-community-edition">Try our Free <a href="../products/">Community Edition</a>!<a class="headerlink" href="#try-our-free-community-edition" title="Permanent link">&para;</a></h2>
+<h2 id="try-our-free-community-edition">Try our Free <a href="../products/">Community Edition</a>!</h2>
 <p>Click <a href="../products/">HERE</a> to get started with our basic <a href="../products/">Community Edition</a> </p>
-<h2 id="register-for-pipelineai-advanced-edition">Register for PipelineAI <a href="../products/">Advanced Edition</a><a class="headerlink" href="#register-for-pipelineai-advanced-edition" title="Permanent link">&para;</a></h2>
+<h2 id="register-for-pipelineai-advanced-edition">Register for PipelineAI <a href="../products/">Advanced Edition</a></h2>
 <p><!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css"> 
 <!--<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">-->
@@ -1195,7 +1195,7 @@ mixpanel.init("89d4c9ede735c8bc7ad5e4732b2b5e2b");
 <!-- End of HubSpot Embed Code -->
 
 <hr />
-<h2 id="more-resources">More Resources<a class="headerlink" href="#more-resources" title="Permanent link">&para;</a></h2>
+<h2 id="more-resources">More Resources</h2>
 <p><div class="more-resources">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <a href="https://github.com/fluxcapacitor/pipeline" class="fa fa-github"></a>
