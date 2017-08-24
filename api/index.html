@@ -403,18 +403,38 @@
     Push Image to Docker
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#login-to-your-docker-image-repository" title="Login to your Docker Image Repository." class="md-nav__link">
+    Login to your Docker Image Repository.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#push-docker-image" title="Push Docker Image" class="md-nav__link">
+    Push Docker Image
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#create-kubernetes-yaml-for-the-model" title="Create Kubernetes YAML for the Model" class="md-nav__link">
-    Create Kubernetes YAML for the Model
+  <a href="#optional-create-kubernetes-yaml-for-the-model" title="(Optional) Create Kubernetes YAML for the Model" class="md-nav__link">
+    (Optional) Create Kubernetes YAML for the Model
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#deploy-model-to-kubernetes-using-generated-yaml-above" title="Deploy Model to Kubernetes Using Generated YAML Above" class="md-nav__link">
-    Deploy Model to Kubernetes Using Generated YAML Above
+  <a href="#optional-deploy-model-to-kubernetes-using-generated-yaml-above" title="(Optional) Deploy Model to Kubernetes Using Generated YAML Above" class="md-nav__link">
+    (Optional) Deploy Model to Kubernetes Using Generated YAML Above
   </a>
   
 </li>
@@ -888,18 +908,38 @@
     Push Image to Docker
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#login-to-your-docker-image-repository" title="Login to your Docker Image Repository." class="md-nav__link">
+    Login to your Docker Image Repository.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#push-docker-image" title="Push Docker Image" class="md-nav__link">
+    Push Docker Image
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#create-kubernetes-yaml-for-the-model" title="Create Kubernetes YAML for the Model" class="md-nav__link">
-    Create Kubernetes YAML for the Model
+  <a href="#optional-create-kubernetes-yaml-for-the-model" title="(Optional) Create Kubernetes YAML for the Model" class="md-nav__link">
+    (Optional) Create Kubernetes YAML for the Model
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#deploy-model-to-kubernetes-using-generated-yaml-above" title="Deploy Model to Kubernetes Using Generated YAML Above" class="md-nav__link">
-    Deploy Model to Kubernetes Using Generated YAML Above
+  <a href="#optional-deploy-model-to-kubernetes-using-generated-yaml-above" title="(Optional) Deploy Model to Kubernetes Using Generated YAML Above" class="md-nav__link">
+    (Optional) Deploy Model to Kubernetes Using Generated YAML Above
   </a>
   
 </li>
@@ -1062,11 +1102,17 @@ Username/Password: <strong>admin</strong>/<strong>admin</strong></p>
 
 
 <h2 id="push-image-to-docker">Push Image to Docker<a class="headerlink" href="#push-image-to-docker" title="Permanent link">&para;</a></h2>
+<h3 id="login-to-your-docker-image-repository">Login to your Docker Image Repository.<a class="headerlink" href="#login-to-your-docker-image-repository" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>docker login
+</pre></div>
+
+
+<h3 id="push-docker-image">Push Docker Image<a class="headerlink" href="#push-docker-image" title="Permanent link">&para;</a></h3>
 <div class="codehilite"><pre><span></span>pipeline model-push --model-type=tensorflow --model-name=mnist --model-tag=master
 </pre></div>
 
 
-<h2 id="create-kubernetes-yaml-for-the-model">Create Kubernetes YAML for the Model<a class="headerlink" href="#create-kubernetes-yaml-for-the-model" title="Permanent link">&para;</a></h2>
+<h2 id="optional-create-kubernetes-yaml-for-the-model">(Optional) Create Kubernetes YAML for the Model<a class="headerlink" href="#optional-create-kubernetes-yaml-for-the-model" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>pipeline model-yaml --model-type=tensorflow --model-name=mnist --model-tag=master
 
 ### EXPECTED OUTPUT ###
@@ -1079,7 +1125,7 @@ Using templates in &#39;/Users/cfregly/workspace-fluxcapacitor/pipeline/predict/
 </pre></div>
 
 
-<h2 id="deploy-model-to-kubernetes-using-generated-yaml-above">Deploy Model to Kubernetes Using Generated YAML Above<a class="headerlink" href="#deploy-model-to-kubernetes-using-generated-yaml-above" title="Permanent link">&para;</a></h2>
+<h2 id="optional-deploy-model-to-kubernetes-using-generated-yaml-above">(Optional) Deploy Model to Kubernetes Using Generated YAML Above<a class="headerlink" href="#optional-deploy-model-to-kubernetes-using-generated-yaml-above" title="Permanent link">&para;</a></h2>
 <p>Create the Kubernetes Deployment</p>
 <div class="codehilite"><pre><span></span>pipeline kube-create ./tensorflow-mnist-cpu-master-deploy.yaml
 </pre></div>
