@@ -9,7 +9,7 @@
         <meta name="description" content="End-to-End ML and AI Model Training and Deployment Platform with GPUs">
       
       
-        <link rel="canonical" href="http://pipeline.io/model_optimize/">
+        <link rel="canonical" href="http://pipeline.io/runbooks/">
       
       
         <meta name="author" content="PipelineAI">
@@ -21,7 +21,7 @@
     
     
       
-        <title>Optimize Your Model - PipelineAI</title>
+        <title>Deployment Runbooks - PipelineAI</title>
       
     
     
@@ -86,12 +86,8 @@
           
             
               
-                <span class="md-header-nav__parent">
-                  Model Experiments
-                </span>
-              
             
-            Optimize Your Model
+            Deployment Runbooks
           
         </span>
       </div>
@@ -248,11 +244,61 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../runbooks/" title="Deployment Runbooks" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Deployment Runbooks
+      </label>
+    
+    <a href="./" title="Deployment Runbooks" class="md-nav__link md-nav__link--active">
       Deployment Runbooks
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#build-test-and-push-your-model-as-a-docker-image" title="Build, Test, and Push your Model as a Docker Image" class="md-nav__link">
+    Build, Test, and Push your Model as a Docker Image
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#push-the-model-to-registry" title="Push the Model to Registry" class="md-nav__link">
+    Push the Model to Registry
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create" title="Create" class="md-nav__link">
+    Create
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -320,12 +366,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-11" type="checkbox" id="nav-11" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-11" type="checkbox" id="nav-11">
     
     <label class="md-nav__link" for="nav-11">
       Model Experiments
@@ -353,88 +397,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
-        Optimize Your Model
-      </label>
-    
-    <a href="./" title="Optimize Your Model" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../model_optimize/" title="Optimize Your Model" class="md-nav__link">
       Optimize Your Model
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#examples" title="Examples" class="md-nav__link">
-    Examples
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#tensorflow" title="TensorFlow" class="md-nav__link">
-    TensorFlow
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#spark-ml" title="Spark ML" class="md-nav__link">
-    Spark ML
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#try-our-free-community-edition" title="Try our Free Community Edition!" class="md-nav__link">
-    Try our Free Community Edition!
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#register-for-pipelineai-advanced-edition" title="Register for PipelineAI Advanced Edition" class="md-nav__link">
-    Register for PipelineAI Advanced Edition
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#more-resources" title="More Resources" class="md-nav__link">
-    More Resources
-  </a>
-  
-</li>
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -620,49 +587,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#examples" title="Examples" class="md-nav__link">
-    Examples
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#tensorflow" title="TensorFlow" class="md-nav__link">
-    TensorFlow
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#spark-ml" title="Spark ML" class="md-nav__link">
-    Spark ML
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#try-our-free-community-edition" title="Try our Free Community Edition!" class="md-nav__link">
-    Try our Free Community Edition!
+  <a href="#build-test-and-push-your-model-as-a-docker-image" title="Build, Test, and Push your Model as a Docker Image" class="md-nav__link">
+    Build, Test, and Push your Model as a Docker Image
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#register-for-pipelineai-advanced-edition" title="Register for PipelineAI Advanced Edition" class="md-nav__link">
-    Register for PipelineAI Advanced Edition
+  <a href="#push-the-model-to-registry" title="Push the Model to Registry" class="md-nav__link">
+    Push the Model to Registry
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#more-resources" title="More Resources" class="md-nav__link">
-    More Resources
+  <a href="#create" title="Create" class="md-nav__link">
+    Create
   </a>
   
 </li>
@@ -681,175 +621,25 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/src/model_optimize/index.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
+                  <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/src/runbooks/index.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
                 
                 
-                <h1 id="optimize-your-model">Optimize Your Model<a class="headerlink" href="#optimize-your-model" title="Permanent link">&para;</a></h1>
-<p><img alt="Training" src="../img/pipelineai-train-compare-ui.png" /></p>
-<p><img alt="Experiments" src="../img/pipelineai-train-compare-ui-2.png" /></p>
-<p>Upon deploying your model, PipelineAI will optimize your model for high-performance serving and predicting.</p>
-<p>Various model optimization and simplification techniques include folding batch normalizations, quantizing weights, and generating native code for both CPU and GPU.</p>
-<p><img alt="Nvidia GPU" src="../img/nvidia-cuda-338x181.png" /> </p>
-<p><img alt="Intel CPU" src="../img/intel-logo-250x165.png" /></p>
-<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
-<h3 id="tensorflow">TensorFlow<a class="headerlink" href="#tensorflow" title="Permanent link">&para;</a></h3>
-<p><img alt="TensorFlow" src="../img/tensorflow-logo-150x128.png" /></p>
-<p><strong>Unoptimized Linear Regression</strong></p>
-<p><img alt="Unoptimized TensorFlow Linear Regression" src="../img/unoptimized-tensorflow-linear.png" /></p>
-<p><strong>Optimized Linear Regression</strong></p>
-<p><img alt="Optimized TensorFlow Linear Regression" src="../img/optimized-tensorflow-linear.png" /></p>
-<p><strong>Weight Quantization</strong></p>
-<p><img alt="Weight Quantization 1" src="../img/weight-quantization-1.png" /></p>
-<p><img alt="Weight Quantization 2" src="../img/weight-quantization-2.png" /></p>
-<h3 id="spark-ml">Spark ML<a class="headerlink" href="#spark-ml" title="Permanent link">&para;</a></h3>
-<p><img alt="Spark" src="../img/spark-logo-150x78.png" /></p>
-<p><img alt="Generate and Optimize Spark ML Model" src="../img/ml-model-generating-and-optimizing.png" /> </p>
-<p><strong>Native Code Generation: Airbnb Price Prediction(Linear Regression)</strong></p>
-<div class="codehilite"><pre><span></span>public class Airbnb_Price_LinearRegressionModel {
-  public Object predict(Map&lt;String, Object&gt; inputs) {
-        Double bathrooms = (Double)inputs.get(&quot;bathrooms&quot;);
-        Double bedrooms = (Double)inputs.get(&quot;bedrooms&quot;);
-        Double square_feet = (Double)inputs.get(&quot;square_feet&quot;);
-        String room_type = (String)inputs.get(&quot;room_type&quot;);
-        String host_is_super_host = (String)inputs.get(&quot;host_is_super_host&quot;);
-        String cancellation_policy = (String)inputs.get(&quot;cancellation_policy&quot;);
-        ...        
-        Double __regressionTableNumber00 = -31.985533969928042;
-        if (room_type != null) {
-            __regressionTableNumber00 += 25.89385313144676 * ((room_type.equals(&quot;Entire home/apt&quot;)) ? 1 : 0);
-        }
-        if (room_type != null) {
-            __regressionTableNumber00 += -13.556162863521244 * ((room_type.equals(&quot;Private room&quot;)) ? 1 : 0);
-        }
-        if (host_is_super_host != null) {
-            __regressionTableNumber00 += -5.761601400860295 * ((host_is_super_host.equals(&quot;0.0&quot;)) ? 1 : 0);
-        }
-        if (cancellation_policy != null) {
-            __regressionTableNumber00 += 2.3566340923908315 * ((cancellation_policy.equals(&quot;strict&quot;)) ? 1 : 
-        ...
-        price = __regressionTableNumber00;
-
-        return price;
-    }
-}
+                <h1 id="aws-ecs-runbook">AWS ECS Runbook<a class="headerlink" href="#aws-ecs-runbook" title="Permanent link">&para;</a></h1>
+<h2 id="build-test-and-push-your-model-as-a-docker-image">Build, Test, and Push your Model as a Docker Image<a class="headerlink" href="#build-test-and-push-your-model-as-a-docker-image" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span>http://pipeline.io/api/
 </pre></div>
 
 
-<p><strong>Native Code Generation: Income Prediction (Decision Tree)</strong></p>
-<div class="codehilite"><pre><span></span>public class Census_Income_DecisionTreeModel
-    public Object predict(Map&lt;String, Object&gt; inputs) {
-        String income = (String)nameToValue.get(&quot;income&quot;);
-        String education = (String)nameToValue.get(&quot;education&quot;);
-        String marital_status = (String)nameToValue.get(&quot;marital_status&quot;);
-        String occupation = (String)nameToValue.get(&quot;occupation&quot;);
-        String native_country = (String)nameToValue.get(&quot;native_country&quot;);
-        Integer age = (Integer)nameToValue.get(&quot;age&quot;);
-        Integer education_num = (Integer)nameToValue.get(&quot;education_num&quot;);
-        Integer capital_gain = (Integer)nameToValue.get(&quot;capital_gain&quot;);
-        Integer capital_loss = (Integer)nameToValue.get(&quot;capital_loss&quot;);
-        Integer hours_per_week = (Integer)nameToValue.get(&quot;hours_per_week&quot;);
-        income = &quot;&lt;=50K&quot;;
-        Boolean __succ0 = false;
-        if (!__succ0) {
-            Integer __predicateValue1 = marital_status == null? 3 : (marital_status.equals(&quot;Married-civ-spouse&quot;) ? 2 : 1);
-            if (__predicateValue1 == 1) {
-                __succ0 = true;
-                income = &quot;&lt;=50K&quot;;
-                Boolean __succ2 = false;
-                if (!__succ2) {
-                    Integer __predicateValue3 = capital_gain == null? 3 : ((capital_gain &lt;= 7688)? 1 : 2);
-                    if (__predicateValue3 == 1) {
-                        __succ2 = true;
-                        income = &quot;&lt;=50K&quot;;
-                        Boolean __succ4 = false;
-                        if (!__succ4) {
-                            Integer __predicateValue5 = education_num == null? 3 : ((education_num &lt;= 13)? 1 : 2);
-                            if (__predicateValue5 == 1) {
-                                __succ4 = true;
-                                income = &quot;&lt;=50K&quot;;
-                                Boolean __succ6 = false;
-        ...
-        if (!__succ0) {
-            income = null;
-            resultExplanation = null;
-        }
-
-        return income;         
-    }
-} 
+<h2 id="push-the-model-to-registry">Push the Model to Registry<a class="headerlink" href="#push-the-model-to-registry" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span>http://pipeline.io/api/
 </pre></div>
 
 
-<hr />
-<h2 id="try-our-free-community-edition">Try our Free <a href="../products/">Community Edition</a>!<a class="headerlink" href="#try-our-free-community-edition" title="Permanent link">&para;</a></h2>
-<p>Click <a href="../products/">HERE</a> to get started with our basic <a href="../products/">Community Edition</a> </p>
-<h2 id="register-for-pipelineai-advanced-edition">Register for PipelineAI <a href="../products/">Advanced Edition</a><a class="headerlink" href="#register-for-pipelineai-advanced-edition" title="Permanent link">&para;</a></h2>
-<p><!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css"> 
-<!--<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">-->
-<style type="text/css">
-  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-</style>
-<div id="mc_embed_signup">
-<form action="//pipeline.us8.list-manage.com/subscribe/post?u=36f687b9890483604c5d7d2b5&amp;id=010427f054" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<!--<div id="mc_embed_signup_scroll">-->
-<!--<label for="mce-EMAIL">Signup for PipelineAI Updates!</label>-->
-<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_36f687b9890483604c5d7d2b5_010427f054" tabindex="-1" value=""></div>
-<div class="clear"><input type="submit" value="Sign Me Up!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-<!--</div>-->
-</form>
-</div>
-<!--End MailChimp Signup Form --></p>
-<!-- Start of PipelineAI Zendesk Widget script -->
-
-<script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="pipelineio.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();
-/*]]>*/</script>
-
-<!-- End of PipelineAI Zendesk Widget script -->
-
-<!-- Start Google Analytics -->
-
-<script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-78551725-1', 'auto');
-      ga('send', 'pageview');
-</script>
-
-<!-- End Google Analytics -->
-
-<!-- Start Mixpanel -->
-
-<script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
-0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
-mixpanel.init("89d4c9ede735c8bc7ad5e4732b2b5e2b");
-</script>
-
-<!-- End Mixpanel -->
-
-<!-- Start of HubSpot Embed Code -->
-
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3108647.js"></script>
-
-<!-- End of HubSpot Embed Code -->
-
-<hr />
-<h2 id="more-resources">More Resources<a class="headerlink" href="#more-resources" title="Permanent link">&para;</a></h2>
-<p><div class="more-resources">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <a href="https://github.com/fluxcapacitor/pipeline" class="fa fa-github"></a>
-      &nbsp;&nbsp;<a href="https://www.meetup.com/Advanced-Spark-and-TensorFlow-Meetup/" class="fa fa-meetup"></a>
-      &nbsp;&nbsp;<a href="https://youtube.com/channel/UCvlZKtekcKkBUuz8f9dhobw" class="fa fa-youtube"></a>
-      &nbsp;&nbsp;<a href="https://www.slideshare.net/cfregly" class="fa fa-slideshare"></a>
-      &nbsp;&nbsp;<a href="https://www.linkedin.com/company/6609122/" class="fa fa-linkedin"></a>
-      &nbsp;&nbsp;<a href="https://twitter.com/pipelineio" class="fa fa-twitter"></a>
-      &nbsp;&nbsp;<a href="https://hub.docker.com/r/fluxcapacitor" class="fa fa-globe"></a>
-</div></p>
+<h2 id="create">Create<a class="headerlink" href="#create" title="Permanent link">&para;</a></h2>
+<p>Configure Docker Image</p>
+<p><img alt="AWS ECS Task Definition" src="../img/predict-aws-ecs-task-definition.png" /> </p>
+<p>Configure Ports and Environment Variables</p>
+<p><img alt="AWS ECS Task Definition Details" src="../img/predict-aws-ecs-task-definition-details.png" /></p>
                 
                   
                 
@@ -868,7 +658,7 @@ mixpanel.init("89d4c9ede735c8bc7ad5e4732b2b5e2b");
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../model_train/" title="Train Your Model" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../api/" title="CLI and REST API" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -877,19 +667,19 @@ mixpanel.init("89d4c9ede735c8bc7ad5e4732b2b5e2b");
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Train Your Model
+                CLI and REST API
               </span>
             </div>
           </a>
         
         
-          <a href="../model_deploy/" title="Deploy Your Model" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../model_monitor/" title="Dashboards" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Deploy Your Model
+                Dashboards
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
