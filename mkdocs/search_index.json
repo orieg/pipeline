@@ -242,7 +242,7 @@
         },
         {
             "location": "/runbooks/",
-            "text": "AWS ECS Runbook\n\u00b6\n\n\nBuild, Test, and Push your Model as a Docker Image\n\u00b6\n\n\nhttp://pipeline.io/api/\n\n\n\n\n\nPush the Model to Registry\n\u00b6\n\n\nhttp://pipeline.io/api/\n\n\n\n\n\nSetup ECS Cluster through AWS CLI\n\u00b6\n\n\nConfigure Docker Image, RAM, and CPU\n\n\n \n\n\nConfigure Ports and Environment Variables",
+            "text": "AWS ECS Runbook\n\u00b6\n\n\nBuild, Test, and Push\n Your Model as a Docker Image\n\u00b6\n\n\nPush\n Your Model Docker Image to Your Docker Registry\n\u00b6\n\n\nSetup ECS Cluster through AWS CLI\n\u00b6\n\n\nConfigure Docker Image, RAM, and CPU\n\n\n \n\n\nConfigure Ports and Environment Variables",
             "title": "Deployment Runbooks"
         },
         {
@@ -252,13 +252,13 @@
         },
         {
             "location": "/runbooks/#build-test-and-push-your-model-as-a-docker-image",
-            "text": "http://pipeline.io/api/",
-            "title": "Build, Test, and Push your Model as a Docker Image"
+            "text": "",
+            "title": "Build, Test, and Push Your Model as a Docker Image"
         },
         {
-            "location": "/runbooks/#push-the-model-to-registry",
-            "text": "http://pipeline.io/api/",
-            "title": "Push the Model to Registry"
+            "location": "/runbooks/#push-your-model-docker-image-to-your-docker-registry",
+            "text": "",
+            "title": "Push Your Model Docker Image to Your Docker Registry"
         },
         {
             "location": "/runbooks/#setup-ecs-cluster-through-aws-cli",
