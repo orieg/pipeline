@@ -254,44 +254,43 @@
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="deploy-your-model">Deploy Your Model</h1>
+<h1 id="deploy-your-model">Deploy Your Model<a class="headerlink" href="#deploy-your-model" title="Permanent link">&para;</a></h1>
 <p><img alt="Deploy from Jupyter Notebook" src="../img/deploy-model-jupyter-740x510.png" /></p>
 <p><img alt="Deploy Spark ML Model to Production" src="../img/deploy-ml-model-to-production.png" /></p>
-<h2 id="supported-model-types">Supported Model Types</h2>
-<h3 id="scikit-learn">Scikit-Learn</h3>
+<h2 id="supported-model-types">Supported Model Types<a class="headerlink" href="#supported-model-types" title="Permanent link">&para;</a></h2>
+<h3 id="scikit-learn">Scikit-Learn<a class="headerlink" href="#scikit-learn" title="Permanent link">&para;</a></h3>
 <p><img alt="Scikit-Learn" src="../img/scikit-logo-277x150.png" /></p>
-<h3 id="r">R</h3>
+<h3 id="r">R<a class="headerlink" href="#r" title="Permanent link">&para;</a></h3>
 <p><img alt="R" src="../img/r-logo-280x212.png" /></p>
-<h3 id="spark-ml">Spark ML</h3>
+<h3 id="spark-ml">Spark ML<a class="headerlink" href="#spark-ml" title="Permanent link">&para;</a></h3>
 <p><img alt="Spark ML" src="../img/spark-logo-254x163.png" /></p>
-<h3 id="tensorflow">TensorFlow</h3>
+<h3 id="tensorflow">TensorFlow<a class="headerlink" href="#tensorflow" title="Permanent link">&para;</a></h3>
 <p><img alt="TensorFlow" src="../img/tensorflow-logo-202x168.png" /></p>
-<h3 id="xgboost">XGBoost</h3>
+<h3 id="xgboost">XGBoost<a class="headerlink" href="#xgboost" title="Permanent link">&para;</a></h3>
 <p><img alt="XGBoost" src="../img/xgboost-logo-280x120.png" /></p>
-<h3 id="python">Python</h3>
+<h3 id="python">Python<a class="headerlink" href="#python" title="Permanent link">&para;</a></h3>
 <p><img alt="Python" src="../img/python-logo-184x180.png" /></p>
-<h3 id="java">Java</h3>
+<h3 id="java">Java<a class="headerlink" href="#java" title="Permanent link">&para;</a></h3>
 <p><img alt="Java" src="../img/java-logo-300x168.png" /></p>
-<h3 id="recommendations">Recommendations</h3>
+<h3 id="recommendations">Recommendations<a class="headerlink" href="#recommendations" title="Permanent link">&para;</a></h3>
 <p><img alt="Recommendations" src="../img/recommendations-logo-280x196.png" /></p>
-<h3 id="key-value-redis">Key-Value (Redis)</h3>
+<h3 id="key-value-redis">Key-Value (Redis)<a class="headerlink" href="#key-value-redis" title="Permanent link">&para;</a></h3>
 <p><img alt="Redis" src="../img/redis-logo-300x100.png" /></p>
-<h3 id="key-value-cassandra">Key-Value (Cassandra)</h3>
+<h3 id="key-value-cassandra">Key-Value (Cassandra)<a class="headerlink" href="#key-value-cassandra" title="Permanent link">&para;</a></h3>
 <p><img alt="Cassandra" src="../img/cassandra-logo-279x187.png" /></p>
-<h3 id="pmml">PMML</h3>
+<h3 id="pmml">PMML<a class="headerlink" href="#pmml" title="Permanent link">&para;</a></h3>
 <p><img alt="PMML" src="../img/pmml-logo-210x96.png" /></p>
-<h3 id="custom-ensembles">Custom Ensembles</h3>
+<h3 id="custom-ensembles">Custom Ensembles<a class="headerlink" href="#custom-ensembles" title="Permanent link">&para;</a></h3>
 <p><img alt="Custom Ensembles" src="../img/ensemble-logo-285x125.png" /></p>
-<h2 id="examples">Examples</h2>
+<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>git clone https://github.com/fluxcapacitor/source.ml
 </pre></div>
 
-
-<p>Note: You can use the same <code>model-server-url</code> from the the PipelineAI <a href="http://community.pipeline.io">Community Edition</a>.  See the Community Edition example <a href="http://community.pipeline.io">notebooks</a> for complete, end-to-end examples.</p>
-<h3 id="tensorflow_1">TensorFlow</h3>
+<p>Note: You can use the same <code class="codehilite">model-server-url</code> from the the PipelineAI <a href="http://community.pipeline.io">Community Edition</a>.  See the Community Edition example <a href="http://community.pipeline.io">notebooks</a> for complete, end-to-end examples.</p>
+<h3 id="tensorflow_1">TensorFlow<a class="headerlink" href="#tensorflow_1" title="Permanent link">&para;</a></h3>
 <p><img alt="TensorFlow" src="../img/tensorflow-logo-202x168.png" /></p>
-<p>model_type: <code>tensorflow</code></p>
-<p>Initialize Model</p>
+<p>model_type: <code class="codehilite">tensorflow</code></p>
+<p>Initialize Model
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type tensorflow \
                --model-namespace default \
@@ -299,23 +298,17 @@
                --model-version 0 \
                --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \
                --model-test-request-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt
-</pre></div>
-
-
-<p>Deploy Model</p>
+</pre></div></p>
+<p>Deploy Model
 <div class="codehilite"><pre><span></span>pio deploy
-</pre></div>
-
-
-<p>Predict Model</p>
+</pre></div></p>
+<p>Predict Model
 <div class="codehilite"><pre><span></span>pio predict
-</pre></div>
-
-
-<h3 id="scikit-learn_1">Scikit-Learn</h3>
+</pre></div></p>
+<h3 id="scikit-learn_1">Scikit-Learn<a class="headerlink" href="#scikit-learn_1" title="Permanent link">&para;</a></h3>
 <p><img alt="Scikit-Learn" src="../img/scikit-logo-277x150.png" /></p>
-<p>model_type: <code>scikit</code></p>
-<p>Initialize Model</p>
+<p>model_type: <code class="codehilite">scikit</code></p>
+<p>Initialize Model
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type scikit \
                --model-namespace default \
@@ -323,23 +316,17 @@
                --model-version v0 \
                --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \
                --model-test-request-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt
-</pre></div>
-
-
-<p>Deploy Model</p>
+</pre></div></p>
+<p>Deploy Model
 <div class="codehilite"><pre><span></span>pio deploy
-</pre></div>
-
-
-<p>Predict Model</p>
+</pre></div></p>
+<p>Predict Model
 <div class="codehilite"><pre><span></span>pio predict
-</pre></div>
-
-
-<h3 id="spark-ml_1">Spark ML</h3>
+</pre></div></p>
+<h3 id="spark-ml_1">Spark ML<a class="headerlink" href="#spark-ml_1" title="Permanent link">&para;</a></h3>
 <p><img alt="Spark ML" src="../img/spark-logo-254x163.png" /></p>
-<p>model_type: <code>spark</code></p>
-<p>Initialize Model</p>
+<p>model_type: <code class="codehilite">spark</code></p>
+<p>Initialize Model
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type spark \
                --model-namespace default \
@@ -347,15 +334,11 @@
                --model-version v0 \
                --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \
                --model-test-request-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt
-</pre></div>
-
-
-<p>Deploy Model (CLI)</p>
+</pre></div></p>
+<p>Deploy Model (CLI)
 <div class="codehilite"><pre><span></span>pio deploy
-</pre></div>
-
-
-<p>Deploy Model (REST)</p>
+</pre></div></p>
+<p>Deploy Model (REST)
 <div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
 
 <span class="n">deploy_url</span> <span class="o">=</span> <span class="s1">&#39;http://your.model.server.com/api/v1/model/deploy/spark/default/spark_airbnb/v0&#39;</span>
@@ -365,15 +348,11 @@
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">deploy_url</span><span class="p">,</span> <span class="n">files</span><span class="o">=</span><span class="n">files</span><span class="p">)</span>
 
 <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Success!</span><span class="se">\n\n</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
-</pre></div>
-
-
-<p>Predict Model (CLI)</p>
+</pre></div></p>
+<p>Predict Model (CLI)
 <div class="codehilite"><pre><span></span>pio predict
-</pre></div>
-
-
-<p>Predict Model (REST)</p>
+</pre></div></p>
+<p>Predict Model (REST)
 <div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
 
 <span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;bathrooms&quot;</span><span class="p">:</span><span class="mf">2.0</span><span class="p">,</span>
@@ -395,8 +374,6 @@
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;test_inputs.json&#39;</span><span class="p">,</span> <span class="s1">&#39;wt&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fh</span><span class="p">:</span>
     <span class="n">fh</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">json_data</span><span class="p">)</span>
 </pre></div>
-
-
 <div class="codehilite"><pre><span></span>predict_url = &#39;http://your.model.server.com/api/v1/model/predict/spark/default/spark_airbnb/v0&#39;
 
 headers = {&#39;content-type&#39;: &#39;application/json&#39;}
@@ -406,13 +383,11 @@ response = requests.post(predict_url,
                          headers=headers)
 
 print(&quot;Response:\n\n%s&quot; % response.text)
-</pre></div>
-
-
-<h3 id="python3">Python3</h3>
+</pre></div></p>
+<h3 id="python3">Python3<a class="headerlink" href="#python3" title="Permanent link">&para;</a></h3>
 <p><img alt="Python" src="../img/python-logo-184x180.png" /></p>
-<p>model_type: <code>python3</code></p>
-<p>Initialize Model</p>
+<p>model_type: <code class="codehilite">python3</code></p>
+<p>Initialize Model
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type python3 \
                --model-namespace default \
@@ -420,23 +395,17 @@ print(&quot;Response:\n\n%s&quot; % response.text)
                --model-version v0 \
                --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \
                --model-test-request-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt
-</pre></div>
-
-
-<p>Deploy Model</p>
+</pre></div></p>
+<p>Deploy Model
 <div class="codehilite"><pre><span></span>pio deploy
-</pre></div>
-
-
-<p>Predict Model</p>
+</pre></div></p>
+<p>Predict Model
 <div class="codehilite"><pre><span></span>pio predict
-</pre></div>
-
-
-<h3 id="pmml_1">PMML</h3>
+</pre></div></p>
+<h3 id="pmml_1">PMML<a class="headerlink" href="#pmml_1" title="Permanent link">&para;</a></h3>
 <p><img alt="PMML" src="../img/pmml-logo-210x96.png" /></p>
-<p>model_type: <code>pmml</code></p>
-<p>Initialize Model</p>
+<p>model_type: <code class="codehilite">pmml</code></p>
+<p>Initialize Model
 <div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type pmml \
                --model-namespace default \
@@ -444,49 +413,35 @@ print(&quot;Response:\n\n%s&quot; % response.text)
                --model-version v0 \
                --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \
                --model-test-request-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt
-</pre></div>
-
-
-<p>Deploy Model</p>
+</pre></div></p>
+<p>Deploy Model
 <div class="codehilite"><pre><span></span>pio deploy
-</pre></div>
-
-
-<p>Predict Model</p>
+</pre></div></p>
+<p>Predict Model
 <div class="codehilite"><pre><span></span>pio predict
-</pre></div>
-
-
-<h2 id="deployment-workflow">Deployment Workflow</h2>
-<p>PipelineAI uses python-based Airflow for pipeline workflow management.</p>
+</pre></div></p>
+<h2 id="deployment-workflow">Deployment Workflow<a class="headerlink" href="#deployment-workflow" title="Permanent link">&para;</a></h2>
+<p>PipelineAI uses python-based Airflow for pipeline workflow management.
 <div class="codehilite"><pre><span></span>pio flow
-</pre></div>
-
-
-<h2 id="upgrade">Upgrade</h2>
-<p>PipelineAI supports rolling upgrades.</p>
+</pre></div></p>
+<h2 id="upgrade">Upgrade<a class="headerlink" href="#upgrade" title="Permanent link">&para;</a></h2>
+<p>PipelineAI supports rolling upgrades.
 <div class="codehilite"><pre><span></span>pio upgrade
-</pre></div>
-
-
-<h2 id="canary-deploy">Canary Deploy</h2>
-<p>PipelineAI supports various canary deployment strategies including traffic-splitting and traffic-shadowing.</p>
+</pre></div></p>
+<h2 id="canary-deploy">Canary Deploy<a class="headerlink" href="#canary-deploy" title="Permanent link">&para;</a></h2>
+<p>PipelineAI supports various canary deployment strategies including traffic-splitting and traffic-shadowing.
 <div class="codehilite"><pre><span></span>pio canary
-</pre></div>
-
-
-<h3 id="traffic-splitting">Traffic Splitting</h3>
-<h3 id="traffic-shadowing">Traffic Shadowing</h3>
-<h2 id="rollback">Rollback</h2>
-<p>PipelineAI supports rolling back to any previous revision.</p>
+</pre></div></p>
+<h3 id="traffic-splitting">Traffic Splitting<a class="headerlink" href="#traffic-splitting" title="Permanent link">&para;</a></h3>
+<h3 id="traffic-shadowing">Traffic Shadowing<a class="headerlink" href="#traffic-shadowing" title="Permanent link">&para;</a></h3>
+<h2 id="rollback">Rollback<a class="headerlink" href="#rollback" title="Permanent link">&para;</a></h2>
+<p>PipelineAI supports rolling back to any previous revision.
 <div class="codehilite"><pre><span></span>pio rollback --revision=1
-</pre></div>
-
-
+</pre></div></p>
 <hr />
-<h2 id="try-our-free-community-edition">Try our Free <a href="../products/">Community Edition</a>!</h2>
+<h2 id="try-our-free-community-edition">Try our Free <a href="../products/">Community Edition</a>!<a class="headerlink" href="#try-our-free-community-edition" title="Permanent link">&para;</a></h2>
 <p>Click <a href="../products/">HERE</a> to get started with our basic <a href="../products/">Community Edition</a> </p>
-<h2 id="register-for-pipelineai-advanced-edition">Register for PipelineAI <a href="../products/">Advanced Edition</a></h2>
+<h2 id="register-for-pipelineai-advanced-edition">Register for PipelineAI <a href="../products/">Advanced Edition</a><a class="headerlink" href="#register-for-pipelineai-advanced-edition" title="Permanent link">&para;</a></h2>
 <p><!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css"> 
 <!--<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">-->
@@ -542,7 +497,7 @@ mixpanel.init("89d4c9ede735c8bc7ad5e4732b2b5e2b");
 <!-- End of HubSpot Embed Code -->
 
 <hr />
-<h2 id="more-resources">More Resources</h2>
+<h2 id="more-resources">More Resources<a class="headerlink" href="#more-resources" title="Permanent link">&para;</a></h2>
 <p><div class="more-resources">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <a href="https://github.com/fluxcapacitor/pipeline" class="fa fa-github"></a>
