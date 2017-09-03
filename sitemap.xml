@@ -4,7 +4,7 @@
     
     <url>
      <loc>http://pipeline.ai/docs/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>http://pipeline.ai/tour/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -21,37 +21,37 @@
         
     <url>
      <loc>http://pipeline.ai/model_train/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>http://pipeline.ai/model_optimize/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>http://pipeline.ai/model_deploy/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>http://pipeline.ai/model_monitor/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>http://pipeline.ai/model_experiment/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>http://pipeline.ai/model_stream/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -60,7 +60,7 @@
     
     <url>
      <loc>http://pipeline.ai/products/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
      <loc>http://pipeline.ai/api/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -76,7 +76,7 @@
     
     <url>
      <loc>http://pipeline.ai/runbooks/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -84,7 +84,7 @@
     
     <url>
      <loc>http://pipeline.ai/model_monitor/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -92,7 +92,7 @@
     
     <url>
      <loc>http://pipeline.ai/gpu/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -100,7 +100,7 @@
     
     <url>
      <loc>http://pipeline.ai/environments/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -108,7 +108,7 @@
     
     <url>
      <loc>http://pipeline.ai/events/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -116,7 +116,7 @@
     
     <url>
      <loc>http://pipeline.ai/training/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -125,25 +125,25 @@
         
     <url>
      <loc>http://pipeline.ai/open_source/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>http://pipeline.ai/releases/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>http://pipeline.ai/contribute/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>http://pipeline.ai/install/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -152,7 +152,7 @@
     
     <url>
      <loc>http://pipeline.ai/support/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -160,7 +160,7 @@
     
     <url>
      <loc>http://pipeline.ai/contact/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -168,7 +168,7 @@
     
     <url>
      <loc>http://pipeline.ai/legal/</loc>
-     <lastmod>2017-09-02</lastmod>
+     <lastmod>2017-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
