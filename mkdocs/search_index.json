@@ -56,22 +56,22 @@
             "title": "More Resources"
         },
         {
-            "location": "/tour/docstour/",
+            "location": "/docstour/",
             "text": "(function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm\", b=\"https://embed.typeform.com/\"; if(!gi.call(d,id)) { js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })()\n\n\n\n\n\n\n\n\n/* <![CDATA[ */\nvar google_conversion_id = 852779082;\nvar google_conversion_language = \"en\";\nvar google_conversion_format = \"3\";\nvar google_conversion_color = \"ffffff\";\nvar google_conversion_label = \"nj7wCI-WmXQQysDRlgM\";\nvar google_remarketing_only = false;\n/* ]]> */\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTry our Free \nCommunity Edition\n!\n\u00b6\n\n\nClick \nHERE\n to start using PipelineAI Community Edition! \n\n\nRegister for PipelineAI \nEnterprise Edition\n\u00b6\n\n\n\n\n \n\n\n\n\n  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement(\"iframe\");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src=\"javascript:false\",r.title=\"\",r.role=\"presentation\",(r.frameElement||r).style.cssText=\"display: none\",d=document.getElementsByTagName(\"script\"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain=\"'+n+'\";void(0);',o=s}o.open()._l=function(){var e=this.createElement(\"script\");n&&(this.domain=n),e.id=\"js-iframe-async\",e.src=\"https://assets.zendesk.com/embeddable_framework/main.js\",this.t=+new Date,this.zendeskHost=\"pipelineai.zendesk.com\",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload=\"document._l();\">'),o.close()}();\n/*]]>*/\n\n\n\n\n\n\n\n\n\n\n      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n      ga('create', 'UA-78551725-1', 'auto');\n      ga('require', 'linkid');\n      ga('send', 'pageview');\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n   (adsbygoogle = window.adsbygoogle || []).push({\n      google_ad_client: \"ca-pub-7162267087851435\",\n      enable_page_level_ads: true\n   });\n\n\n\n\n\n\nMore Resources\n\u00b6",
             "title": "Product Tour"
         },
         {
-            "location": "/tour/docstour/#try-our-free-community-edition",
+            "location": "/docstour/#try-our-free-community-edition",
             "text": "Click  HERE  to start using PipelineAI Community Edition!",
             "title": "Try our Free Community Edition!"
         },
         {
-            "location": "/tour/docstour/#register-for-pipelineai-enterprise-edition",
+            "location": "/docstour/#register-for-pipelineai-enterprise-edition",
             "text": "#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }               /*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement(\"iframe\");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src=\"javascript:false\",r.title=\"\",r.role=\"presentation\",(r.frameElement||r).style.cssText=\"display: none\",d=document.getElementsByTagName(\"script\"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain=\"'+n+'\";void(0);',o=s}o.open()._l=function(){var e=this.createElement(\"script\");n&&(this.domain=n),e.id=\"js-iframe-async\",e.src=\"https://assets.zendesk.com/embeddable_framework/main.js\",this.t=+new Date,this.zendeskHost=\"pipelineai.zendesk.com\",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload=\"document._l();\">'),o.close()}();\n/*]]>*/    \n      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n      ga('create', 'UA-78551725-1', 'auto');\n      ga('require', 'linkid');\n      ga('send', 'pageview');     \n   (adsbygoogle = window.adsbygoogle || []).push({\n      google_ad_client: \"ca-pub-7162267087851435\",\n      enable_page_level_ads: true\n   });",
             "title": "Register for PipelineAI Enterprise Edition"
         },
         {
-            "location": "/tour/docstour/#more-resources",
+            "location": "/docstour/#more-resources",
             "text": "",
             "title": "More Resources"
         },
