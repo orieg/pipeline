@@ -94,14 +94,12 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <script src="js/dropzone.js"></script>
-
-<div class="wrapper">
+                <div class="wrapper">
     <div class="drop">
       <div class="cont">
         <i class="fa fa-cloud-upload"></i>
       </div>
-        <form action="http://localhost:6969/api/v1/model/drop/scikit/linear" class="dropzone" id="deploy-model">
+        <form action="http://localhost:6969/api/v1/model/drop/tensorflow/mnist" class="dropzone" id="deploy-model">
            <div class="fallback">
               <input name="file" type="file" multiple />
            </div>
@@ -112,11 +110,36 @@
         </div>
     </div>
     <section style="padding:10px;">
+        <h2 class="text-center" data-aos="fade-up"><img src="../assets/img/logo/pipelineai-split-black-258x62.png"> Compare Models (Response Times)</h2>
         <div class="embed-responsive embed-responsive-16by9" style="margin:20px;">
-            <iframe class="embed-responsive-item" src="http://hystrix.community.pipeline.ai/hystrix-dashboard/monitor/monitor.html?streams=%5B%7B%22name%22%3A%22%22%2C%22stream%22%3A%22http%3A%2F%2Fturbine.community.pipeline.io%2Fturbine.stream%22%2C%22auth%22%3A%22%22%2C%22delay%22%3A%22%22%7D%5D"
+            <iframe class="embed-responsive-item" src="http://hystrix.community.pipeline.io/hystrix-dashboard/monitor/monitor.html?streams=%5B%7B%22name%22%3A%22%22%2C%22stream%22%3A%22http%3A%2F%2Fturbine.community.pipeline.io%2Fturbine.stream%22%2C%22auth%22%3A%22%22%2C%22delay%22%3A%22%22%7D%5D"
             allowfullscreen=""></iframe>
         </div>
     </section>
+    <section style="padding:10px;">
+        <h2 class="text-center" data-aos="fade-up"><img src="../assets/img/logo/pipelineai-split-black-258x62.png"> Compare Models (Prediction Values)</h2></section>
+    <section style="padding:10px;">
+        <h2 class="text-center" data-aos="fade-up"><img src="../assets/img/logo/pipelineai-split-black-258x62.png"> View Prediction Samples</h2>
+        <script type="text/javascript">
+    var ws = new WebSocket("ws://localhost:5959/ws/kafka/predictions");
+    ws.onmessage = function(event) {
+//        console.log(event);
+        eventJson = JSON.parse(event.data)
+//        console.log(document.getElementsByName("prediction-samples"))
+        var prediction = '<p/>Date: ' + new Date() + '<p/><b>Prediction: ' + eventJson.outputs + '</b><br/><br/>Image: ' + eventJson.inputs + '<p/><hr/>';
+        $('#prediction-samples').html(prediction)
+    }
+</script>
+<center>
+<div id="prediction-samples" name="prediction-samples">
+    <p/>
+    Waiting for Prediction Stream...
+    <p/>
+</div>
+</center>
+    </section>
+    <section style="padding:10px;">
+        <h2 class="text-center" data-aos="fade-up"><img src="../assets/img/logo/pipelineai-split-black-258x62.png"> Fix Borderline Predictions</h2></section>
     <section class="features" style="padding:10px;">
         <div class="container">
             <div class="row icon-features" style="margin:0px 0px;">
