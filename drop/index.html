@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/user.css">
+    <link rel="stylesheet" href="../assets/css/Drag--Drop-Upload-Form.css">
     <link rel="stylesheet" href="../assets/css/dropzone.css">
     <link rel="stylesheet" href="../assets/css/Features-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -43,11 +44,11 @@
         </div>
     </nav>
     <section>
-        <h2 class="text-center" data-aos="fade-up"><img src="../assets/img/logo/pipelineai-split-black-258x62.png"> Deploy Rapidly</h2>
+        <h2 class="text-center" data-aos="fade-up"><img src="../assets/img/logo/pipelineai-split-black-258x62.png"> Experiment Rapidly</h2>
         <p class="text-center"><img src="../assets/img/deploy-model-jupyter-740x510.png" width="280px"></p>
     </section>
     <section>
-        <h2 class="text-center" data-aos="fade-up"><img src="../assets/img/logo/pipelineai-split-black-258x62.png"> Experiment Safely</h2>
+        <h2 class="text-center" data-aos="fade-up"><img src="../assets/img/logo/pipelineai-split-black-258x62.png"> Deploy Safely</h2>
         <p class="text-center"><img src="../assets/img/drop-dashboard.png" width="280px"></p>
     </section>
     <div class="team-boxed">
@@ -86,22 +87,17 @@
                     <div class="box"><img class="img-rounded" src="../assets/img/tensorflow-logo-202x168.png" data-bs-hover-animate="shake" style="height:100px;">
                         <h3 class="name">TensorFlow</h3>
                         <p class="title">Shiny and New</p>
-                        <!--<div class="wrapper">
+                        <div class="wrapper">
   <div class="drop">
     <div class="cont">
--->
-
-<!--      <i class="fa fa-cloud-upload"></i> -->
+      <i class="fa fa-cloud-upload"></i>
       <form action="http://predict-tensorflow-mnist-cpu-master.community.pipeline.ai/api/v1/model/drop/tensorflow/mnist" 
-            id="drop-tensorflow-mnist"
-            class="dashed_upload">
+            id="drop-tensorflow-mnist">
           <input name="file" type="file" multiple />
       </form>
-<!--
     </div>
   </div>    
 </div>
--->
                     </div>
                 </div>
             </div>
@@ -158,8 +154,12 @@
         </div>
     </div>
     <section style="padding:10px;">
-        <h2 class="text-center" data-aos="fade-up"><img src="../assets/img/logo/pipelineai-split-black-258x62.png"> Evaluate Extensively</h2>
+        <h2 class="text-center" data-aos="fade-up"><img src="../assets/img/logo/pipelineai-split-black-258x62.png"> Compare Extensively</h2>
         <p class="text-center"><img src="../assets/img/prediction-dashboard.png"></p>
+        <div class="embed-responsive embed-responsive-16by9" id="hystrix-dashboard" style="margin:20px;padding:0px;height:300px;">
+            <iframe class="embed-responsive-item" src="http://predict-tensorflow-mnist-cpu-master.community.pipeline.ai/hystrix-dashboard/monitor/monitor.html?streams=%5B%7B%22name%22%3A%22%22%2C%22stream%22%3A%22http%3A%2F%2Flocalhost%3A9040%2Fhystrix.stream%22%2C%22auth%22%3A%22%22%2C%22delay%22%3A%22%22%7D%5D"
+            allowfullscreen=""></iframe>
+        </div>
         <div id="prediction-stream" name="prediction-stream" class="text-center">
     <p/>
     <img src="../assets/img/kafka-logo-wide-219x98.png" />
@@ -169,18 +169,12 @@
 </div>
     </section>
     <section style="padding:10px;">
-        <div class="embed-responsive embed-responsive-16by9" id="hystrix-dashboard" style="margin:20px;padding:0px;height:300px;">
-            <iframe class="embed-responsive-item" src="http://predict-tensorflow-mnist-cpu-master.community.pipeline.ai/hystrix-dashboard/monitor/monitor.html?streams=%5B%7B%22name%22%3A%22%22%2C%22stream%22%3A%22http%3A%2F%2Flocalhost%3A9040%2Fhystrix.stream%22%2C%22auth%22%3A%22%22%2C%22delay%22%3A%22%22%7D%5D"
-            allowfullscreen=""></iframe>
-        </div>
-    </section>
-    <section style="padding:10px;">
         <h2 class="text-center" data-aos="fade-up"><img src="../assets/img/logo/pipelineai-split-black-258x62.png"> Optimize Quickly</h2>
         <p class="text-center"><img src="../assets/img/bandit-shift.png"></p>
     </section>
     <p class="text-center"></p>
     <section style="padding:10px;">
-        <h2 class="text-center" data-aos="fade-up"><img src="../assets/img/logo/pipelineai-split-black-258x62.png"> Improve Continuously</h2>
+        <h2 class="text-center" data-aos="fade-up"><img src="../assets/img/logo/pipelineai-split-black-258x62.png"> Learn Continuously</h2>
         <p class="text-center"><img src="../assets/img/hotdog.png"></p>
         <p class="text-center"></p>
     </section>
