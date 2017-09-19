@@ -5,6 +5,6 @@ if ( $( "#prediction-stream" ).length ) {
     eventJson = JSON.parse(event.data)
   //        console.log(document.getElementsByName("prediction-samples"))
     var prediction = '<p/>Date: ' + new Date() + '<p/><b>Prediction: ' + eventJson.outputs + '</b><br/><br/>Image: ' + eventJson.inputs + '<p/><hr/>';
-    $('#prediction-stream').text(prediction)
+    $('#prediction-stream').html(prediction)
   }
 }
